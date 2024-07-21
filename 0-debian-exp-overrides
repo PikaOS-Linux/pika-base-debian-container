@@ -1,27 +1,4 @@
 Package: activity-aware-firefox
- activity-aware-firefox
-t64 akonadi-backend-mysql
-akonadi-backend-postgresql
-akonadi-backend-sqlite
-akonadi-server
-libakonadi-data
-libakonadi-dev
-libakonadi-dev-bin
-libakonadiserver-dev
-libkf5akonadi-data
-libkf5akonadi-dev
-libkf5akonadi-dev-bin
-libkf5akonadiagentbase5
-libkf5akonadicore5abi2
-libkf5akonadiprivate5abi2
-libkf5akonadiserver-dev
-libkf5akonadiwidgets5abi1
-libkf5akonadixml5akonadi-backend-mysql
-libkpim6akonadiagentbase6
-libkpim6akonadicore6
-libkpim6akonadiprivate6
-libkpim6akonadiwidgets6
-libkpim6akonadixml6
  akonadi-backend-mysql
 akonadi-backend-postgresql
 akonadi-backend-sqlite
@@ -44,58 +21,28 @@ libkpim6akonadicore6
 libkpim6akonadiprivate6
 libkpim6akonadiwidgets6
 libkpim6akonadixml6
-t64 kalendarac
-libkf5akonadicalendar-data
-libkf5akonadicalendar-dev
-libkf5akonadicalendar5abi1
  kalendarac
 libkf5akonadicalendar-data
 libkf5akonadicalendar-dev
 libkf5akonadicalendar5abi1
-t64 konsolekalendar
  konsolekalendar
-t64 akonadiconsole
  akonadiconsole
-t64 akonadi-contacts-data
-libkf5akonadicontact-dev
-libkf5akonadicontact5
-libkf5contacteditor-dev
-libkf5contacteditor5
  akonadi-contacts-data
 libkf5akonadicontact-dev
 libkf5akonadicontact5
 libkf5contacteditor-dev
 libkf5contacteditor5
-t64 akonadi-import-wizard
-libkpimimportwizard-dev
-libkpimimportwizard5
  akonadi-import-wizard
 libkpimimportwizard-dev
 libkpimimportwizard5
-t64 akonadi-mime-data
-libakonadimime-dev
-libkf5akonadimime-dev
-libkf5akonadimime5akonadi-mime-data
-libkpim6akonadimime6
  akonadi-mime-data
 libakonadimime-dev
 libkf5akonadimime-dev
 libkf5akonadimime5akonadi-mime-data
 libkpim6akonadimime6
-t64 libkf5akonadinotes-dev
-libkf5akonadinotes5libakonadinotes-dev
-libkpim6akonadinotes6
  libkf5akonadinotes-dev
 libkf5akonadinotes5libakonadinotes-dev
 libkpim6akonadinotes6
-t64 libkf5akonadisearch-bin
-libkf5akonadisearch-data
-libkf5akonadisearch-dev
-libkf5akonadisearch-plugins
-libkf5akonadisearchcore5t64
-libkf5akonadisearchdebug5t64
-libkf5akonadisearchpim5t64
-libkf5akonadisearchxapian5t64
  libkf5akonadisearch-bin
 libkf5akonadisearch-data
 libkf5akonadisearch-dev
@@ -104,35 +51,17 @@ libkf5akonadisearchcore5t64
 libkf5akonadisearchdebug5t64
 libkf5akonadisearchpim5t64
 libkf5akonadisearchxapian5t64
-t64 akregator
  akregator
-t64 alkimia-bin
-alkimia-data
-libalkimia5-8
-libalkimia5-dev
-plasma-widget-foreigncurrencies
-qml-module-org-kde-alkimia
  alkimia-bin
 alkimia-data
 libalkimia5-8
 libalkimia5-dev
 plasma-widget-foreigncurrencies
 qml-module-org-kde-alkimia
-t64 amarok
-amarok-common
-amarok-doc
-amarok-utils
  amarok
 amarok-common
 amarok-doc
 amarok-utils
-t64 analitza-common
-libanalitza-dev
-libanalitza8
-libanalitzagui8
-libanalitzaplot8
-libanalitzawidgets8
-qml-module-org-kde-analitza
  analitza-common
 libanalitza-dev
 libanalitza8
@@ -140,106 +69,49 @@ libanalitzagui8
 libanalitzaplot8
 libanalitzawidgets8
 qml-module-org-kde-analitza
-t64 arkark
  arkark
-t64 artikulate
  artikulate
-t64 libkf5attica-dev
-libkf5attica-doc
-libkf5attica5
  libkf5attica-dev
 libkf5attica-doc
 libkf5attica5
-t64 kio-audiocd
-kio-audiocd-dev
  kio-audiocd
 kio-audiocd-dev
-t64 baloo-kf5
-baloo-kf5-dev
-libkf5baloo-doc
-libkf5baloo5
-libkf5balooengine5
-libkf5balooengine5baloo-kf5
  baloo-kf5
 baloo-kf5-dev
 libkf5baloo-doc
 libkf5baloo5
 libkf5balooengine5
 libkf5balooengine5baloo-kf5
-t64 libkf5baloowidgets-bin
-libkf5baloowidgets-dev
-libkf5baloowidgets5
  libkf5baloowidgets-bin
 libkf5baloowidgets-dev
 libkf5baloowidgets5
-t64 basket
-basket-data
  basket
 basket-data
-t64 kwin-bismuth
  kwin-bismuth
-t64 blinken
  blinken
-t64 bluedevilbluedevil
  bluedevilbluedevil
-t64 libkf5bluezqt-data
-libkf5bluezqt-dev
-libkf5bluezqt-doc
-libkf5bluezqt6
-qml-module-org-kde-bluezqt
  libkf5bluezqt-data
 libkf5bluezqt-dev
 libkf5bluezqt-doc
 libkf5bluezqt6
 qml-module-org-kde-bluezqt
-t64 bomber
  bomber
-t64 bovo
  bovo
-t64 breeze
-breeze-cursor-theme
-breeze-dev
-kde-style-breeze
-kwin-style-breeze
-kwin-style-breezebreeze
  breeze
 breeze-cursor-theme
 breeze-dev
 kde-style-breeze
 kwin-style-breeze
 kwin-style-breezebreeze
-t64 grub-theme-breezegrub-theme-breeze
  grub-theme-breezegrub-theme-breeze
-t64 breeze-gtk-theme
-gtk3-engines-breezebreeze-gtk-theme
  breeze-gtk-theme
 gtk3-engines-breezebreeze-gtk-theme
-t64 breeze-icon-theme
-breeze-icon-theme-rcc
-breeze-icon-theme-rccbreeze-icon-theme
  breeze-icon-theme
 breeze-icon-theme-rcc
 breeze-icon-theme-rccbreeze-icon-theme
-t64 plymouth-theme-breezeplymouth-theme-breeze
  plymouth-theme-breezeplymouth-theme-breeze
-t64 calamares-extensions
-calamares-extensions-data
  calamares-extensions
 calamares-extensions-data
-t64 calligra
-calligra-data
-calligra-gemini
-calligra-gemini-data
-calligra-libs
-calligrasheets
-calligrasheets-data
-calligrastage
-calligrastage-data
-calligrawords
-calligrawords-data
-karbon
-okular-backend-odp
-okular-backend-odt
  calligra
 calligra-data
 calligra-gemini
@@ -254,21 +126,7 @@ calligrawords-data
 karbon
 okular-backend-odp
 okular-backend-odt
-t64 calligraplan
  calligraplan
-t64 cantor
-cantor-backend-kalgebra
-cantor-backend-lua
-cantor-backend-maxima
-cantor-backend-octave
-cantor-backend-python3
-cantor-backend-qalculate
-cantor-backend-r
-cantor-backend-sage
-cantor-backend-scilab
-libcantor-dev
-libcantorlibs-data
-libcantorlibs28abi1t64
  cantor
 cantor-backend-kalgebra
 cantor-backend-lua
@@ -282,67 +140,33 @@ cantor-backend-scilab
 libcantor-dev
 libcantorlibs-data
 libcantorlibs28abi1t64
-t64 cervisia
-cvsservice
  cervisia
 cvsservice
-t64 charmtimetracker
  charmtimetracker
-t64 choqok
  choqok
-t64 clazy
-clazy-tests
  clazy
 clazy-tests
-t64 colord-kde
  colord-kde
-t64 convertall
  convertall
-t64 libctemplate-dev
-libctemplate3t64
  libctemplate-dev
 libctemplate3t64
-t64 debconf-kde-data
-debconf-kde-helper
-libdebconf-kde-dev
-libdebconf-kde1
  debconf-kde-data
 debconf-kde-helper
 libdebconf-kde-dev
 libdebconf-kde1
-t64 digikam
-digikam-data
-digikam-datadigikam-private-libs
-digikam-private-libs
-showfoto
  digikam
 digikam-data
 digikam-datadigikam-private-libs
 digikam-private-libs
 showfoto
-t64 dolphin
-dolphin-dev
-libdolphinvcs-dev
-libdolphinvcs5
  dolphin
 dolphin-dev
 libdolphinvcs-dev
 libdolphinvcs5
-t64 dolphin-plugins
  dolphin-plugins
-t64 dragonplayer
  dragonplayer
-t64 drkonqidrkonqi
  drkonqidrkonqi
-t64 elisaelisa
  elisaelisa
-t64 exiv2
-libexiv2-27
-libexiv2-28
-libexiv2-data
-libexiv2-dev
-libexiv2-doc
-libexiv2-docexiv2
  exiv2
 libexiv2-27
 libexiv2-28
@@ -350,32 +174,15 @@ libexiv2-data
 libexiv2-dev
 libexiv2-doc
 libexiv2-docexiv2
-t64 extra-cmake-modules
-extra-cmake-modules-doc
-extra-cmake-modules-docextra-cmake-modules
  extra-cmake-modules
 extra-cmake-modules-doc
 extra-cmake-modules-docextra-cmake-modules
-t64 ffmpegthumbs
  ffmpegthumbs
-t64 filelight
  filelight
-t64 kde-config-flatpakkde-config-flatpak
  kde-config-flatpakkde-config-flatpak
-t64 frameworkintegration
-libkf5style-dev
-libkf5style5
  frameworkintegration
 libkf5style-dev
 libkf5style5
-t64 gammaray
-gammaray-dev
-gammaray-devgammaray
-gammaray-plugin-bluetooth
-gammaray-plugin-kjobtracker
-gammaray-plugin-positioning
-gammaray-plugin-quickinspector
-gammaray-plugin-waylandinspector
  gammaray
 gammaray-dev
 gammaray-devgammaray
@@ -384,46 +191,20 @@ gammaray-plugin-kjobtracker
 gammaray-plugin-positioning
 gammaray-plugin-quickinspector
 gammaray-plugin-waylandinspector
-t64 gcompris-qt
-gcompris-qt-data
  gcompris-qt
 gcompris-qt-data
-t64 ghostwriter
  ghostwriter
-t64 granatier
  granatier
-t64 libgrantlee-templates5
-libgrantlee-textdocument5
-libgrantlee5-dev
  libgrantlee-templates5
 libgrantlee-textdocument5
 libgrantlee5-dev
-t64 kdepim-themeeditors
  kdepim-themeeditors
-t64  t64 gtk2-engines-oxygen
- gtk2-engines-oxygen
-t64 gwenview
+  gtk2-engines-oxygen
  gwenview
-t64 icecc
-libicecc-dev
  icecc
 libicecc-dev
-t64 icecc-monitor
  icecc-monitor
-t64 libimmer-dev
  libimmer-dev
-t64 indi-bin
-indi-binlibindidriver2
-libindi-data
-libindi-dev
-libindi-plugins
-libindialignmentdriver1
-libindialignmentdriver2
-libindiclient1
-libindiclient2
-libindidriver1
-libindilx200-1
-libindilx200-2
  indi-bin
 indi-binlibindidriver2
 libindi-data
@@ -436,19 +217,8 @@ libindiclient2
 libindidriver1
 libindilx200-1
 libindilx200-2
-t64 itinerary
  itinerary
-t64 juk
  juk
-t64 k3b
-k3b-data
-k3b-extrathemes
-k3b-i18n
-libk3b-dev
-libk3b-extracodecs
-libk3b-extracodecsk3b
-libk3b8
-libk3b8t64
  k3b
 k3b-data
 k3b-extrathemes
@@ -458,13 +228,6 @@ libk3b-extracodecs
 libk3b-extracodecsk3b
 libk3b8
 libk3b8t64
-t64 kaccounts-integration
-libkaccounts-dev
-libkaccounts2
-libkaccounts6-2
-libkaccounts6-dev
-qml-module-org-kde-kaccountskaccounts-integration
-qml6-module-org-kde-kaccounts
  kaccounts-integration
 libkaccounts-dev
 libkaccounts2
@@ -472,141 +235,70 @@ libkaccounts6-2
 libkaccounts6-dev
 qml-module-org-kde-kaccountskaccounts-integration
 qml6-module-org-kde-kaccounts
-t64 kaccounts-providers
  kaccounts-providers
-t64 kactivities-bin
-libkf5activities-dev
-libkf5activities-doc
-libkf5activities5
-qml-module-org-kde-activities
  kactivities-bin
 libkf5activities-dev
 libkf5activities-doc
 libkf5activities5
 qml-module-org-kde-activities
-t64 libkf5activitiesstats-dev
-libkf5activitiesstats-doc
-libkf5activitiesstats1
  libkf5activitiesstats-dev
 libkf5activitiesstats-doc
 libkf5activitiesstats1
-t64 kactivitymanagerdkactivitymanagerd
  kactivitymanagerdkactivitymanagerd
-t64 kaddressbook
-kaddressbook-data
-libkpimaddressbookimportexport-dev
-libkpimaddressbookimportexport5
  kaddressbook
 kaddressbook-data
 libkpimaddressbookimportexport-dev
 libkpimaddressbookimportexport5
-t64 kaffeine
  kaffeine
-t64 kaidan
  kaidan
-t64 kajongg
  kajongg
-t64 kalarm
  kalarm
-t64 kalendar
  kalendar
-t64 kalgebra
-kalgebra-common
-kalgebramobile
  kalgebra
 kalgebra-common
 kalgebramobile
-t64 kalzium
-kalzium-data
  kalzium
 kalzium-data
-t64 kamera
  kamera
-t64 kamoso
  kamoso
-t64 kanagram
  kanagram
-t64 kapidox
  kapidox
-t64 kapman
  kapman
-t64 kapptemplate
  kapptemplate
-t64 libkf5archive-data
-libkf5archive-dev
-libkf5archive-doc
-libkf5archive5
  libkf5archive-data
 libkf5archive-dev
 libkf5archive-doc
 libkf5archive5
-t64 kate
-kate5-data
-kwrite
  kate
 kate5-data
 kwrite
-t64 katomic
  katomic
-t64 libkf5auth-data
-libkf5auth-dev
-libkf5auth-dev-bin
-libkf5auth-doc
-libkf5auth5
-libkf5authcore5
  libkf5auth-data
 libkf5auth-dev
 libkf5auth-dev-bin
 libkf5auth-doc
 libkf5auth5
 libkf5authcore5
-t64 kbackup
  kbackup
-t64 kblackbox
  kblackbox
-t64 kblocks
  kblocks
-t64 libkf5bookmarks-data
-libkf5bookmarks-dev
-libkf5bookmarks-doc
-libkf5bookmarks5
  libkf5bookmarks-data
 libkf5bookmarks-dev
 libkf5bookmarks-doc
 libkf5bookmarks5
-t64 kbounce
  kbounce
-t64 kbreakout
  kbreakout
-t64 kbruch
  kbruch
-t64 kcachegrind
-kcachegrind-converters
  kcachegrind
 kcachegrind-converters
-t64 kcalckcalc
  kcalckcalc
-t64 libkf5calendarcore-dev
-libkf5calendarcore-doc
-libkf5calendarcore5abi2
  libkf5calendarcore-dev
 libkf5calendarcore-doc
 libkf5calendarcore5abi2
-t64 libkf5calendarutils-dev
-libkf5calendarutils5
  libkf5calendarutils-dev
 libkf5calendarutils5
-t64 kcharselect
  kcharselect
-t64 kchmviewer
  kchmviewer
-t64 libkf5kcmutils-bin
-libkf5kcmutils-data
-libkf5kcmutils-dev
-libkf5kcmutils-doc
-libkf5kcmutils5
-libkf5kcmutilscore5
-qml-module-org-kde-kcmutils
  libkf5kcmutils-bin
 libkf5kcmutils-data
 libkf5kcmutils-dev
@@ -614,42 +306,20 @@ libkf5kcmutils-doc
 libkf5kcmutils5
 libkf5kcmutilscore5
 qml-module-org-kde-kcmutils
-t64 libkf5codecs-data
-libkf5codecs-dev
-libkf5codecs-doc
-libkf5codecs5
  libkf5codecs-data
 libkf5codecs-dev
 libkf5codecs-doc
 libkf5codecs5
-t64 kcollectd
  kcollectd
-t64 kcolorchooser
  kcolorchooser
-t64 libkcolorpicker-qt5-0
-libkcolorpicker-qt5-dev
-libkcolorpicker-qt6-0
-libkcolorpicker-qt6-dev
  libkcolorpicker-qt5-0
 libkcolorpicker-qt5-dev
 libkcolorpicker-qt6-0
 libkcolorpicker-qt6-dev
-t64 libkf5completion-data
-libkf5completion-dev
-libkf5completion-doc
-libkf5completion5
  libkf5completion-data
 libkf5completion-dev
 libkf5completion-doc
 libkf5completion5
-t64 libkf5config-bin
-libkf5config-data
-libkf5config-dev
-libkf5config-dev-bin
-libkf5config-doc
-libkf5configcore5
-libkf5configgui5
-libkf5configqml5
  libkf5config-bin
 libkf5config-data
 libkf5config-dev
@@ -658,88 +328,39 @@ libkf5config-doc
 libkf5configcore5
 libkf5configgui5
 libkf5configqml5
-t64 libkf5configwidgets-data
-libkf5configwidgets-dev
-libkf5configwidgets-doc
-libkf5configwidgets5
  libkf5configwidgets-data
 libkf5configwidgets-dev
 libkf5configwidgets-doc
 libkf5configwidgets5
-t64 libkf5contacts-data
-libkf5contacts-dev
-libkf5contacts-doc
-libkf5contacts5
  libkf5contacts-data
 libkf5contacts-dev
 libkf5contacts-doc
 libkf5contacts5
-t64 libkf5coreaddons-data
-libkf5coreaddons-dev
-libkf5coreaddons-dev-bin
-libkf5coreaddons-doc
-libkf5coreaddons5
  libkf5coreaddons-data
 libkf5coreaddons-dev
 libkf5coreaddons-dev-bin
 libkf5coreaddons-doc
 libkf5coreaddons5
-t64 libkf5crash-dev
-libkf5crash-doc
-libkf5crash5
  libkf5crash-dev
 libkf5crash-doc
 libkf5crash5
-t64 kde-config-cron
  kde-config-cron
-t64 libkf5dav-data
-libkf5dav-dev
-libkf5dav-doc
-libkf5dav5
  libkf5dav-data
 libkf5dav-dev
 libkf5dav-doc
 libkf5dav5
-t64 libkdb-data
-libkdb3-4abi1
-libkdb3-dev
-libkdb3-driver-mysql
-libkdb3-driver-postgresql
-libkdb3-driver-sqlite
  libkdb-data
 libkdb3-4abi1
 libkdb3-dev
 libkdb3-driver-mysql
 libkdb3-driver-postgresql
 libkdb3-driver-sqlite
-t64 libkf5dbusaddons-bin
-libkf5dbusaddons-data
-libkf5dbusaddons-dev
-libkf5dbusaddons-doc
-libkf5dbusaddons5
  libkf5dbusaddons-bin
 libkf5dbusaddons-data
 libkf5dbusaddons-dev
 libkf5dbusaddons-doc
 libkf5dbusaddons5
-t64 kdebugsettings
  kdebugsettings
-t64 kpackagelauncherqml
-libkf5calendarevents5
-libkf5declarative-data
-libkf5declarative-dev
-libkf5declarative-doc
-libkf5declarative5
-libkf5quickaddons5
-qml-module-org-kde-draganddrop
-qml-module-org-kde-graphicaleffects
-qml-module-org-kde-kcm
-qml-module-org-kde-kconfig
-qml-module-org-kde-kcoreaddons
-qml-module-org-kde-kio
-qml-module-org-kde-kquickcontrols
-qml-module-org-kde-kquickcontrolsaddons
-qml-module-org-kde-kwindowsystem
  kpackagelauncherqml
 libkf5calendarevents5
 libkf5declarative-data
@@ -756,78 +377,38 @@ qml-module-org-kde-kio
 qml-module-org-kde-kquickcontrols
 qml-module-org-kde-kquickcontrolsaddons
 qml-module-org-kde-kwindowsystem
-t64 kde-cli-tools
-kde-cli-tools-data
-kde-cli-tools-datakde-cli-tools
  kde-cli-tools
 kde-cli-tools-data
 kde-cli-tools-datakde-cli-tools
-t64 kdeconnect
-nautilus-kdeconnect
  kdeconnect
 nautilus-kdeconnect
-t64 libkdecorations2-5v5
-libkdecorations2-dev
-libkdecorations2private10libkdecorations2-6
-libkdecorations2private11
  libkdecorations2-5v5
 libkdecorations2-dev
 libkdecorations2private10libkdecorations2-6
 libkdecorations2private11
-t64 kded5
-kded5-dev
  kded5
 kded5-dev
-t64 kdesdk-scripts
  kdesdk-scripts
-t64 kpartloader
-kuiviewer
  kpartloader
 kuiviewer
-t64 kdeedu-data
-kdeedu-kvtml-data
  kdeedu-data
 kdeedu-kvtml-data
-t64 libqmobipocket-dev
-libqmobipocket2
-libqmobipocket6-2
-libqmobipocket6-dev
  libqmobipocket-dev
 libqmobipocket2
 libqmobipocket6-2
 libqmobipocket6-dev
-t64 kdegraphics-thumbnailers
  kdegraphics-thumbnailers
-t64 kde-config-gtk-style
-kde-config-gtk-style-preview
-kde-config-gtk-style-previewkde-config-gtk-style
  kde-config-gtk-style
 kde-config-gtk-style-preview
 kde-config-gtk-style-previewkde-config-gtk-style
-t64 kde-inotify-survey
  kde-inotify-survey
-t64 libkf5kdelibs4support-data
-libkf5kdelibs4support-dev
-libkf5kdelibs4support5-bin
-libkf5kdelibs4support5t64
  libkf5kdelibs4support-data
 libkf5kdelibs4support-dev
 libkf5kdelibs4support5-bin
 libkf5kdelibs4support5t64
-t64 kdenetwork-filesharing
  kdenetwork-filesharing
-t64 kdepim-addons
  kdepim-addons
-t64 kdepim-runtime
  kdepim-runtime
-t64 kdeplasma-addons-data
-kwin-addons
-plasma-calendar-addons
-plasma-dataengines-addons
-plasma-runners-addons
-plasma-wallpapers-addons
-plasma-widgets-addons
-plasma-widgets-addonskdeplasma-addons-data
  kdeplasma-addons-data
 kwin-addons
 plasma-calendar-addons
@@ -836,137 +417,64 @@ plasma-runners-addons
 plasma-wallpapers-addons
 plasma-widgets-addons
 plasma-widgets-addonskdeplasma-addons-data
-t64 kio-perldoc
  kio-perldoc
-t64 kdesdk-thumbnailers
  kdesdk-thumbnailers
-t64 kdesignerplugin-data
-kgendesignerplugin
-kgendesignerplugin-bin
  kdesignerplugin-data
 kgendesignerplugin
 kgendesignerplugin-bin
-t64 kde-spectacle
  kde-spectacle
-t64 libkf5su-bin
-libkf5su-data
-libkf5su-dev
-libkf5su-doc
-libkf5su5
  libkf5su-bin
 libkf5su-data
 libkf5su-dev
 libkf5su-doc
 libkf5su5
-t64 kdesvn
-kdesvn-kio-plugins
  kdesvn
 kdesvn-kio-plugins
-t64 kdevelop
-kdevelop-data
-kdevelop-dev
-kdevelop-l10n
-kdevelop512-libs
-plasma-kdevelop
  kdevelop
 kdevelop-data
 kdevelop-dev
 kdevelop-l10n
 kdevelop512-libs
 plasma-kdevelop
-t64 kdevelop-pg-qt
  kdevelop-pg-qt
-t64 kdevelop-php
-kdevelop-php-l10n
  kdevelop-php
 kdevelop-php-l10n
-t64 kdevelop-python
-kdevelop-python-data
-kdevelop-python-l10n
  kdevelop-python
 kdevelop-python-data
 kdevelop-python-l10n
-t64 libkf5webkit-dev
-libkf5webkit5
  libkf5webkit-dev
 libkf5webkit5
-t64 kdf
  kdf
-t64 libkchart-dev
-libkchart2
-libkchart2-l10n
-libkgantt-dev
-libkgantt2
-libkgantt2-l10n
  libkchart-dev
 libkchart2
 libkchart2-l10n
 libkgantt-dev
 libkgantt2
 libkgantt2-l10n
-t64 kdialog
  kdialog
-t64 kdiamond
  kdiamond
-t64 kdiff3
-kdiff3-doc
  kdiff3
 kdiff3-doc
-t64 libkf5dnssd-data
-libkf5dnssd-dev
-libkf5dnssd-doc
-libkf5dnssd5
  libkf5dnssd-data
 libkf5dnssd-dev
 libkf5dnssd-doc
 libkf5dnssd5
-t64 kdoctools5
-libkf5doctools-dev
-libkf5doctools5
  kdoctools5
 libkf5doctools-dev
 libkf5doctools5
-t64 keditbookmarks
  keditbookmarks
-t64 libkf5emoticons-bin
-libkf5emoticons-data
-libkf5emoticons-dev
-libkf5emoticons-doc
-libkf5emoticons5
  libkf5emoticons-bin
 libkf5emoticons-data
 libkf5emoticons-dev
 libkf5emoticons-doc
 libkf5emoticons5
-t64 keurocalc
-keurocalc-data
  keurocalc
 keurocalc-data
-t64 kexi
-kexi-data
-kexi-mysql-driver
-kexi-postgresql-driver
-kexi-web-form-widget
  kexi
 kexi-data
 kexi-mysql-driver
 kexi-postgresql-driver
 kexi-web-form-widget
-t64 kf5-messagelib-data
-libkf5messagecomposer-dev
-libkf5messagecomposer5abi1t64
-libkf5messagecore-dev
-libkf5messagecore5abi1t64
-libkf5messagelist-dev
-libkf5messagelist5abi1t64
-libkf5messageviewer-dev
-libkf5messageviewer5abi1t64
-libkf5mimetreeparser-dev
-libkf5mimetreeparser5abi1t64
-libkf5templateparser-dev
-libkf5templateparser5t64
-libkf5webengineviewer-dev
-libkf5webengineviewer5abi1t64
  kf5-messagelib-data
 libkf5messagecomposer-dev
 libkf5messagecomposer5abi1t64
@@ -982,19 +490,9 @@ libkf5templateparser-dev
 libkf5templateparser5t64
 libkf5webengineviewer-dev
 libkf5webengineviewer5abi1t64
-t64 libkf6attica-dev
-libkf6attica-doc
-libkf6attica6
  libkf6attica-dev
 libkf6attica-doc
 libkf6attica6
-t64 baloo6
-libkf6baloo-dev
-libkf6baloo-doc
-libkf6baloo6
-libkf6balooengine6
-qml6-module-org-kde-baloo
-qml6-module-org-kde-baloobaloo6
  baloo6
 libkf6baloo-dev
 libkf6baloo-doc
@@ -1002,81 +500,39 @@ libkf6baloo6
 libkf6balooengine6
 qml6-module-org-kde-baloo
 qml6-module-org-kde-baloobaloo6
-t64 libkf6bluezqt-data
-libkf6bluezqt-dev
-libkf6bluezqt-doc
-libkf6bluezqt6
-qml6-module-org-kde-bluezqt
-qml6-module-org-kde-bluezqtlibkf6bluezqt-data
  libkf6bluezqt-data
 libkf6bluezqt-dev
 libkf6bluezqt-doc
 libkf6bluezqt6
 qml6-module-org-kde-bluezqt
 qml6-module-org-kde-bluezqtlibkf6bluezqt-data
-t64 kf6-breeze-icon-theme
-kf6-breeze-icon-theme-rcc
-libkf6breezeicons-dev
-libkf6breezeicons6
  kf6-breeze-icon-theme
 kf6-breeze-icon-theme-rcc
 libkf6breezeicons-dev
 libkf6breezeicons6
-t64 frameworkintegration6
-libkf6style-dev
-libkf6style6
  frameworkintegration6
 libkf6style-dev
 libkf6style6
-t64 kapidox6
  kapidox6
-t64 libkf6archive-data
-libkf6archive-dev
-libkf6archive-doc
-libkf6archive6
  libkf6archive-data
 libkf6archive-dev
 libkf6archive-doc
 libkf6archive6
-t64 libkf6auth-data
-libkf6auth-dev
-libkf6auth-dev-bin
-libkf6auth-doc
-libkf6authcore6
  libkf6auth-data
 libkf6auth-dev
 libkf6auth-dev-bin
 libkf6auth-doc
 libkf6authcore6
-t64 libkf6bookmarks-data
-libkf6bookmarks-dev
-libkf6bookmarks-doc
-libkf6bookmarks6
-libkf6bookmarkswidgets6
  libkf6bookmarks-data
 libkf6bookmarks-dev
 libkf6bookmarks-doc
 libkf6bookmarks6
 libkf6bookmarkswidgets6
-t64 libkf6calendarcore-dev
-libkf6calendarcore-doc
-libkf6calendarcore6
-libkf6calendarcore6libkf6calendarcore-dev
-qml6-module-org-kde-calendarcore
  libkf6calendarcore-dev
 libkf6calendarcore-doc
 libkf6calendarcore6
 libkf6calendarcore6libkf6calendarcore-dev
 qml6-module-org-kde-calendarcore
-t64 libkf6kcmutils-bin
-libkf6kcmutils-data
-libkf6kcmutils-dev
-libkf6kcmutils-doc
-libkf6kcmutils6
-libkf6kcmutilscore6
-libkf6kcmutilsquick6
-qml6-module-org-kde-kcmutils
-qml6-module-org-kde-kcmutilslibkf6kcmutils-bin
  libkf6kcmutils-bin
 libkf6kcmutils-data
 libkf6kcmutils-dev
@@ -1086,39 +542,18 @@ libkf6kcmutilscore6
 libkf6kcmutilsquick6
 qml6-module-org-kde-kcmutils
 qml6-module-org-kde-kcmutilslibkf6kcmutils-bin
-t64 libkf6codecs-data
-libkf6codecs-dev
-libkf6codecs-doc
-libkf6codecs6
  libkf6codecs-data
 libkf6codecs-dev
 libkf6codecs-doc
 libkf6codecs6
-t64 libkf6colorscheme-data
-libkf6colorscheme-dev
-libkf6colorscheme-doc
-libkf6colorscheme6
  libkf6colorscheme-data
 libkf6colorscheme-dev
 libkf6colorscheme-doc
 libkf6colorscheme6
-t64 libkf6completion-data
-libkf6completion-dev
-libkf6completion-doc
-libkf6completion6
  libkf6completion-data
 libkf6completion-dev
 libkf6completion-doc
 libkf6completion6
-t64 libkf6config-bin
-libkf6config-data
-libkf6config-dev
-libkf6config-dev-bin
-libkf6config-doc
-libkf6configcore6
-libkf6configgui6
-libkf6configqml6
-qml6-module-org-kde-config
  libkf6config-bin
 libkf6config-data
 libkf6config-dev
@@ -1128,68 +563,33 @@ libkf6configcore6
 libkf6configgui6
 libkf6configqml6
 qml6-module-org-kde-config
-t64 libkf6configwidgets-data
-libkf6configwidgets-dev
-libkf6configwidgets-doc
-libkf6configwidgets6
  libkf6configwidgets-data
 libkf6configwidgets-dev
 libkf6configwidgets-doc
 libkf6configwidgets6
-t64 libkf6contacts-data
-libkf6contacts-dev
-libkf6contacts-doc
-libkf6contacts6
-qml6-module-org-kde-contacts
  libkf6contacts-data
 libkf6contacts-dev
 libkf6contacts-doc
 libkf6contacts6
 qml6-module-org-kde-contacts
-t64 libkf6coreaddons-data
-libkf6coreaddons-dev
-libkf6coreaddons-doc
-libkf6coreaddons6
-qml6-module-org-kde-coreaddons
  libkf6coreaddons-data
 libkf6coreaddons-dev
 libkf6coreaddons-doc
 libkf6coreaddons6
 qml6-module-org-kde-coreaddons
-t64 libkf6crash-dev
-libkf6crash-doc
-libkf6crash6
  libkf6crash-dev
 libkf6crash-doc
 libkf6crash6
-t64 libkf6dav-data
-libkf6dav-dev
-libkf6dav-doc
-libkf6dav6
-libkf6dav6libkf6dav-data
  libkf6dav-data
 libkf6dav-dev
 libkf6dav-doc
 libkf6dav6
 libkf6dav6libkf6dav-data
-t64 libkf6dbusaddons-bin
-libkf6dbusaddons-data
-libkf6dbusaddons-dev
-libkf6dbusaddons-doc
-libkf6dbusaddons6
  libkf6dbusaddons-bin
 libkf6dbusaddons-data
 libkf6dbusaddons-dev
 libkf6dbusaddons-doc
 libkf6dbusaddons6
-t64 libkf6calendarevents6
-libkf6declarative-data
-libkf6declarative-dev
-libkf6declarative-doc
-qml6-module-org-kde-draganddrop
-qml6-module-org-kde-graphicaleffects
-qml6-module-org-kde-kquickcontrols
-qml6-module-org-kde-kquickcontrolsaddons
  libkf6calendarevents6
 libkf6declarative-data
 libkf6declarative-dev
@@ -1198,93 +598,46 @@ qml6-module-org-kde-draganddrop
 qml6-module-org-kde-graphicaleffects
 qml6-module-org-kde-kquickcontrols
 qml6-module-org-kde-kquickcontrolsaddons
-t64 kded6
-kded6-dev
  kded6
 kded6-dev
-t64 libkf6su-bin
-libkf6su-data
-libkf6su-dev
-libkf6su-doc
-libkf6su6
  libkf6su-bin
 libkf6su-data
 libkf6su-dev
 libkf6su-doc
 libkf6su6
-t64 libkf6dnssd-data
-libkf6dnssd-dev
-libkf6dnssd-doc
-libkf6dnssd6
  libkf6dnssd-data
 libkf6dnssd-dev
 libkf6dnssd-doc
 libkf6dnssd6
-t64 kdoctools6
-libkf6doctools-dev
-libkf6doctools-doc
-libkf6doctools6
  kdoctools6
 libkf6doctools-dev
 libkf6doctools-doc
 libkf6doctools6
-t64 libkf6filemetadata-bin
-libkf6filemetadata-data
-libkf6filemetadata-dev
-libkf6filemetadata-doc
-libkf6filemetadata3
  libkf6filemetadata-bin
 libkf6filemetadata-data
 libkf6filemetadata-dev
 libkf6filemetadata-doc
 libkf6filemetadata3
-t64 libkf6globalaccel-data
-libkf6globalaccel-dev
-libkf6globalaccel-doc
-libkf6globalaccel6
  libkf6globalaccel-data
 libkf6globalaccel-dev
 libkf6globalaccel-doc
 libkf6globalaccel6
-t64 libkf6guiaddons-bin
-libkf6guiaddons-data
-libkf6guiaddons-dev
-libkf6guiaddons-doc
-libkf6guiaddons6
  libkf6guiaddons-bin
 libkf6guiaddons-data
 libkf6guiaddons-dev
 libkf6guiaddons-doc
 libkf6guiaddons6
-t64 libkf6holidays-data
-libkf6holidays-dev
-libkf6holidays-doc
-libkf6holidays6
-qml6-module-org-kde-kholidays
  libkf6holidays-data
 libkf6holidays-dev
 libkf6holidays-doc
 libkf6holidays6
 qml6-module-org-kde-kholidays
-t64 libkf6i18n-data
-libkf6i18n-dev
-libkf6i18n-doc
-libkf6i18n6
-libkf6i18nlocaledata6
-qml6-module-org-kde-i18n-localedata
  libkf6i18n-data
 libkf6i18n-dev
 libkf6i18n-doc
 libkf6i18n6
 libkf6i18nlocaledata6
 qml6-module-org-kde-i18n-localedata
-t64 libkf6iconthemes-bin
-libkf6iconthemes-data
-libkf6iconthemes-dev
-libkf6iconthemes-doc
-libkf6iconthemes6
-libkf6iconwidgets6
-qml6-module-org-kde-iconthemes
  libkf6iconthemes-bin
 libkf6iconthemes-data
 libkf6iconthemes-dev
@@ -1292,22 +645,10 @@ libkf6iconthemes-doc
 libkf6iconthemes6
 libkf6iconwidgets6
 qml6-module-org-kde-iconthemes
-t64 libkf6idletime-dev
-libkf6idletime-doc
-libkf6idletime6
  libkf6idletime-dev
 libkf6idletime-doc
 libkf6idletime6
-t64 kimageformat6-plugins
  kimageformat6-plugins
-t64 kio6
-libkf6kio-dev
-libkf6kio-doc
-libkf6kiocore6
-libkf6kiofilewidgets6
-libkf6kiogui6
-libkf6kiowidgets6
-libkf6kiowidgets6kio6
  kio6
 libkf6kio-dev
 libkf6kio-doc
@@ -1316,17 +657,6 @@ libkf6kiofilewidgets6
 libkf6kiogui6
 libkf6kiowidgets6
 libkf6kiowidgets6kio6
-t64 libkirigami-data
-libkirigami-dev
-libkirigami-doc
-libkirigami6
-libkirigamidelegates6
-libkirigamidialogs6
-libkirigamilayouts6
-libkirigamiplatform6
-libkirigamiprimitives6
-libkirigamiprivate6
-qml6-module-org-kde-kirigami
  libkirigami-data
 libkirigami-dev
 libkirigami-doc
@@ -1338,37 +668,18 @@ libkirigamiplatform6
 libkirigamiprimitives6
 libkirigamiprivate6
 qml6-module-org-kde-kirigami
-t64 libkf6itemmodels-dev
-libkf6itemmodels-doc
-libkf6itemmodels6
-qml6-module-org-kde-kitemmodels
  libkf6itemmodels-dev
 libkf6itemmodels-doc
 libkf6itemmodels6
 qml6-module-org-kde-kitemmodels
-t64 libkf6itemviews-data
-libkf6itemviews-dev
-libkf6itemviews-doc
-libkf6itemviews6
  libkf6itemviews-data
 libkf6itemviews-dev
 libkf6itemviews-doc
 libkf6itemviews6
-t64 libkf6jobwidgets-data
-libkf6jobwidgets-dev
-libkf6jobwidgets-doc
-libkf6jobwidgets6
  libkf6jobwidgets-data
 libkf6jobwidgets-dev
 libkf6jobwidgets-doc
 libkf6jobwidgets6
-t64 knewstuff-dialog6
-libkf6newstuff-data
-libkf6newstuff-dev
-libkf6newstuff-doc
-libkf6newstuffcore6
-libkf6newstuffwidgets6
-qml6-module-org-kde-newstuff
  knewstuff-dialog6
 libkf6newstuff-data
 libkf6newstuff-dev
@@ -1376,54 +687,26 @@ libkf6newstuff-doc
 libkf6newstuffcore6
 libkf6newstuffwidgets6
 qml6-module-org-kde-newstuff
-t64 libkf6notifications-data
-libkf6notifications-dev
-libkf6notifications-doc
-libkf6notifications6
-qml6-module-org-kde-notifications
  libkf6notifications-data
 libkf6notifications-dev
 libkf6notifications-doc
 libkf6notifications6
 qml6-module-org-kde-notifications
-t64 libkf6notifyconfig-data
-libkf6notifyconfig-dev
-libkf6notifyconfig-doc
-libkf6notifyconfig6
-libkf6notifyconfig6libkf6notifyconfig-data
  libkf6notifyconfig-data
 libkf6notifyconfig-dev
 libkf6notifyconfig-doc
 libkf6notifyconfig6
 libkf6notifyconfig6libkf6notifyconfig-data
-t64 kpackagetool6
-libkf6package-data
-libkf6package-dev
-libkf6package-doc
-libkf6package6
  kpackagetool6
 libkf6package-data
 libkf6package-dev
 libkf6package-doc
 libkf6package6
-t64 libkf6parts-data
-libkf6parts-dev
-libkf6parts-doc
-libkf6parts6
-libkf6parts6libkf6parts-data
  libkf6parts-data
 libkf6parts-dev
 libkf6parts-doc
 libkf6parts6
 libkf6parts6libkf6parts-data
-t64 libkf6people-data
-libkf6people-dev
-libkf6people-doc
-libkf6people6
-libkf6peoplebackend6
-libkf6peoplewidgets6
-qml6-module-org-kde-people
-qml6-module-org-kde-peoplelibkf6people-data
  libkf6people-data
 libkf6people-dev
 libkf6people-doc
@@ -1432,69 +715,34 @@ libkf6peoplebackend6
 libkf6peoplewidgets6
 qml6-module-org-kde-people
 qml6-module-org-kde-peoplelibkf6people-data
-t64 libkf6plotting-dev
-libkf6plotting-doc
-libkf6plotting6
  libkf6plotting-dev
 libkf6plotting-doc
 libkf6plotting6
-t64 libkf6pty-data
-libkf6pty-dev
-libkf6pty-doc
-libkf6pty6
  libkf6pty-data
 libkf6pty-dev
 libkf6pty-doc
 libkf6pty6
-t64 libquickcharts-dev
-libquickcharts1
-libquickchartscontrols1
-qml6-module-org-kde-quickcharts
-qml6-module-org-kde-quickchartslibquickcharts1
  libquickcharts-dev
 libquickcharts1
 libquickchartscontrols1
 qml6-module-org-kde-quickcharts
 qml6-module-org-kde-quickchartslibquickcharts1
-t64 libkf6runner-dev
-libkf6runner-doc
-libkf6runner6
  libkf6runner-dev
 libkf6runner-doc
 libkf6runner6
-t64 libkf6service-bin
-libkf6service-data
-libkf6service-dev
-libkf6service-doc
-libkf6service6
  libkf6service-bin
 libkf6service-data
 libkf6service-dev
 libkf6service-doc
 libkf6service6
-t64 libkf6statusnotifieritem-data
-libkf6statusnotifieritem-dev
-libkf6statusnotifieritem-doc
-libkf6statusnotifieritem6
  libkf6statusnotifieritem-data
 libkf6statusnotifieritem-dev
 libkf6statusnotifieritem-doc
 libkf6statusnotifieritem6
-t64 libkf6svg-dev
-libkf6svg-doc
-libkf6svg6
-qml6-module-org-kde-ksvg
  libkf6svg-dev
 libkf6svg-doc
 libkf6svg6
 qml6-module-org-kde-ksvg
-t64 libkf6texteditor-bin
-libkf6texteditor-data
-libkf6texteditor-dev
-libkf6texteditor-doc
-libkf6texteditor-katepart
-libkf6texteditor6
-libkf6texteditor6libkf6texteditor-data
  libkf6texteditor-bin
 libkf6texteditor-data
 libkf6texteditor-dev
@@ -1502,38 +750,18 @@ libkf6texteditor-doc
 libkf6texteditor-katepart
 libkf6texteditor6
 libkf6texteditor6libkf6texteditor-data
-t64 libkf6texttemplate-dev
-libkf6texttemplate-doc
-libkf6texttemplate6
-libkf6texttemplate6libkf6texttemplate-dev
  libkf6texttemplate-dev
 libkf6texttemplate-doc
 libkf6texttemplate6
 libkf6texttemplate6libkf6texttemplate-dev
-t64 libkf6textwidgets-data
-libkf6textwidgets-dev
-libkf6textwidgets-doc
-libkf6textwidgets6
  libkf6textwidgets-data
 libkf6textwidgets-dev
 libkf6textwidgets-doc
 libkf6textwidgets6
-t64 libkf6unitconversion-data
-libkf6unitconversion-dev
-libkf6unitconversion-doc
-libkf6unitconversion6
  libkf6unitconversion-data
 libkf6unitconversion-dev
 libkf6unitconversion-doc
 libkf6unitconversion6
-t64 libkf6userfeedback-bin
-libkf6userfeedback-data
-libkf6userfeedback-dev
-libkf6userfeedback-doc
-libkf6userfeedbackcore6
-libkf6userfeedbackwidgets6
-qml6-module-org-kde-userfeedback
-qml6-module-org-kde-userfeedbacklibkf6userfeedback-data
  libkf6userfeedback-bin
 libkf6userfeedback-data
 libkf6userfeedback-dev
@@ -1542,13 +770,6 @@ libkf6userfeedbackcore6
 libkf6userfeedbackwidgets6
 qml6-module-org-kde-userfeedback
 qml6-module-org-kde-userfeedbacklibkf6userfeedback-data
-t64 kwallet6
-libkf6wallet-data
-libkf6wallet-dev
-libkf6wallet-doc
-libkf6wallet6
-libkf6walletbackend6
-libkf6walletbackend6kwallet6
  kwallet6
 libkf6wallet-data
 libkf6wallet-dev
@@ -1556,67 +777,33 @@ libkf6wallet-doc
 libkf6wallet6
 libkf6walletbackend6
 libkf6walletbackend6kwallet6
-t64 libkf6widgetsaddons-data
-libkf6widgetsaddons-dev
-libkf6widgetsaddons-doc
-libkf6widgetsaddons6
  libkf6widgetsaddons-data
 libkf6widgetsaddons-dev
 libkf6widgetsaddons-doc
 libkf6widgetsaddons6
-t64 libkf6windowsystem-data
-libkf6windowsystem-dev
-libkf6windowsystem-doc
-libkf6windowsystem6
-qml6-module-org-kde-kwindowsystem
  libkf6windowsystem-data
 libkf6windowsystem-dev
 libkf6windowsystem-doc
 libkf6windowsystem6
 qml6-module-org-kde-kwindowsystem
-t64 libkf6xmlgui-data
-libkf6xmlgui-dev
-libkf6xmlgui-doc
-libkf6xmlgui6
  libkf6xmlgui-data
 libkf6xmlgui-dev
 libkf6xmlgui-doc
 libkf6xmlgui6
-t64 libkf6modemmanagerqt-dev
-libkf6modemmanagerqt-doc
-libkf6modemmanagerqt6
-libkf6modemmanagerqt6libkf6modemmanagerqt-doc
  libkf6modemmanagerqt-dev
 libkf6modemmanagerqt-doc
 libkf6modemmanagerqt6
 libkf6modemmanagerqt6libkf6modemmanagerqt-doc
-t64 libkf6networkmanagerqt-dev
-libkf6networkmanagerqt-doc
-libkf6networkmanagerqt6
-qml6-module-org-kde-networkmanager
-qml6-module-org-kde-networkmanagerlibkf6networkmanagerqt-dev
  libkf6networkmanagerqt-dev
 libkf6networkmanagerqt-doc
 libkf6networkmanagerqt6
 qml6-module-org-kde-networkmanager
 qml6-module-org-kde-networkmanagerlibkf6networkmanagerqt-dev
-t64 libkf6prison-dev
-libkf6prison-doc
-libkf6prison6
-libkf6prisonscanner6
-qml6-module-org-kde-prison
  libkf6prison-dev
 libkf6prison-doc
 libkf6prison6
 libkf6prisonscanner6
 qml6-module-org-kde-prison
-t64 libkf6purpose-bin
-libkf6purpose-data
-libkf6purpose-dev
-libkf6purpose6
-libkf6purposewidgets6
-qml6-module-org-kde-purpose
-qml6-module-org-kde-purposelibkf6purpose-bin
  libkf6purpose-bin
 libkf6purpose-data
 libkf6purpose-dev
@@ -1624,32 +811,15 @@ libkf6purpose6
 libkf6purposewidgets6
 qml6-module-org-kde-purpose
 qml6-module-org-kde-purposelibkf6purpose-bin
-t64 libkf6qqc2desktopstyle-data
-libkf6qqc2desktopstyle-dev
-qml6-module-org-kde-desktop
-qml6-module-org-kde-desktoplibkf6qqc2desktopstyle-data
  libkf6qqc2desktopstyle-data
 libkf6qqc2desktopstyle-dev
 qml6-module-org-kde-desktop
 qml6-module-org-kde-desktoplibkf6qqc2desktopstyle-data
-t64 libkf6solid-bin
-libkf6solid-data
-libkf6solid-dev
-libkf6solid-doc
-libkf6solid6
  libkf6solid-bin
 libkf6solid-data
 libkf6solid-dev
 libkf6solid-doc
 libkf6solid6
-t64 libkf6sonnet-data
-libkf6sonnet-dev
-libkf6sonnet-dev-bin
-libkf6sonnet-doc
-libkf6sonnetcore6
-libkf6sonnetui6
-qml6-module-org-kde-sonnet
-sonnet6-plugins
  libkf6sonnet-data
 libkf6sonnet-dev
 libkf6sonnet-dev-bin
@@ -1658,65 +828,32 @@ libkf6sonnetcore6
 libkf6sonnetui6
 qml6-module-org-kde-sonnet
 sonnet6-plugins
-t64 libkf6syndication-dev
-libkf6syndication-doc
-libkf6syndication6
  libkf6syndication-dev
 libkf6syndication-doc
 libkf6syndication6
-t64 libkf6syntaxhighlighting-data
-libkf6syntaxhighlighting-dev
-libkf6syntaxhighlighting-doc
-libkf6syntaxhighlighting-tools
-libkf6syntaxhighlighting6
-qml6-module-org-kde-syntaxhighlighting
  libkf6syntaxhighlighting-data
 libkf6syntaxhighlighting-dev
 libkf6syntaxhighlighting-doc
 libkf6syntaxhighlighting-tools
 libkf6syntaxhighlighting6
 qml6-module-org-kde-syntaxhighlighting
-t64 libkf6threadweaver-dev
-libkf6threadweaver-doc
-libkf6threadweaver6
  libkf6threadweaver-dev
 libkf6threadweaver-doc
 libkf6threadweaver6
-t64 libkf5filemetadata-bin
-libkf5filemetadata-data
-libkf5filemetadata-dev
-libkf5filemetadata-doc
-libkf5filemetadata3
  libkf5filemetadata-bin
 libkf5filemetadata-data
 libkf5filemetadata-dev
 libkf5filemetadata-doc
 libkf5filemetadata3
-t64 kfind
  kfind
-t64 kfloppy
  kfloppy
-t64 kfourinline
  kfourinline
-t64 kgamma
  kgamma
-t64 kgamma5
  kgamma5
-t64 kgeography
-kgeography-data
  kgeography
 kgeography-data
-t64 kgeotag
  kgeotag
-t64 kget
  kget
-t64 libkf5globalaccel-bin
-libkf5globalaccel-data
-libkf5globalaccel-dev
-libkf5globalaccel-doc
-libkf5globalaccel5
-libkf5globalaccelprivate5
-libkf5globalaccelprivate5libkf5globalaccel-bin
  libkf5globalaccel-bin
 libkf5globalaccel-data
 libkf5globalaccel-dev
@@ -1724,86 +861,42 @@ libkf5globalaccel-doc
 libkf5globalaccel5
 libkf5globalaccelprivate5
 libkf5globalaccelprivate5libkf5globalaccel-bin
-t64 kglobalacceld
-libkglobalacceld-dev
-libkglobalacceld0
  kglobalacceld
 libkglobalacceld-dev
 libkglobalacceld0
-t64 kgoldrunner
  kgoldrunner
-t64 kgpg
  kgpg
-t64 libkf5guiaddons-bin
-libkf5guiaddons-data
-libkf5guiaddons-dev
-libkf5guiaddons-doc
-libkf5guiaddons5
-libkf5guiaddons5libkf5guiaddons-data
  libkf5guiaddons-bin
 libkf5guiaddons-data
 libkf5guiaddons-dev
 libkf5guiaddons-doc
 libkf5guiaddons5
 libkf5guiaddons5libkf5guiaddons-data
-t64 khangman
  khangman
-t64 khelpcenter
  khelpcenter
-t64 libkf5holidays-data
-libkf5holidays-dev
-libkf5holidays-doc
-libkf5holidays5
-qml-module-org-kde-kholidays
  libkf5holidays-data
 libkf5holidays-dev
 libkf5holidays-doc
 libkf5holidays5
 qml-module-org-kde-kholidays
-t64 khotkeys
-khotkeys-data
-khotkeys-dev
  khotkeys
 khotkeys-data
 khotkeys-dev
-t64 libkf5khtml-bin
-libkf5khtml-data
-libkf5khtml-dev
-libkf5khtml5
  libkf5khtml-bin
 libkf5khtml-data
 libkf5khtml-dev
 libkf5khtml5
-t64 libkf5i18n-data
-libkf5i18n-dev
-libkf5i18n-doc
-libkf5i18n5
-libkf5i18nlocaledata5
-qml-module-org-kde-i18n-localedata
  libkf5i18n-data
 libkf5i18n-dev
 libkf5i18n-doc
 libkf5i18n5
 libkf5i18nlocaledata5
 qml-module-org-kde-i18n-localedata
-t64 libkf5iconthemes-bin
-libkf5iconthemes-data
-libkf5iconthemes-dev
-libkf5iconthemes-doc
-libkf5iconthemes5
  libkf5iconthemes-bin
 libkf5iconthemes-data
 libkf5iconthemes-dev
 libkf5iconthemes-doc
 libkf5iconthemes5
-t64 libkf5identitymanagement-dev
-libkf5identitymanagement5
-libkf5identitymanagementwidgets5libkidentitymanagement-data
-libkidentitymanagement-dev
-libkpim6identitymanagementcore6
-libkpim6identitymanagementquick6
-libkpim6identitymanagementwidgets6
-qml6-module-org-kde-kidentitymanagement
  libkf5identitymanagement-dev
 libkf5identitymanagement5
 libkf5identitymanagementwidgets5libkidentitymanagement-data
@@ -1812,63 +905,30 @@ libkpim6identitymanagementcore6
 libkpim6identitymanagementquick6
 libkpim6identitymanagementwidgets6
 qml6-module-org-kde-kidentitymanagement
-t64 libkf5idletime-dev
-libkf5idletime-doc
-libkf5idletime5
  libkf5idletime-dev
 libkf5idletime-doc
 libkf5idletime5
-t64 kig
  kig
-t64 kigo
  kigo
-t64 kile
-kile-doc
-kile-l10n
  kile
 kile-doc
 kile-l10n
-t64 killbots
  killbots
-t64 libkimageannotator-common
-libkimageannotator-qt5-0
-libkimageannotator-qt5-dev
-libkimageannotator-qt6-0
-libkimageannotator-qt6-dev
  libkimageannotator-common
 libkimageannotator-qt5-0
 libkimageannotator-qt5-dev
 libkimageannotator-qt6-0
 libkimageannotator-qt6-dev
-t64 kimageformat-plugins
  kimageformat-plugins
-t64 kimagemapeditor
  kimagemapeditor
-t64 libkf5imap-data
-libkf5imap-dev
-libkf5imap5libkimap-data
-libkimap-dev
-libkpim6imap6
  libkf5imap-data
 libkf5imap-dev
 libkf5imap5libkimap-data
 libkimap-dev
 libkpim6imap6
-t64 kinfocenterkinfocenter
  kinfocenterkinfocenter
-t64 kinit
-kinit-dev
  kinit
 kinit-dev
-t64 kio
-libkf5kio-dev
-libkf5kio-doc
-libkf5kiocore5
-libkf5kiofilewidgets5
-libkf5kiogui5
-libkf5kiontlm5
-libkf5kiowidgets5
-libkf5kiowidgets5kio
  kio
 libkf5kio-dev
 libkf5kio-doc
@@ -1878,49 +938,17 @@ libkf5kiogui5
 libkf5kiontlm5
 libkf5kiowidgets5
 libkf5kiowidgets5kio
-t64 kio-extras
-kio-extras-data
  kio-extras
 kio-extras-data
-t64 kio-fuse
  kio-fuse
-t64 kio-gdrive
  kio-gdrive
-t64 kio-gopher
  kio-gopher
-t64 kipi-plugins
-kipi-plugins-common
  kipi-plugins
 kipi-plugins-common
-t64 kirigami2-dev
-libkf5kirigami2-5
-libkf5kirigami2-doc
-qml-module-org-kde-kirigami2
  kirigami2-dev
 libkf5kirigami2-5
 libkf5kirigami2-doc
 qml-module-org-kde-kirigami2
-t64 kirigami-addons-data
-kirigami-addons-dev
-kirigami-addons-devkirigami-addons-data
-qml-module-org-kde-kirigami-addons-components
-qml-module-org-kde-kirigami-addons-datetime
-qml-module-org-kde-kirigami-addons-delegates
-qml-module-org-kde-kirigami-addons-formcard
-qml-module-org-kde-kirigami-addons-labs-components
-qml-module-org-kde-kirigami-addons-labs-mobileform
-qml-module-org-kde-kirigami-addons-settings
-qml-module-org-kde-kirigami-addons-sounds
-qml-module-org-kde-kirigami-addons-treeview
-qml6-module-org-kde-kirigamiaddons-components
-qml6-module-org-kde-kirigamiaddons-datetime
-qml6-module-org-kde-kirigamiaddons-delegates
-qml6-module-org-kde-kirigamiaddons-formcard
-qml6-module-org-kde-kirigamiaddons-labs-components
-qml6-module-org-kde-kirigamiaddons-settings
-qml6-module-org-kde-kirigamiaddons-sounds
-qml6-module-org-kde-kirigamiaddons-tableview
-qml6-module-org-kde-kirigamiaddons-treeview
  kirigami-addons-data
 kirigami-addons-dev
 kirigami-addons-devkirigami-addons-data
@@ -1942,35 +970,17 @@ qml6-module-org-kde-kirigamiaddons-settings
 qml6-module-org-kde-kirigamiaddons-sounds
 qml6-module-org-kde-kirigamiaddons-tableview
 qml6-module-org-kde-kirigamiaddons-treeview
-t64 kirigami-gallery
  kirigami-gallery
-t64 kiriki
  kiriki
-t64 libkf5itemmodels-dev
-libkf5itemmodels-doc
-libkf5itemmodels5
-qml-module-org-kde-kitemmodels
  libkf5itemmodels-dev
 libkf5itemmodels-doc
 libkf5itemmodels5
 qml-module-org-kde-kitemmodels
-t64 libkf5itemviews-data
-libkf5itemviews-dev
-libkf5itemviews-doc
-libkf5itemviews5
  libkf5itemviews-data
 libkf5itemviews-dev
 libkf5itemviews-doc
 libkf5itemviews5
-t64 kiten
  kiten
-t64 libkitinerary-data
-libkitinerary-dev
-libkpim6itinerary6
-libkpimitinerary-bin
-libkpimitinerary-data
-libkpimitinerary-dev
-libkpimitinerary5libkitinerary-bin
  libkitinerary-data
 libkitinerary-dev
 libkpim6itinerary6
@@ -1978,40 +988,18 @@ libkpimitinerary-bin
 libkpimitinerary-data
 libkpimitinerary-dev
 libkpimitinerary5libkitinerary-bin
-t64 libkf5jobwidgets-data
-libkf5jobwidgets-dev
-libkf5jobwidgets-doc
-libkf5jobwidgets5
  libkf5jobwidgets-data
 libkf5jobwidgets-dev
 libkf5jobwidgets-doc
 libkf5jobwidgets5
-t64 kjots
  kjots
-t64 libkf5js5
-libkf5jsapi5
-libkf5kjs-dev
  libkf5js5
 libkf5jsapi5
 libkf5kjs-dev
-t64 libkf5jsembed-data
-libkf5jsembed-dev
-libkf5jsembed5
  libkf5jsembed-data
 libkf5jsembed-dev
 libkf5jsembed5
-t64 kjumpingcube
  kjumpingcube
-t64 kio-ldap
-libkf5ldap-data
-libkf5ldap-dev
-libkf5ldap-doc
-libkf5ldap5abi1kio-ldap
-libkldap-data
-libkldap-dev
-libkldap-doc
-libkpim6ldapcore6
-libkpim6ldapwidgets6
  kio-ldap
 libkf5ldap-data
 libkf5ldap-dev
@@ -2022,90 +1010,44 @@ libkldap-dev
 libkldap-doc
 libkpim6ldapcore6
 libkpim6ldapwidgets6
-t64 kleopatra
  kleopatra
-t64 klettres
-klettres-data
  klettres
 klettres-data
-t64 klickety
  klickety
-t64 klines
  klines
-t64 kmag
  kmag
-t64 kmahjongg
  kmahjongg
-t64 kmail
  kmail
-t64 accountwizard
  accountwizard
-t64 kde-config-mailtransport
-kmailtransport-akonadi
-libkf5mailtransport-data
-libkf5mailtransport-dev
-libkf5mailtransport5
-libkf5mailtransportakonadi5
  kde-config-mailtransport
 kmailtransport-akonadi
 libkf5mailtransport-data
 libkf5mailtransport-dev
 libkf5mailtransport5
 libkf5mailtransportakonadi5
-t64 libkf5mbox-dev
-libkf5mbox5libkmbox-dev
-libkpim6mbox6
  libkf5mbox-dev
 libkf5mbox5libkmbox-dev
 libkpim6mbox6
-t64 libkf5mediaplayer-data
-libkf5mediaplayer-dev
-libkf5mediaplayer5
  libkf5mediaplayer-data
 libkf5mediaplayer-dev
 libkf5mediaplayer5
-t64 kmenueditkmenuedit
  kmenueditkmenuedit
-t64 libkf5mime-data
-libkf5mime-dev
-libkf5mime5abi1libkf5mime-data
-libkf5mime5abi1t64libkmime-data
-libkmime-dev
-libkpim6mime6
  libkf5mime-data
 libkf5mime-dev
 libkf5mime5abi1libkf5mime-data
 libkf5mime5abi1t64libkmime-data
 libkmime-dev
 libkpim6mime6
-t64 kmines
  kmines
-t64 kmix
  kmix
-t64 kmousetool
  kmousetool
-t64 kmouth
  kmouth
-t64 kmplayer
  kmplayer
-t64 kmplot
  kmplot
-t64 kmymoney
-kmymoney-common
  kmymoney
 kmymoney-common
-t64 knavalbattle
  knavalbattle
-t64 knetwalk
  knetwalk
-t64 knewstuff-dialog
-libkf5newstuff-data
-libkf5newstuff-dev
-libkf5newstuff-doc
-libkf5newstuff5
-libkf5newstuffcore5
-libkf5newstuffwidgets5
-qml-module-org-kde-newstuff
  knewstuff-dialog
 libkf5newstuff-data
 libkf5newstuff-dev
@@ -2114,107 +1056,53 @@ libkf5newstuff5
 libkf5newstuffcore5
 libkf5newstuffwidgets5
 qml-module-org-kde-newstuff
-t64 knights
  knights
-t64 knotes
  knotes
-t64 libkf5notifications-data
-libkf5notifications-dev
-libkf5notifications-doc
-libkf5notifications5
-qml-module-org-kde-notifications
  libkf5notifications-data
 libkf5notifications-dev
 libkf5notifications-doc
 libkf5notifications5
 qml-module-org-kde-notifications
-t64 libkf5notifyconfig-data
-libkf5notifyconfig-dev
-libkf5notifyconfig-doc
-libkf5notifyconfig5
  libkf5notifyconfig-data
 libkf5notifyconfig-dev
 libkf5notifyconfig-doc
 libkf5notifyconfig5
-t64 kolf
  kolf
-t64 kollision
  kollision
-t64 kolourpaint
  kolourpaint
-t64 kompare
-kpart5-kompare
-libkompareinterface-dev
-libkompareinterface5kompare
-libkompareinterface5t64
  kompare
 kpart5-kompare
 libkompareinterface-dev
 libkompareinterface5kompare
 libkompareinterface5t64
-t64 kongress
  kongress
-t64 konq-plugins
-konqueror
-libkf5konq-dev
-libkf5konq6
  konq-plugins
 konqueror
 libkf5konq-dev
 libkf5konq6
-t64 konquest
  konquest
-t64 konsole
-konsole-kpart
-konsole-kpartkonsole
  konsole
 konsole-kpart
 konsole-kpartkonsole
-t64 kontact
  kontact
-t64 libkf5kontactinterface-data
-libkf5kontactinterface-dev
-libkf5kontactinterface5libkontactinterface-data
-libkontactinterface-dev
-libkpim6kontactinterface6
  libkf5kontactinterface-data
 libkf5kontactinterface-dev
 libkf5kontactinterface5libkontactinterface-data
 libkontactinterface-dev
 libkpim6kontactinterface6
-t64 kontrast
  kontrast
-t64 konversation
-konversation-data
  konversation
 konversation-data
-t64 kookbook
  kookbook
-t64 libkopeninghours-dev
-libkopeninghours1
-python3-kopeninghours
-qml-module-org-kde-kopeninghours
  libkopeninghours-dev
 libkopeninghours1
 python3-kopeninghours
 qml-module-org-kde-kopeninghours
-t64 kopete
-kopete-data
-libkopete-dev
-libkopete1
  kopete
 kopete-data
 libkopete-dev
 libkopete1
-t64 korganizer
  korganizer
-t64 kosmindoormap-dev
-libkosm1
-libkosm1t64
-libkosmindoormap1
-libkosmindoormap1t64
-qml-module-org-kde-kosmindoormap
-qml-module-org-kde-kosmindoormapkosmindoormap-dev
  kosmindoormap-dev
 libkosm1
 libkosm1t64
@@ -2222,35 +1110,17 @@ libkosmindoormap1
 libkosmindoormap1t64
 qml-module-org-kde-kosmindoormap
 qml-module-org-kde-kosmindoormapkosmindoormap-dev
-t64 kpackagetool5
-libkf5package-data
-libkf5package-dev
-libkf5package-doc
-libkf5package5
  kpackagetool5
 libkf5package-data
 libkf5package-dev
 libkf5package-doc
 libkf5package5
-t64 libkf5parts-data
-libkf5parts-dev
-libkf5parts-doc
-libkf5parts-plugins
-libkf5parts5
  libkf5parts-data
 libkf5parts-dev
 libkf5parts-doc
 libkf5parts-plugins
 libkf5parts5
-t64 kpat
  kpat
-t64 libkf5people-data
-libkf5people-dev
-libkf5people-doc
-libkf5people5
-libkf5peoplebackend5
-libkf5peoplewidgets5
-qml-module-org-kde-people
  libkf5people-data
 libkf5people-dev
 libkf5people-doc
@@ -2258,31 +1128,14 @@ libkf5people5
 libkf5peoplebackend5
 libkf5peoplewidgets5
 qml-module-org-kde-people
-t64 kpeople-vcard
  kpeople-vcard
-t64 kphotoalbum
  kphotoalbum
-t64 libkf5pimtextedit-data
-libkf5pimtextedit-dev
-libkf5pimtextedit-plugins
-libkf5pimtextedit5abi2libkpimtextedit-data
-libkpim6textedit6
-libkpimtextedit-dev
  libkf5pimtextedit-data
 libkf5pimtextedit-dev
 libkf5pimtextedit-plugins
 libkf5pimtextedit5abi2libkpimtextedit-data
 libkpim6textedit6
 libkpimtextedit-dev
-t64 libkpipewire-dev
-libkpipewire5
-libkpipewire6
-libkpipewiredmabuf5
-libkpipewiredmabuf6
-libkpipewirerecord5
-libkpipewirerecord6
-qml-module-org-kde-pipewirelibkpipewire-data
-qml6-module-org-kde-pipewire
  libkpipewire-dev
 libkpipewire5
 libkpipewire6
@@ -2292,212 +1145,101 @@ libkpipewirerecord5
 libkpipewirerecord6
 qml-module-org-kde-pipewirelibkpipewire-data
 qml6-module-org-kde-pipewire
-t64 libkpim6pkpass6
-libkpimpkpass-dev
-libkpimpkpass5libkpkpass-dev
  libkpim6pkpass6
 libkpimpkpass-dev
 libkpimpkpass5libkpkpass-dev
-t64 libkf5plotting-dev
-libkf5plotting-doc
-libkf5plotting5
  libkf5plotting-dev
 libkf5plotting-doc
 libkf5plotting5
-t64 libkpmcore-dev
-libkpmcore12
  libkpmcore-dev
 libkpmcore12
-t64 libkproperty-data
-libkproperty3-dev
-libkpropertycore3-4
-libkpropertywidgets3-4
  libkproperty-data
 libkproperty3-dev
 libkpropertycore3-4
 libkpropertywidgets3-4
-t64 libkf5pty-data
-libkf5pty-dev
-libkf5pty-doc
-libkf5pty5
  libkf5pty-data
 libkf5pty-dev
 libkf5pty-doc
 libkf5pty5
-t64 kpublictransport-data
-libkpublictransport-dev
-libkpublictransport1
-libkpublictransportonboard1
-qml-module-org-kde-kpublictransport
  kpublictransport-data
 libkpublictransport-dev
 libkpublictransport1
 libkpublictransportonboard1
 qml-module-org-kde-kpublictransport
-t64 qml-module-org-kde-charts
  qml-module-org-kde-charts
-t64 kquickcharts-dev
-qml-module-org-kde-quickcharts
  kquickcharts-dev
 qml-module-org-kde-quickcharts
-t64 kquickimageeditor-dev
-qml-module-org-kde-kquickimageeditor
  kquickimageeditor-dev
 qml-module-org-kde-kquickimageeditor
-t64 kraft
  kraft
-t64 krdc
  krdc
-t64 krename
  krename
-t64 libkreport-data
-libkreport3-4
-libkreport3-dev
-libkreport3-plugin-barcode
-libkreport3-plugin-maps
-libkreport3-plugin-web
  libkreport-data
 libkreport3-4
 libkreport3-dev
 libkreport3-plugin-barcode
 libkreport3-plugin-maps
 libkreport3-plugin-web
-t64 kreversi
  kreversi
-t64 krfb
  krfb
-t64 krita
-krita-data
-krita-l10n
-krita-l10nkrita
  krita
 krita-data
 krita-l10n
 krita-l10nkrita
-t64 kronometer
  kronometer
-t64 kross
-kross-dev
-libkf5krosscore5
-libkf5krossui5
  kross
 kross-dev
 libkf5krosscore5
 libkf5krossui5
-t64 krossruby
  krossruby
-t64 kruler
  kruler
-t64 libkf5runner-dev
-libkf5runner-doc
-libkf5runner5
-qml-module-org-kde-runnermodel
  libkf5runner-dev
 libkf5runner-doc
 libkf5runner5
 qml-module-org-kde-runnermodel
-t64 krusader
  krusader
-t64 libksanecore-dev
-libksanecore1
  libksanecore-dev
 libksanecore1
-t64 kscreenkscreen
  kscreenkscreen
-t64 kde-config-screenlocker
-kscreenlocker-dev
-libkscreenlocker5kde-config-screenlocker
-libkscreenlocker6
  kde-config-screenlocker
 kscreenlocker-dev
 libkscreenlocker5kde-config-screenlocker
 libkscreenlocker6
-t64 libkseexpr-data
-libkseexpr-dev
-libkseexpr4
-libkseexprui4
  libkseexpr-data
 libkseexpr-dev
 libkseexpr4
 libkseexprui4
-t64 libkf5service-bin
-libkf5service-data
-libkf5service-dev
-libkf5service-doc
-libkf5service5
  libkf5service-bin
 libkf5service-data
 libkf5service-dev
 libkf5service-doc
 libkf5service5
-t64 kshisen
  kshisen
-t64 ksirk
  ksirk
-t64 libkpim6smtp6
-libkpimsmtp-data
-libkpimsmtp-dev
-libkpimsmtp5abi1libksmtp-data
-libksmtp-dev
  libkpim6smtp6
 libkpimsmtp-data
 libkpimsmtp-dev
 libkpimsmtp5abi1libksmtp-data
 libksmtp-dev
-t64 ksnakeduel
  ksnakeduel
-t64 ksnip
  ksnip
-t64 kspaceduel
  kspaceduel
-t64 ksquares
  ksquares
-t64 ksshaskpassksshaskpass
  ksshaskpassksshaskpass
-t64 kstars
-kstars-data
-kstars-datakstars
  kstars
 kstars-data
 kstars-datakstars
-t64 ksudoku
  ksudoku
-t64 libkf5syntaxhighlighting-data
-libkf5syntaxhighlighting-dev
-libkf5syntaxhighlighting-doc
-libkf5syntaxhighlighting-tools
-libkf5syntaxhighlighting5
-qml-module-org-kde-syntaxhighlighting
  libkf5syntaxhighlighting-data
 libkf5syntaxhighlighting-dev
 libkf5syntaxhighlighting-doc
 libkf5syntaxhighlighting-tools
 libkf5syntaxhighlighting5
 qml-module-org-kde-syntaxhighlighting
-t64 ksystemlog
  ksystemlog
-t64 ksystemstatsksystemstats
  ksystemstatsksystemstats
-t64 kteatime
  kteatime
-t64 ktechlab
  ktechlab
-t64 libkf6textaddons-data
-libkf6textaddons-dev
-libkf6textaddons-doclibkf6textaddonswidgets1
-libkf6textaddonswidgets1
-libkf6textautocorrectioncore1
-libkf6textautocorrectionwidgets1
-libkf6textcustomeditor1
-libkf6textedittexttospeech1
-libkf6textemoticonscore1
-libkf6textemoticonswidgets1
-libkf6textgrammarcheck1
-libkf6texttranslator1
-libkf6textutils1
-libktextaddons-data
-libktextaddons-dev
-libktextaddons-doc
  libkf6textaddons-data
 libkf6textaddons-dev
 libkf6textaddons-doclibkf6textaddonswidgets1
@@ -2514,65 +1256,30 @@ libkf6textutils1
 libktextaddons-data
 libktextaddons-dev
 libktextaddons-doc
-t64 ktexteditor-data
-ktexteditor-katepart
-libkf5texteditor-bin
-libkf5texteditor-dev
-libkf5texteditor-doc
-libkf5texteditor5
  ktexteditor-data
 ktexteditor-katepart
 libkf5texteditor-bin
 libkf5texteditor-dev
 libkf5texteditor-doc
 libkf5texteditor5
-t64 libkf5textwidgets-data
-libkf5textwidgets-dev
-libkf5textwidgets-doc
-libkf5textwidgets5
  libkf5textwidgets-data
 libkf5textwidgets-dev
 libkf5textwidgets-doc
 libkf5textwidgets5
-t64 ktikz
-qtikz
  ktikz
 qtikz
-t64 ktimer
  ktimer
-t64 ktimetracker
  ktimetracker
-t64 libkf5tnef-dev
-libkf5tnef5
  libkf5tnef-dev
 libkf5tnef5
-t64 ktorrent
-ktorrent-data
  ktorrent
 ktorrent-data
-t64 ktouch
-ktouch-data
  ktouch
 ktouch-data
-t64 kde-config-telepathy-accounts
  kde-config-telepathy-accounts
-t64 kde-telepathy-approver
  kde-telepathy-approver
-t64 kde-telepathy-auth-handler
  kde-telepathy-auth-handler
-t64 kde-telepathy-call-ui
  kde-telepathy-call-ui
-t64 kde-telepathy-data
-kde-telepathy-debugger
-kde-telepathy-kaccounts
-kde-telepathy-kpeople
-libktp-dev
-libktpcommoninternals9abi1
-libktplogger9abi1
-libktpmodels9abi1
-libktpotr9
-libktpwidgets9
-qml-module-org-kde-telepathy
  kde-telepathy-data
 kde-telepathy-debugger
 kde-telepathy-kaccounts
@@ -2584,49 +1291,22 @@ libktpmodels9abi1
 libktpotr9
 libktpwidgets9
 qml-module-org-kde-telepathy
-t64 kde-telepathy-contact-list
  kde-telepathy-contact-list
-t64 plasma-runner-telepathy-contact
  plasma-runner-telepathy-contact
-t64 kde-telepathy-desktop-applets
  kde-telepathy-desktop-applets
-t64 kde-telepathy-filetransfer-handler
  kde-telepathy-filetransfer-handler
-t64 kde-telepathy-integration-module
  kde-telepathy-integration-module
-t64 kde-telepathy-send-file
  kde-telepathy-send-file
-t64 kde-telepathy-text-ui
  kde-telepathy-text-ui
-t64 ktrip
  ktrip
-t64 ktuberling
-ktuberling-data
  ktuberling
 ktuberling-data
-t64 kturtle
  kturtle
-t64 kubrick
  kubrick
-t64 libkf5unitconversion-data
-libkf5unitconversion-dev
-libkf5unitconversion-doc
-libkf5unitconversion5
  libkf5unitconversion-data
 libkf5unitconversion-dev
 libkf5unitconversion-doc
 libkf5unitconversion5
-t64 kuserfeedback-bin
-kuserfeedback-dev
-kuserfeedback-doc
-libkuserfeedback-l10n
-libkuserfeedbackcore1
-libkuserfeedbackcoreqt6-1
-libkuserfeedbackwidgets1
-libkuserfeedbackwidgetsqt6-1
-qml-module-org-kde-userfeedback
-qml6-module-org-kde-userfeedbacklibkuserfeedback-l10n
-qt6-kuserfeedback-dev
  kuserfeedback-bin
 kuserfeedback-dev
 kuserfeedback-doc
@@ -2638,45 +1318,21 @@ libkuserfeedbackwidgetsqt6-1
 qml-module-org-kde-userfeedback
 qml6-module-org-kde-userfeedbacklibkuserfeedback-l10n
 qt6-kuserfeedback-dev
-t64 kvirc
-kvirc-data
-kvirc-modules
-libkvilib5
  kvirc
 kvirc-data
 kvirc-modules
 libkvilib5
-t64 libkf5wallet-bin
-libkf5wallet-data
-libkf5wallet-dev
-libkf5wallet-doc
-libkf5wallet5
-libkwalletbackend5-5libkf5wallet-bin
  libkf5wallet-bin
 libkf5wallet-data
 libkf5wallet-dev
 libkf5wallet-doc
 libkf5wallet5
 libkwalletbackend5-5libkf5wallet-bin
-t64 kwalletmanager
  kwalletmanager
-t64 libpam-kwallet-common
-libpam-kwallet5
-libpam-kwallet5libpam-kwallet-common
  libpam-kwallet-common
 libpam-kwallet5
 libpam-kwallet5libpam-kwallet-common
-t64 kwave
  kwave
-t64 kwayland-data
-kwayland-dev
-kwayland-doc
-libkf5wayland-dev
-libkf5wayland-doc
-libkf5waylandclient5
-libkf5waylandserver5kwayland-data
-libkwaylandclient6
-libkwaylandclient6kwayland6-data
  kwayland-data
 kwayland-dev
 kwayland-doc
@@ -2686,24 +1342,11 @@ libkf5waylandclient5
 libkf5waylandserver5kwayland-data
 libkwaylandclient6
 libkwaylandclient6kwayland6-data
-t64 kwayland-integrationkwayland-integration
  kwayland-integrationkwayland-integration
-t64 libkf5widgetsaddons-data
-libkf5widgetsaddons-dev
-libkf5widgetsaddons-doc
-libkf5widgetsaddons5
  libkf5widgetsaddons-data
 libkf5widgetsaddons-dev
 libkf5widgetsaddons-doc
 libkf5widgetsaddons5
-t64 kwin-common
-kwin-data
-kwin-dev
-kwin-wayland
-kwin-x11
-libkwin6
-libkwineffects14
-libkwinglutils14kwin-common
  kwin-common
 kwin-data
 kwin-dev
@@ -2712,67 +1355,32 @@ kwin-x11
 libkwin6
 libkwineffects14
 libkwinglutils14kwin-common
-t64 libkf5windowsystem-data
-libkf5windowsystem-dev
-libkf5windowsystem-doc
-libkf5windowsystem5
  libkf5windowsystem-data
 libkf5windowsystem-dev
 libkf5windowsystem-doc
 libkf5windowsystem5
-t64 kwordquiz
  kwordquiz
-t64 kwritedkwrited
  kwritedkwrited
-t64 libkf5xmlgui-bin
-libkf5xmlgui-data
-libkf5xmlgui-dev
-libkf5xmlgui-doc
-libkf5xmlgui5
  libkf5xmlgui-bin
 libkf5xmlgui-data
 libkf5xmlgui-dev
 libkf5xmlgui-doc
 libkf5xmlgui5
-t64 libkf5xmlrpcclient-data
-libkf5xmlrpcclient-dev
-libkf5xmlrpcclient-doc
-libkf5xmlrpcclient5
  libkf5xmlrpcclient-data
 libkf5xmlrpcclient-dev
 libkf5xmlrpcclient-doc
 libkf5xmlrpcclient5
-t64 kxstitch
-kxstitch-common
  kxstitch
 kxstitch-common
-t64 labplot
-labplot-data
  labplot
 labplot-data
-t64 liblager-dev
  liblager-dev
-t64 latte-dock
  latte-dock
-t64 layer-shell-qt
-liblayershellqtinterface-dev
-liblayershellqtinterface5layer-shell-qt
-liblayershellqtinterface6
-qml6-module-org-kde-layershell
  layer-shell-qt
 liblayershellqtinterface-dev
 liblayershellqtinterface5layer-shell-qt
 liblayershellqtinterface6
 qml6-module-org-kde-layershell
-t64 liblensfun-bin
-liblensfun-data-v1
-liblensfun-data-v2
-liblensfun-dev
-liblensfun-doc
-liblensfun1
-liblensfun2
-python3-lensfun
-python3-lensfunliblensfun-dev
  liblensfun-bin
 liblensfun-data-v1
 liblensfun-data-v2
@@ -2782,205 +1390,95 @@ liblensfun1
 liblensfun2
 python3-lensfun
 python3-lensfunliblensfun-dev
-t64 gir1.2-accounts-1.0
-libaccounts-glib-dev
-libaccounts-glib-doc
-libaccounts-glib-tools
-libaccounts-glib0
  gir1.2-accounts-1.0
 libaccounts-glib-dev
 libaccounts-glib-doc
 libaccounts-glib-tools
 libaccounts-glib0
-t64 libaccounts-qt-doc
-libaccounts-qt5-1
-libaccounts-qt5-dev
-libaccounts-qt6-1
-libaccounts-qt6-dev
  libaccounts-qt-doc
 libaccounts-qt5-1
 libaccounts-qt5-dev
 libaccounts-qt6-1
 libaccounts-qt6-dev
-t64 libappimage-dev
-libappimage1.0abi1t64
  libappimage-dev
 libappimage1.0abi1t64
-t64 libdbusmenu-qt5-2
-libdbusmenu-qt5-dev
-libdbusmenu-qt5-doc
  libdbusmenu-qt5-2
 libdbusmenu-qt5-dev
 libdbusmenu-qt5-doc
-t64 kde-config-cddb
-libkf5cddb-dev
-libkf5cddb5
  kde-config-cddb
 libkf5cddb-dev
 libkf5cddb5
-t64 libkf5compactdisc-dev
-libkf5compactdisc5
  libkf5compactdisc-dev
 libkf5compactdisc5
-t64 kdegames-card-data-kf5
-libkf5kdegames-dev
-libkf5kdegames7
-libkf5kdegamesprivate7
-qml-module-org-kde-games-core
  kdegames-card-data-kf5
 libkf5kdegames-dev
 libkf5kdegames7
 libkf5kdegamesprivate7
 qml-module-org-kde-games-core
-t64 libkdepim-data
-libkdepim-dev
-libkdepim-plugins
-libkpim6libkdepim6
  libkdepim-data
 libkdepim-dev
 libkdepim-plugins
 libkpim6libkdepim6
-t64 libkeduvocdocument-data
-libkeduvocdocument-dev
-libkeduvocdocument5abi1
  libkeduvocdocument-data
 libkeduvocdocument-dev
 libkeduvocdocument5abi1
-t64 libkexiv2qt6-0
-libkexiv2qt6-dev
  libkexiv2qt6-0
 libkexiv2qt6-dev
-t64 libkf5calendarsupport-data
-libkf5calendarsupport-dev
-libkf5calendarsupport5abi1
  libkf5calendarsupport-data
 libkf5calendarsupport-dev
 libkf5calendarsupport5abi1
-t64 libkf5eventviews-data
-libkf5eventviews-dev
-libkf5eventviews5abi1
  libkf5eventviews-data
 libkf5eventviews-dev
 libkf5eventviews5abi1
-t64 libkf5grantleetheme-dev
-libkf5grantleetheme-plugins
-libkf5grantleetheme5
  libkf5grantleetheme-dev
 libkf5grantleetheme-plugins
 libkf5grantleetheme5
-t64 libkf5gravatar-data
-libkf5gravatar-dev
-libkf5gravatar5abi2
  libkf5gravatar-data
 libkf5gravatar-dev
 libkf5gravatar5abi2
-t64 libkf5incidenceeditor-bin
-libkf5incidenceeditor-data
-libkf5incidenceeditor-dev
-libkf5incidenceeditor5abi1
  libkf5incidenceeditor-bin
 libkf5incidenceeditor-data
 libkf5incidenceeditor-dev
 libkf5incidenceeditor5abi1
-t64 libkf5kdcraw-dev
-libkf5kdcraw5
  libkf5kdcraw-dev
 libkf5kdcraw5
-t64 libkf5kexiv2-15.0.0
-libkf5kexiv2-dev
  libkf5kexiv2-15.0.0
 libkf5kexiv2-dev
-t64 libkf5kipi-data
-libkf5kipi-dev
-libkf5kipi32.0.0
  libkf5kipi-data
 libkf5kipi-dev
 libkf5kipi32.0.0
-t64 kdegames-mahjongg-data-kf5
-libkf5kmahjongglib-dev
-libkf5kmahjongglib5
  kdegames-mahjongg-data-kf5
 libkf5kmahjongglib-dev
 libkf5kmahjongglib5
-t64 libkf5kmanagesieve5
-libkf5ksieve-data
-libkf5ksieve-dev
-libkf5ksieve5
-libkf5ksieveui5
  libkf5kmanagesieve5
 libkf5ksieve-data
 libkf5ksieve-dev
 libkf5ksieve5
 libkf5ksieveui5
-t64 libkf5libkdepim-data
-libkf5libkdepim-dev
-libkf5libkdepim-plugins
-libkf5libkdepim5
  libkf5libkdepim-data
 libkf5libkdepim-dev
 libkf5libkdepim-plugins
 libkf5libkdepim5
-t64 libkf5libkleo-data
-libkf5libkleo-dev
-libkf5libkleo5libkf5libkleo-data
-libkf5libkleo5t64
  libkf5libkleo-data
 libkf5libkleo-dev
 libkf5libkleo5libkf5libkleo-data
 libkf5libkleo5t64
-t64 libkf5mailcommon-data
-libkf5mailcommon-dev
-libkf5mailcommon-plugins
-libkf5mailcommon5abi2
  libkf5mailcommon-data
 libkf5mailcommon-dev
 libkf5mailcommon-plugins
 libkf5mailcommon5abi2
-t64 libkf5mailimporter-dev
-libkf5mailimporter5
-libkf5mailimporterakonadi5
  libkf5mailimporter-dev
 libkf5mailimporter5
 libkf5mailimporterakonadi5
-t64 libkf5pimcommon-data
-libkf5pimcommon-dev
-libkf5pimcommon-plugins
-libkf5pimcommon5abi2
-libkf5pimcommonakonadi5abi1
-libkf5pimcommonautocorrection5
  libkf5pimcommon-data
 libkf5pimcommon-dev
 libkf5pimcommon-plugins
 libkf5pimcommon5abi2
 libkf5pimcommonakonadi5abi1
 libkf5pimcommonautocorrection5
-t64 libkf5sane-data
-libkf5sane-dev
-libkf5sane5
  libkf5sane-data
 libkf5sane-dev
 libkf5sane5
-t64 libkgapi-dev
-libkpim6gapiblogger6
-libkpim6gapicalendar6
-libkpim6gapicore6
-libkpim6gapidrive6
-libkpim6gapilatitude6
-libkpim6gapimaps6
-libkpim6gapipeople6
-libkpim6gapitasks6
-libkpimgapi-data
-libkpimgapi-dev
-libkpimgapiblogger5abi1
-libkpimgapicalendar5
-libkpimgapicontacts5
-libkpimgapicore5abi1
-libkpimgapidrive5
-libkpimgapilatitude5
-libkpimgapimaps5
-libkpimgapitasks5
-libsasl2-modules-kdexoauth2
-libsasl2-modules-kdexoauth2libkgapi-data
  libkgapi-dev
 libkpim6gapiblogger6
 libkpim6gapicalendar6
@@ -3002,16 +1500,6 @@ libkpimgapimaps5
 libkpimgapitasks5
 libsasl2-modules-kdexoauth2
 libsasl2-modules-kdexoauth2libkgapi-data
-t64 libkpimgapi-data
-libkpimgapi-dev
-libkpimgapiblogger5abi1
-libkpimgapicalendar5
-libkpimgapicontacts5
-libkpimgapicore5abi1
-libkpimgapidrive5
-libkpimgapilatitude5
-libkpimgapimaps5
-libkpimgapitasks5
  libkpimgapi-data
 libkpimgapi-dev
 libkpimgapiblogger5abi1
@@ -3022,20 +1510,8 @@ libkpimgapidrive5
 libkpimgapilatitude5
 libkpimgapimaps5
 libkpimgapitasks5
-t64 libkomparediff2-5
-libkomparediff2-dev
  libkomparediff2-5
 libkomparediff2-dev
-t64 libkf5screen-bin
-libkf5screen-data
-libkf5screen-dev
-libkf5screen8
-libkf5screendpms8libkf6screen-bin
-libkf6screen-data
-libkf6screen-dev
-libkf6screen-doc
-libkf6screen8
-libkf6screendpms8
  libkf5screen-bin
 libkf5screen-data
 libkf5screen-dev
@@ -3046,27 +1522,6 @@ libkf6screen-dev
 libkf6screen-doc
 libkf6screen8
 libkf6screendpms8
-t64 libkf5sysguard-bin
-libkf5sysguard-data
-libkf5sysguard-dev
-libksgrd9
-libksignalplotter9
-libksysguard-data
-libksysguard-dev
-libksysguardformatter1
-libksysguardformatter2
-libksysguardsensorfaces1
-libksysguardsensorfaces2
-libksysguardsensors1
-libksysguardsensors2
-libksysguardsystemstats1
-libksysguardsystemstats2
-liblsofui9
-libprocesscore10
-libprocesscore9
-libprocessui9
-qml-module-org-kde-ksysguardlibksysguard-bin
-qml6-module-org-kde-ksysguard
  libkf5sysguard-bin
 libkf5sysguard-data
 libkf5sysguard-dev
@@ -3088,47 +1543,22 @@ libprocesscore9
 libprocessui9
 qml-module-org-kde-ksysguardlibksysguard-bin
 qml6-module-org-kde-ksysguard
-t64 libkf5torrent6abi3
-libktorrent-dev
-libktorrent-l10n
  libkf5torrent6abi3
 libktorrent-dev
 libktorrent-l10n
-t64 libkf5mediawiki-dev
-libkf5mediawiki5
  libkf5mediawiki-dev
 libkf5mediawiki5
-t64 libnova-0.16-0t64
-libnova-dev
-libnova-dev-bin
  libnova-0.16-0t64
 libnova-dev
 libnova-dev-bin
-t64 libplasma-dev
-libplasma-doc
-libplasma6
-libplasmaquick6
-plasma-desktoptheme
  libplasma-dev
 libplasma-doc
 libplasma6
 libplasmaquick6
 plasma-desktoptheme
-t64 libqaccessibilityclient-qt5-0libqaccessibilityclient-qt6-dev
-libqaccessibilityclient-qt5-dev
-libqaccessibilityclient-qt6-0
  libqaccessibilityclient-qt5-0libqaccessibilityclient-qt6-dev
 libqaccessibilityclient-qt5-dev
 libqaccessibilityclient-qt6-0
-t64 gstreamer-qapt
-kde-thumbnailer-deb
-libqapt-dev
-libqapt3
-libqapt3-runtime
-plasma-runner-installer
-qapt-batch
-qapt-deb-installer
-qapt-utils
  gstreamer-qapt
 kde-thumbnailer-deb
 libqapt-dev
@@ -3138,39 +1568,17 @@ plasma-runner-installer
 qapt-batch
 qapt-deb-installer
 qapt-utils
-t64 gir1.2-signon-2.0
-libsignon-glib-dev
-libsignon-glib2
  gir1.2-signon-2.0
 libsignon-glib-dev
 libsignon-glib2
-t64 libspectre-dev
-libspectre1
  libspectre-dev
 libspectre1
-t64 libunibreak-dev
-libunibreak-doc
-libunibreak6
  libunibreak-dev
 libunibreak-doc
 libunibreak6
-t64 lokalize
  lokalize
-t64 lskat
-lskat-data
  lskat
 lskat-data
-t64 libastro-dev
-libastro1
-libmarble-dev
-libmarblewidget-qt5-28
-marble
-marble-data
-marble-maps
-marble-plugins
-marble-qt
-marble-qt-data
-plasma-marble
  libastro-dev
 libastro1
 libmarble-dev
@@ -3182,34 +1590,12 @@ marble-plugins
 marble-qt
 marble-qt-data
 plasma-marble
-t64 markdownpart
  markdownpart
-t64 mbox-importer
  mbox-importer
-t64 libmd4c-dev
-libmd4c-html0
-libmd4c-html0-dev
-libmd4c0
  libmd4c-dev
 libmd4c-html0
 libmd4c-html0-dev
 libmd4c0
-t64 kde-baseapps
-kde-full
-kde-plasma-desktop
-kde-standard
-kdeaccessibility
-kdeadmin
-kdeedu
-kdegames
-kdegraphics
-kdemultimedia
-kdenetwork
-kdepim
-kdesdk
-kdetoys
-kdeutils
-kdewebdev
  kde-baseapps
 kde-full
 kde-plasma-desktop
@@ -3226,43 +1612,19 @@ kdesdk
 kdetoys
 kdeutils
 kdewebdev
-t64 kde-telepathy
-kde-telepathy-minimal
  kde-telepathy
 kde-telepathy-minimal
-t64 miloumilou
  miloumilou
-t64 minuet
-minuet-data
  minuet
 minuet-data
-t64 libkf5modemmanagerqt-doc
-libkf5modemmanagerqt6
-modemmanager-qt-dev
  libkf5modemmanagerqt-doc
 libkf5modemmanagerqt6
 modemmanager-qt-dev
-t64 neochat
  neochat
-t64 libkf5networkmanagerqt-dev
-libkf5networkmanagerqt-doc
-libkf5networkmanagerqt6
  libkf5networkmanagerqt-dev
 libkf5networkmanagerqt-doc
 libkf5networkmanagerqt6
-t64 ocean-sound-themeocean-sound-theme
  ocean-sound-themeocean-sound-theme
-t64 libkasten4controllers0
-libkasten4core0
-libkasten4gui0
-libkasten4okteta2controllers0
-libkasten4okteta2core0
-libkasten4okteta2gui0
-libokteta-l10n
-libokteta3core0
-libokteta3gui0
-okteta
-okteta-dev
  libkasten4controllers0
 libkasten4core0
 libkasten4gui0
@@ -3274,29 +1636,12 @@ libokteta3core0
 libokteta3gui0
 okteta
 okteta-dev
-t64 libokular5core11
-okular
-okular-dev
-okular-extra-backends
-okular-mobile
-qml-module-org-kde-okular
  libokular5core11
 okular
 okular-dev
 okular-extra-backends
 okular-mobile
 qml-module-org-kde-okular
-t64 kde-style-oxygen-qt5
-kde-style-oxygen-qt6
-kwin-decoration-oxygen
-liboxygenstyle5-5
-liboxygenstyle5-6
-liboxygenstyle6-6
-liboxygenstyleconfig5-5
-liboxygenstyleconfig5-6
-liboxygenstyleconfig6-6
-plasma-theme-oxygen
-plasma-theme-oxygenkde-style-oxygen-qt5
  kde-style-oxygen-qt5
 kde-style-oxygen-qt6
 kwin-decoration-oxygen
@@ -3308,41 +1653,16 @@ liboxygenstyleconfig5-6
 liboxygenstyleconfig6-6
 plasma-theme-oxygen
 plasma-theme-oxygenkde-style-oxygen-qt5
-t64 fonts-oxygen
  fonts-oxygen
-t64 oxygen-icon-theme
  oxygen-icon-theme
-t64 oxygen-soundsoxygen-sounds
  oxygen-soundsoxygen-sounds
-t64 palapeli
-palapeli-data
  palapeli
 palapeli-data
-t64 parley
-parley-data
  parley
 parley-data
-t64 partitionmanager
  partitionmanager
-t64 peruse
-peruse-common
  peruse
 peruse-common
-t64 libphonon-l10n
-libphonon4qt5-4t64
-libphonon4qt5-data
-libphonon4qt5-dev
-libphonon4qt5experimental-dev
-libphonon4qt5experimental4t64
-libphonon4qt6-4t64
-libphonon4qt6-dev
-libphonon4qt6experimental-dev
-libphonon4qt6experimental4t64
-phonon4qt5
-phonon4qt5-backend-null
-phonon4qt5settings
-phonon4qt6
-phonon4qt6-backend-null
  libphonon-l10n
 libphonon4qt5-4t64
 libphonon4qt5-data
@@ -3358,75 +1678,37 @@ phonon4qt5-backend-null
 phonon4qt5settings
 phonon4qt6
 phonon4qt6-backend-null
-t64 phonon-backend-gstreamer-common
-phonon4qt5-backend-gstreamer
  phonon-backend-gstreamer-common
 phonon4qt5-backend-gstreamer
-t64 phonon-backend-vlc-common
-phonon4qt5-backend-vlc
-phonon4qt6-backend-vlc
  phonon-backend-vlc-common
 phonon4qt5-backend-vlc
 phonon4qt6-backend-vlc
-t64 picmi
  picmi
-t64 pim-data-exporter
  pim-data-exporter
-t64 pim-sieve-editor
  pim-sieve-editor
-t64 libdlrestrictions-dev
-libdlrestrictions1
-pkg-kde-tools
  libdlrestrictions-dev
 libdlrestrictions1
 pkg-kde-tools
-t64 libplasma5support-data
-libplasma5support-dev
-libplasma5support6
-qml6-module-org-kde-plasma-plasma5support
  libplasma5support-data
 libplasma5support-dev
 libplasma5support6
 qml6-module-org-kde-plasma-plasma5support
-t64 libplasmaactivities-dev
-libplasmaactivities6
-libplasmaactivities6-doc
-plasma-activities-bin
-qml6-module-org-kde-activities
  libplasmaactivities-dev
 libplasmaactivities6
 libplasmaactivities6-doc
 plasma-activities-bin
 qml6-module-org-kde-activities
-t64 libplasmaactivitiesstats-dev
-libplasmaactivitiesstats-doc
-libplasmaactivitiesstats1
  libplasmaactivitiesstats-dev
 libplasmaactivitiesstats-doc
 libplasmaactivitiesstats1
-t64 plasma-bigscreen
  plasma-bigscreen
-t64 plasma-browser-integrationplasma-browser-integration
  plasma-browser-integrationplasma-browser-integration
-t64 plasma-desktop
-plasma-desktop-data
-plasma-desktop-dev
-plasma-desktop-devplasma-desktop
-sddm-theme-breeze
-sddm-theme-debian-breeze
  plasma-desktop
 plasma-desktop-data
 plasma-desktop-dev
 plasma-desktop-devplasma-desktop
 sddm-theme-breeze
 sddm-theme-debian-breeze
-t64 kde-config-updates
-kde-config-updatesplasma-discover
-plasma-discover
-plasma-discover-backend-flatpak
-plasma-discover-backend-fwupd
-plasma-discover-backend-snap
-plasma-discover-common
  kde-config-updates
 kde-config-updatesplasma-discover
 plasma-discover
@@ -3434,75 +1716,30 @@ plasma-discover-backend-flatpak
 plasma-discover-backend-fwupd
 plasma-discover-backend-snap
 plasma-discover-common
-t64 plasma-disksplasma-disks
  plasma-disksplasma-disks
-t64 plasma-firewallplasma-firewall
  plasma-firewallplasma-firewall
-t64 libkf5plasma-dev
-libkf5plasma-doc
-libkf5plasma5
-libkf5plasmaquick5
-plasma-framework
-plasma-frameworklibkf5plasma-dev
  libkf5plasma-dev
 libkf5plasma-doc
 libkf5plasma5
 libkf5plasmaquick5
 plasma-framework
 plasma-frameworklibkf5plasma-dev
-t64 plasma-gamemode
  plasma-gamemode
-t64 plasma-gmailfeed
  plasma-gmailfeed
-t64 plasma-integrationplasma-integration
-plasma5-integration
  plasma-integrationplasma-integration
 plasma5-integration
-t64 plasma-nanoplasma-nano
  plasma-nanoplasma-nano
-t64 kde-config-mobile-networkingplasma-nm
-plasma-nm
  kde-config-mobile-networkingplasma-nm
 plasma-nm
-t64 plasma-paplasma-pa
  plasma-paplasma-pa
-t64 plasma-pass
  plasma-pass
-t64 plasma-remotecontrollers
  plasma-remotecontrollers
-t64 plasma-sdkplasma-sdk
  plasma-sdkplasma-sdk
-t64 plasma-systemmonitorplasma-systemmonitor
  plasma-systemmonitorplasma-systemmonitor
-t64 plasma-thunderboltplasma-thunderbolt
  plasma-thunderboltplasma-thunderbolt
-t64 plasma-vaultplasma-vault
  plasma-vaultplasma-vault
-t64 plasma-wayland-protocols
  plasma-wayland-protocols
-t64 plasma-welcomeplasma-welcome
  plasma-welcomeplasma-welcome
-t64 libcolorcorrect5
-libcolorcorrect6
-libkfontinst5
-libkfontinst6
-libkfontinstui5
-libkfontinstui6
-libkmpris6
-libkworkspace5-5
-libkworkspace6-6
-libnotificationmanager1
-libplasma-geolocation-interface5
-libplasma-geolocation-interface6
-libtaskmanager6
-libtaskmanager6abi1
-libweather-ion7
-plasma-workspace
-plasma-workspace-data
-plasma-workspace-dev
-plasma-workspace-wayland
-sddm-theme-breeze
-sddm-theme-debian-breezelibbatterycontrol6
  libcolorcorrect5
 libcolorcorrect6
 libkfontinst5
@@ -3524,55 +1761,27 @@ plasma-workspace-dev
 plasma-workspace-wayland
 sddm-theme-breeze
 sddm-theme-debian-breezelibbatterycontrol6
-t64 plasma-workspace-wallpapersplasma-workspace-wallpapers
  plasma-workspace-wallpapersplasma-workspace-wallpapers
-t64 kde-config-plymouthkde-config-plymouth
  kde-config-plymouthkde-config-plymouth
-t64 polkit-kde-agent-1polkit-kde-agent-1
  polkit-kde-agent-1polkit-kde-agent-1
-t64 libpolkit-qt5-1-1
-libpolkit-qt5-1-dev
-libpolkit-qt6-1-1
-libpolkit-qt6-1-dev
  libpolkit-qt5-1-1
 libpolkit-qt5-1-dev
 libpolkit-qt6-1-1
 libpolkit-qt6-1-dev
-t64 libpowerdevilcore2
-libpowerdevilui5
-powerdevil
-powerdevil-data
-powerdevil-dev
-powerdevil-devlibpowerdevilcore2
  libpowerdevilcore2
 libpowerdevilui5
 powerdevil
 powerdevil-data
 powerdevil-dev
 powerdevil-devlibpowerdevilcore2
-t64 poxml
  poxml
-t64 print-managerprint-manager
  print-managerprint-manager
-t64 libkf5prison-dev
-libkf5prison-doc
-libkf5prison5
-libkf5prisonscanner5
-qml-module-org-kde-prison
  libkf5prison-dev
 libkf5prison-doc
 libkf5prison5
 libkf5prisonscanner5
 qml-module-org-kde-prison
-t64 projecteur
  projecteur
-t64 libkf5pulseaudioqt-dev
-libkf5pulseaudioqt-doc
-libkf5pulseaudioqt2-doc
-libkf5pulseaudioqt5
-libkf6pulseaudioqt-dev
-libkf6pulseaudioqt-doc
-libkf6pulseaudioqt5
  libkf5pulseaudioqt-dev
 libkf5pulseaudioqt-doc
 libkf5pulseaudioqt2-doc
@@ -3580,53 +1789,11 @@ libkf5pulseaudioqt5
 libkf6pulseaudioqt-dev
 libkf6pulseaudioqt-doc
 libkf6pulseaudioqt5
-t64 libkf5purpose-bin
-libkf5purpose-dev
-libkf5purpose5
-qml-module-org-kde-purpose
-qml-module-org-kde-purposelibkf5purpose-bin
  libkf5purpose-bin
 libkf5purpose-dev
 libkf5purpose5
 qml-module-org-kde-purpose
 qml-module-org-kde-purposelibkf5purpose-bin
-t64 
-libpyside2-dev
-libpyside2-py3-5.15t64
-libshiboken2-dev
-libshiboken2-py3-5.15t64
-pyside2-tools
-python-pyside2-doc
-python3-pyside2.qt3dinput
-python3-pyside2.qt3dlogic
-python3-pyside2.qt3drender
-python3-pyside2.qtcore
-python3-pyside2.qthelp
-python3-pyside2.qtlocation
-python3-pyside2.qtmultimedia
-python3-pyside2.qtmultimediawidgets
-python3-pyside2.qtnetwork
-python3-pyside2.qtpositioning
-python3-pyside2.qtprintsupport
-python3-pyside2.qtqml
-python3-pyside2.qtquick
-python3-pyside2.qtquickcontrols2
-python3-pyside2.qtquickwidgets
-python3-pyside2.qtremoteobjects
-python3-pyside2.qtscript
-python3-pyside2.qtscripttools
-python3-pyside2.qtsensors
-python3-pyside2.qtserialport
-python3-pyside2.qttest
-python3-pyside2.qttexttospeech
-python3-pyside2.qtwebchannel
-python3-pyside2.qtwebenginecore
-python3-pyside2.qtwebenginewidgets
-python3-pyside2.qtwidgets
-python3-pyside2.qtx11extras
-python3-pyside2.qtxml
-shiboken2
-shiboken2-doc
  
 libpyside2-dev
 libpyside2-py3-5.15t64
@@ -3664,13 +1831,6 @@ python3-pyside2.qtx11extras
 python3-pyside2.qtxml
 shiboken2
 shiboken2-doc
-t64 libqbscore2.3
-qbs
-qbs-common
-qbs-dev
-qbs-doc
-qbs-doc-html
-qbs-examples
  libqbscore2.3
 qbs
 qbs-common
@@ -3678,15 +1838,6 @@ qbs-dev
 qbs-doc
 qbs-doc-html
 qbs-examples
-t64 libqca-qt5-2
-libqca-qt5-2-dev
-libqca-qt5-2-plugins
-libqca-qt6-2
-libqca-qt6-dev
-libqca-qt6-plugins
-libqca2-doc
-qca-qt5-2-utils
-qca-qt6-utils
  libqca-qt5-2
 libqca-qt5-2-dev
 libqca-qt5-2-plugins
@@ -3696,23 +1847,7 @@ libqca-qt6-plugins
 libqca2-doc
 qca-qt5-2-utils
 qca-qt6-utils
-t64 qconf
  qconf
-t64 libqcoro5core0t64
-libqcoro5dbus0t64
-libqcoro5network0t64
-libqcoro5qml0t64
-libqcoro5quick0t64
-libqcoro5websockets0t64
-libqcoro6core0t64
-libqcoro6dbus0t64
-libqcoro6network0t64
-libqcoro6qml0t64
-libqcoro6quick0t64
-libqcoro6websockets0t64
-qcoro-doc
-qcoro-qt5-dev
-qcoro-qt6-dev
  libqcoro5core0t64
 libqcoro5dbus0t64
 libqcoro5network0t64
@@ -3728,44 +1863,13 @@ libqcoro6websockets0t64
 qcoro-doc
 qcoro-qt5-dev
 qcoro-qt6-dev
-t64 qgnomeplatform-qt5
-qgnomeplatform-qt6
  qgnomeplatform-qt5
 qgnomeplatform-qt6
-t64 libqqc2breezestyle-dev
-qml-module-org-kde-qqc2breezestylelibqqc2breezestyle-dev
-qml6-module-org-kde-breeze
  libqqc2breezestyle-dev
 qml-module-org-kde-qqc2breezestylelibqqc2breezestyle-dev
 qml6-module-org-kde-breeze
-t64 libkf5qqc2desktopstyle-dev
-qml-module-org-kde-qqc2desktopstyle
  libkf5qqc2desktopstyle-dev
 qml-module-org-kde-qqc2desktopstyle
-t64 libqt53danimation5
-libqt53dcore5
-libqt53dextras5
-libqt53dinput5
-libqt53dlogic5
-libqt53dquick5
-libqt53dquickanimation5
-libqt53dquickextras5
-libqt53dquickinput5
-libqt53dquickrender5
-libqt53dquickscene2d5
-libqt53drender5
-qml-module-qt3d
-qml-module-qtquick-scene2d
-qml-module-qtquick-scene3d
-qt3d-assimpsceneimport-plugin
-qt3d-defaultgeometryloader-plugin
-qt3d-gltfsceneio-plugin
-qt3d-scene2d-plugin
-qt3d5-dev
-qt3d5-dev-tools
-qt3d5-doc
-qt3d5-doc-html
-qt3d5-examples
  libqt53danimation5
 libqt53dcore5
 libqt53dextras5
@@ -3790,40 +1894,10 @@ qt3d5-dev-tools
 qt3d5-doc
 qt3d5-doc-html
 qt3d5-examples
-t64 libqt5ct-common-dev
-libqt5ct-common1.8
-qt5ct
  libqt5ct-common-dev
 libqt5ct-common1.8
 qt5ct
-t64 python3-qt5reactor
  python3-qt5reactor
-t64 libqt63danimation6
-libqt63dcore6
-libqt63dextras6
-libqt63dinput6
-libqt63dlogic6
-libqt63dquick6
-libqt63dquickextras6
-libqt63dquickscene2d6
-libqt63drender6
-qml6-module-qt3d-animation
-qml6-module-qt3d-core
-qml6-module-qt3d-extras
-qml6-module-qt3d-input
-qml6-module-qt3d-logic
-qml6-module-qt3d-render
-qml6-module-qtquick-scene2d
-qml6-module-qtquick-scene3d
-qt6-3d-assimpsceneimport-plugin
-qt6-3d-defaultgeometryloader-plugin
-qt6-3d-dev
-qt6-3d-doc
-qt6-3d-doc-dev
-qt6-3d-doc-html
-qt6-3d-examples
-qt6-3d-gltfsceneio-plugin
-qt6-3d-scene2d-plugin
  libqt63danimation6
 libqt63dcore6
 libqt63dextras6
@@ -3850,47 +1924,12 @@ qt6-3d-doc-html
 qt6-3d-examples
 qt6-3d-gltfsceneio-plugin
 qt6-3d-scene2d-plugin
-t64 libqt6core5compat6
-qml6-module-qt5compat-graphicaleffects
-qt6-5compat-dev
-qt6-5compat-doc
-qt6-5compat-doc-html
-qt6-5compat-examples
  libqt6core5compat6
 qml6-module-qt5compat-graphicaleffects
 qt6-5compat-dev
 qt6-5compat-doc
 qt6-5compat-doc-html
 qt6-5compat-examples
-t64 libqt6concurrent6
-libqt6core6t64
-libqt6dbus6
-libqt6gui6
-libqt6network6
-libqt6opengl6
-libqt6openglwidgets6
-libqt6printsupport6
-libqt6sql6
-libqt6sql6-ibase
-libqt6sql6-mysql
-libqt6sql6-odbc
-libqt6sql6-psql
-libqt6sql6-sqlite
-libqt6test6
-libqt6widgets6
-libqt6xml6
-qmake6
-qmake6-bin
-qt6-base-dev
-qt6-base-dev-tools
-qt6-base-doc
-qt6-base-doc-dev
-qt6-base-doc-html
-qt6-base-examples
-qt6-base-private-dev
-qt6-gtk-platformtheme
-qt6-qpa-plugins
-qt6-xdgdesktopportal-platformtheme
  libqt6concurrent6
 libqt6core6t64
 libqt6dbus6
@@ -3920,25 +1959,12 @@ qt6-base-private-dev
 qt6-gtk-platformtheme
 qt6-qpa-plugins
 qt6-xdgdesktopportal-platformtheme
-t64 libqt6charts6
-qml6-module-qtcharts
-qt6-charts-dev
-qt6-charts-doc
-qt6-charts-doc-html
-qt6-charts-examples
  libqt6charts6
 qml6-module-qtcharts
 qt6-charts-dev
 qt6-charts-doc
 qt6-charts-doc-html
 qt6-charts-examples
-t64 libqt6bluetooth6
-libqt6bluetooth6-bin
-libqt6nfc6
-qt6-connectivity-dev
-qt6-connectivity-doc
-qt6-connectivity-doc-html
-qt6-connectivity-examples
  libqt6bluetooth6
 libqt6bluetooth6-bin
 libqt6nfc6
@@ -3946,56 +1972,12 @@ qt6-connectivity-dev
 qt6-connectivity-doc
 qt6-connectivity-doc-html
 qt6-connectivity-examples
-t64 libqt6datavisualization6
-qml6-module-qtdatavisualization
-qt6-datavis3d-dev
-qt6-datavis3d-doc
-qt6-datavis3d-doc-html
-qt6-datavis3d-examples
  libqt6datavisualization6
 qml6-module-qtdatavisualization
 qt6-datavis3d-dev
 qt6-datavis3d-doc
 qt6-datavis3d-doc-html
 qt6-datavis3d-examples
-t64 
-libqt6qml6
-libqt6qmlcompiler6
-libqt6qmlmodels6
-libqt6qmlworkerscript6
-libqt6quick6
-libqt6quickcontrols2-6
-libqt6quickshapes6
-libqt6quicktemplates2-6
-libqt6quicktest6
-libqt6quickwidgets6
-qml6-module-qmltime
-qml6-module-qt-labs-animation
-qml6-module-qt-labs-folderlistmodel
-qml6-module-qt-labs-platform
-qml6-module-qt-labs-qmlmodels
-qml6-module-qt-labs-settings
-qml6-module-qt-labs-sharedimage
-qml6-module-qt-labs-wavefrontmesh
-qml6-module-qtcore
-qml6-module-qtqml
-qml6-module-qtqml-base
-qml6-module-qtqml-models
-qml6-module-qtqml-workerscript
-qml6-module-qtqml-xmllistmodel
-qml6-module-qtquick
-qml6-module-qtquick-controls
-qml6-module-qtquick-dialogs
-qml6-module-qtquick-effects
-qml6-module-qtquick-layouts
-qml6-module-qtquick-localstorage
-qml6-module-qtquick-nativestyle
-qml6-module-qtquick-particles
-qml6-module-qtquick-shapes
-qml6-module-qtquick-templates
-qml6-module-qtquick-tooling
-qt6-qmllint-plugins
-qt6-qmltooling-plugins
  
 libqt6qml6
 libqt6qmlcompiler6
@@ -4034,17 +2016,6 @@ qml6-module-qtquick-templates
 qml6-module-qtquick-tooling
 qt6-qmllint-plugins
 qt6-qmltooling-plugins
-t64 libqt6grpc6
-libqt6protobuf6
-libqt6protobufqtcoretypes6
-libqt6protobufqtguitypes6
-libqt6protobufwellknowntypes6
-qt6-grpc-dev
-qt6-grpc-doc
-qt6-grpc-doc-dev
-qt6-grpc-doc-html
-qt6-grpc-examples
-qt6-grpc-tools
  libqt6grpc6
 libqt6protobuf6
 libqt6protobufqtcoretypes6
@@ -4056,38 +2027,18 @@ qt6-grpc-doc-dev
 qt6-grpc-doc-html
 qt6-grpc-examples
 qt6-grpc-tools
-t64 libqt6httpserver6
-qt6-httpserver-dev
-qt6-httpserver-doc
-qt6-httpserver-doc-html
-qt6-httpserver-examples
  libqt6httpserver6
 qt6-httpserver-dev
 qt6-httpserver-doc
 qt6-httpserver-doc-html
 qt6-httpserver-examples
-t64 qt6-image-formats-plugins
-qt6-imageformats-doc
-qt6-imageformats-doc-html
  qt6-image-formats-plugins
 qt6-imageformats-doc
 qt6-imageformats-doc-html
-t64 libqt6jsonrpc6
-libqt6languageserver6
-qt6-languageserver-dev
-qt6-languageserver-private-dev
  libqt6jsonrpc6
 libqt6languageserver6
 qt6-languageserver-dev
 qt6-languageserver-private-dev
-t64 libqt6location6
-qml6-module-qtlocation
-qt6-location-dev
-qt6-location-doc
-qt6-location-doc-dev
-qt6-location-doc-html
-qt6-location-examples
-qt6-location-plugins
  libqt6location6
 qml6-module-qtlocation
 qt6-location-dev
@@ -4096,21 +2047,9 @@ qt6-location-doc-dev
 qt6-location-doc-html
 qt6-location-examples
 qt6-location-plugins
-t64 libqt6bodymovin6
-qml6-module-qt-labs-lottieqt
-qt6-lottie-dev
  libqt6bodymovin6
 qml6-module-qt-labs-lottieqt
 qt6-lottie-dev
-t64 libqt6multimedia6
-libqt6multimediawidgets6
-libqt6spatialaudio6
-qml6-module-qtmultimedia
-qml6-module-qtquick3d-spatialaudio
-qt6-multimedia-dev
-qt6-multimedia-doc
-qt6-multimedia-doc-html
-qt6-multimedia-examples
  libqt6multimedia6
 libqt6multimediawidgets6
 libqt6spatialaudio6
@@ -4120,28 +2059,12 @@ qt6-multimedia-dev
 qt6-multimedia-doc
 qt6-multimedia-doc-html
 qt6-multimedia-examples
-t64 libqt6networkauth6
-qt6-networkauth-dev
-qt6-networkauth-doc
-qt6-networkauth-doc-dev
-qt6-networkauth-doc-html
-qt6-networkauth-examples
  libqt6networkauth6
 qt6-networkauth-dev
 qt6-networkauth-doc
 qt6-networkauth-doc-dev
 qt6-networkauth-doc-html
 qt6-networkauth-examples
-t64 libqt6positioning6
-libqt6positioning6-plugins
-libqt6positioningquick6
-qml6-module-qtpositioning
-qt6-positioning-dev
-qt6-positioning-doc
-qt6-positioning-doc-dev
-qt6-positioning-doc-html
-qt6-positioning-examples
-qt6-positioning-private-dev
  libqt6positioning6
 libqt6positioning6-plugins
 libqt6positioningquick6
@@ -4152,29 +2075,6 @@ qt6-positioning-doc-dev
 qt6-positioning-doc-html
 qt6-positioning-examples
 qt6-positioning-private-dev
-t64 libqt6quick3d6
-libqt6quick3dassetimport6
-libqt6quick3dassetutils6
-libqt6quick3dglslparser6
-libqt6quick3diblbaker6
-libqt6quick3druntimerender6
-libqt6quick3dutils6
-qml6-module-qtquick3d
-qml6-module-qtquick3d-assetutils
-qml6-module-qtquick3d-effects
-qml6-module-qtquick3d-helpers
-qml6-module-qtquick3d-materialeditor
-qml6-module-qtquick3d-particleeffects
-qml6-module-qtquick3d-particles3d
-qt6-qmltooling-quick3dprofiler-plugin
-qt6-quick3d-assetimporters-plugin
-qt6-quick3d-dev
-qt6-quick3d-dev-tools
-qt6-quick3d-doc
-qt6-quick3d-doc-dev
-qt6-quick3d-doc-html
-qt6-quick3d-examples
-qt6-quick3d-private-dev
  libqt6quick3d6
 libqt6quick3dassetimport6
 libqt6quick3dassetutils6
@@ -4198,28 +2098,13 @@ qt6-quick3d-doc-dev
 qt6-quick3d-doc-html
 qt6-quick3d-examples
 qt6-quick3d-private-dev
-t64 libqt6quick3dphysics6
-qml6-module-qtquick3d-physics
-qt6-quick3dphysics-dev
-qt6-quick3dphysics-dev-tools
-qt6-quick3dphysics-examples
  libqt6quick3dphysics6
 qml6-module-qtquick3d-physics
 qt6-quick3dphysics-dev
 qt6-quick3dphysics-dev-tools
 qt6-quick3dphysics-examples
-t64 qml6-module-qtquick-timeline
-qt6-quicktimeline-dev
  qml6-module-qtquick-timeline
 qt6-quicktimeline-dev
-t64 libqt6remoteobjects6
-libqt6remoteobjects6-bin
-qml6-module-qtremoteobjects
-qt6-remoteobjects-dev
-qt6-remoteobjects-doc
-qt6-remoteobjects-doc-dev
-qt6-remoteobjects-doc-html
-qt6-remoteobjects-examples
  libqt6remoteobjects6
 libqt6remoteobjects6-bin
 qml6-module-qtremoteobjects
@@ -4228,16 +2113,6 @@ qt6-remoteobjects-doc
 qt6-remoteobjects-doc-dev
 qt6-remoteobjects-doc-html
 qt6-remoteobjects-examples
-t64 libqt6scxml6
-libqt6scxml6-bin
-libqt6statemachine6
-qml6-module-qtqml-statemachine
-qml6-module-qtscxml
-qt6-scxml-dev
-qt6-scxml-doc
-qt6-scxml-doc-dev
-qt6-scxml-doc-html
-qt6-scxml-examples
  libqt6scxml6
 libqt6scxml6-bin
 libqt6statemachine6
@@ -4248,13 +2123,6 @@ qt6-scxml-doc
 qt6-scxml-doc-dev
 qt6-scxml-doc-html
 qt6-scxml-examples
-t64 libqt6sensors6
-qml6-module-qtsensors
-qt6-sensors-dev
-qt6-sensors-doc
-qt6-sensors-doc-dev
-qt6-sensors-doc-html
-qt6-sensors-examples
  libqt6sensors6
 qml6-module-qtsensors
 qt6-sensors-dev
@@ -4262,13 +2130,6 @@ qt6-sensors-doc
 qt6-sensors-doc-dev
 qt6-sensors-doc-html
 qt6-sensors-examples
-t64 libqt6serialbus6
-libqt6serialbus6-bin
-qt6-serialbus-dev
-qt6-serialbus-doc
-qt6-serialbus-doc-dev
-qt6-serialbus-doc-html
-qt6-serialbus-examples
  libqt6serialbus6
 libqt6serialbus6-bin
 qt6-serialbus-dev
@@ -4276,36 +2137,17 @@ qt6-serialbus-doc
 qt6-serialbus-doc-dev
 qt6-serialbus-doc-html
 qt6-serialbus-examples
-t64 libqt6serialport6
-qt6-serialport-dev
-qt6-serialport-doc
-qt6-serialport-doc-html
-qt6-serialport-examples
  libqt6serialport6
 qt6-serialport-dev
 qt6-serialport-doc
 qt6-serialport-doc-html
 qt6-serialport-examples
-t64 libqt6shadertools6
-qt6-shader-baker
-qt6-shadertools-dev
-qt6-shadertools-doc
-qt6-shadertools-doc-dev
-qt6-shadertools-doc-html
  libqt6shadertools6
 qt6-shader-baker
 qt6-shadertools-dev
 qt6-shadertools-doc
 qt6-shadertools-doc-dev
 qt6-shadertools-doc-html
-t64 libqt6texttospeech6
-qml6-module-qttexttospeech
-qt6-speech-dev
-qt6-speech-doc
-qt6-speech-doc-html
-qt6-speech-examples
-qt6-speech-flite-plugin
-qt6-speech-speechd-plugin
  libqt6texttospeech6
 qml6-module-qttexttospeech
 qt6-speech-dev
@@ -4314,13 +2156,6 @@ qt6-speech-doc-html
 qt6-speech-examples
 qt6-speech-flite-plugin
 qt6-speech-speechd-plugin
-t64 libqt6svg6
-libqt6svgwidgets6
-qt6-svg-dev
-qt6-svg-doc
-qt6-svg-doc-dev
-qt6-svg-doc-html
-qt6-svg-examples
  libqt6svg6
 libqt6svgwidgets6
 qt6-svg-dev
@@ -4328,24 +2163,6 @@ qt6-svg-doc
 qt6-svg-doc-dev
 qt6-svg-doc-html
 qt6-svg-examples
-t64 assistant-qt6
-designer-qt6
-designer-qt6-plugins
-libqt6designer6
-libqt6designercomponents6
-libqt6help6
-libqt6uitools6
-linguist-qt6
-qdbus-qt6
-qt6-documentation-tools
-qt6-l10n-tools
-qt6-tools-dev
-qt6-tools-dev-tools
-qt6-tools-doc
-qt6-tools-doc-dev
-qt6-tools-doc-html
-qt6-tools-examples
-qt6-tools-private-dev
  assistant-qt6
 designer-qt6
 designer-qt6-plugins
@@ -4364,15 +2181,7 @@ qt6-tools-doc-dev
 qt6-tools-doc-html
 qt6-tools-examples
 qt6-tools-private-dev
-t64 qt6-translations-l10n
  qt6-translations-l10n
-t64 libqt6virtualkeyboard6
-qml6-module-qtquick-virtualkeyboard
-qt6-virtualkeyboard-dev
-qt6-virtualkeyboard-doc
-qt6-virtualkeyboard-doc-html
-qt6-virtualkeyboard-examples
-qt6-virtualkeyboard-plugin
  libqt6virtualkeyboard6
 qml6-module-qtquick-virtualkeyboard
 qt6-virtualkeyboard-dev
@@ -4380,18 +2189,6 @@ qt6-virtualkeyboard-doc
 qt6-virtualkeyboard-doc-html
 qt6-virtualkeyboard-examples
 qt6-virtualkeyboard-plugin
-t64 libqt6waylandclient6
-libqt6waylandcompositor6
-libqt6wlshellintegration6
-qml6-module-qtwayland-client-texturesharing
-qml6-module-qtwayland-compositor
-qt6-wayland
-qt6-wayland-dev
-qt6-wayland-dev-tools
-qt6-wayland-doc
-qt6-wayland-doc-html
-qt6-wayland-examples
-qt6-wayland-private-dev
  libqt6waylandclient6
 libqt6waylandcompositor6
 libqt6wlshellintegration6
@@ -4404,14 +2201,6 @@ qt6-wayland-doc
 qt6-wayland-doc-html
 qt6-wayland-examples
 qt6-wayland-private-dev
-t64 libqt6webchannel6
-libqt6webchannelquick6
-qml6-module-qtwebchannel
-qt6-webchannel-dev
-qt6-webchannel-doc
-qt6-webchannel-doc-dev
-qt6-webchannel-doc-html
-qt6-webchannel-examples
  libqt6webchannel6
 libqt6webchannelquick6
 qml6-module-qtwebchannel
@@ -4420,26 +2209,6 @@ qt6-webchannel-doc
 qt6-webchannel-doc-dev
 qt6-webchannel-doc-html
 qt6-webchannel-examples
-t64 libqt6pdf6
-libqt6pdfquick6
-libqt6pdfwidgets6
-libqt6webengine6-data
-libqt6webenginecore6
-libqt6webenginecore6-bin
-libqt6webenginequick6
-libqt6webenginewidgets6
-qml6-module-qtquick-pdf
-qml6-module-qtwebengine
-qml6-module-qtwebengine-controlsdelegates
-qt6-image-formats-plugin-pdf
-qt6-pdf-dev
-qt6-webengine-dev
-qt6-webengine-dev-tools
-qt6-webengine-doc
-qt6-webengine-doc-dev
-qt6-webengine-doc-html
-qt6-webengine-examples
-qt6-webengine-private-dev
  libqt6pdf6
 libqt6pdfquick6
 libqt6pdfwidgets6
@@ -4460,14 +2229,6 @@ qt6-webengine-doc-dev
 qt6-webengine-doc-html
 qt6-webengine-examples
 qt6-webengine-private-dev
-t64 libqt6websockets6
-qml6-module-qtwebsockets
-qt6-websockets-dev
-qt6-websockets-doc
-qt6-websockets-doc-dev
-qt6-websockets-doc-html
-qt6-websockets-examples
-qt6-websockets-private-dev
  libqt6websockets6
 qml6-module-qtwebsockets
 qt6-websockets-dev
@@ -4476,13 +2237,6 @@ qt6-websockets-doc-dev
 qt6-websockets-doc-html
 qt6-websockets-examples
 qt6-websockets-private-dev
-t64 libqt6webview6
-qml6-module-qtwebview
-qt6-webview-dev
-qt6-webview-doc
-qt6-webview-doc-html
-qt6-webview-examples
-qt6-webview-plugins
  libqt6webview6
 qml6-module-qtwebview
 qt6-webview-dev
@@ -4490,46 +2244,6 @@ qt6-webview-doc
 qt6-webview-doc-html
 qt6-webview-examples
 qt6-webview-plugins
-t64 libqt5concurrent5
-libqt5concurrent5t64
-libqt5core5a
-libqt5dbus5
-libqt5dbus5t64
-libqt5gui5
-libqt5gui5t64
-libqt5network5
-libqt5network5t64
-libqt5opengl5
-libqt5opengl5-dev
-libqt5opengl5t64
-libqt5printsupport5
-libqt5printsupport5t64
-libqt5sql5
-libqt5sql5-ibase
-libqt5sql5-mysql
-libqt5sql5-odbc
-libqt5sql5-psql
-libqt5sql5-sqlite
-libqt5sql5-tds
-libqt5sql5t64
-libqt5test5
-libqt5test5t64
-libqt5widgets5
-libqt5widgets5t64
-libqt5xml5
-libqt5xml5t64
-qt5-gtk-platformtheme
-qt5-qmake
-qt5-qmake-bin
-qt5-xdgdesktopportal-platformtheme
-qtbase5-dev
-qtbase5-dev-tools
-qtbase5-doc
-qtbase5-doc-dev
-qtbase5-doc-devlibqt5core5t64
-qtbase5-doc-html
-qtbase5-examples
-qtbase5-private-dev
  libqt5concurrent5
 libqt5concurrent5t64
 libqt5core5a
@@ -4570,35 +2284,16 @@ qtbase5-doc-devlibqt5core5t64
 qtbase5-doc-html
 qtbase5-examples
 qtbase5-private-dev
-t64 libqt5gui5-gles
-qtbase5-gles-dev
-qtbase5-private-gles-dev
  libqt5gui5-gles
 qtbase5-gles-dev
 qtbase5-private-gles-dev
-t64 libqt5charts5
-libqt5charts5-dev
-qml-module-qtcharts
-qtcharts5-doc
-qtcharts5-doc-html
-qtcharts5-examples
  libqt5charts5
 libqt5charts5-dev
 qml-module-qtcharts
 qtcharts5-doc
 qtcharts5-doc-html
 qtcharts5-examples
-t64 qtchooser
  qtchooser
-t64 libqt5bluetooth5
-libqt5bluetooth5-bin
-libqt5nfc5
-qml-module-qtbluetooth
-qml-module-qtnfc
-qtconnectivity5-dev
-qtconnectivity5-doc
-qtconnectivity5-doc-html
-qtconnectivity5-examples
  libqt5bluetooth5
 libqt5bluetooth5-bin
 libqt5nfc5
@@ -4608,71 +2303,21 @@ qtconnectivity5-dev
 qtconnectivity5-doc
 qtconnectivity5-doc-html
 qtconnectivity5-examples
-t64 qtcreator
-qtcreator-data
-qtcreator-doc
-qtcreator-docqtcreator
  qtcreator
 qtcreator-data
 qtcreator-doc
 qtcreator-docqtcreator
-t64 gtk2-engines-qtcurve
-kde-style-qtcurve-qt5
-libqtcurve-utils2
-qtcurve
-qtcurve-l10n
  gtk2-engines-qtcurve
 kde-style-qtcurve-qt5
 libqtcurve-utils2
 qtcurve
 qtcurve-l10n
-t64 libqt5datavisualization5
-libqt5datavisualization5-dev
-qml-module-qtdatavisualization
-qtdatavisualization5-doc
-qtdatavisualization5-doc-html
-qtdatavisualization5-examples
  libqt5datavisualization5
 libqt5datavisualization5-dev
 qml-module-qtdatavisualization
 qtdatavisualization5-doc
 qtdatavisualization5-doc-html
 qtdatavisualization5-examples
-t64 libqt5qml5
-libqt5qmlmodels5
-libqt5qmlworkerscript5
-libqt5quick5
-libqt5quickparticles5
-libqt5quickshapes5
-libqt5quicktest5
-libqt5quickwidgets5
-qml
-qml-module-qt-labs-animation
-qml-module-qt-labs-folderlistmodel
-qml-module-qt-labs-qmlmodels
-qml-module-qt-labs-settings
-qml-module-qt-labs-sharedimage
-qml-module-qt-labs-wavefrontmesh
-qml-module-qtqml
-qml-module-qtqml-models2
-qml-module-qtqml-statemachine
-qml-module-qtqml-workerscript2
-qml-module-qtquick-layouts
-qml-module-qtquick-localstorage
-qml-module-qtquick-particles2
-qml-module-qtquick-shapes
-qml-module-qtquick-window2
-qml-module-qtquick2
-qml-module-qttest
-qmlscene
-qt5-qmltooling-plugins
-qtdeclarative5-dev
-qtdeclarative5-dev-tools
-qtdeclarative5-doc
-qtdeclarative5-doc-dev
-qtdeclarative5-doc-html
-qtdeclarative5-examples
-qtdeclarative5-private-dev
  libqt5qml5
 libqt5qmlmodels5
 libqt5qmlworkerscript5
@@ -4708,53 +2353,25 @@ qtdeclarative5-doc-dev
 qtdeclarative5-doc-html
 qtdeclarative5-examples
 qtdeclarative5-private-dev
-t64 libqt5quick5-gles
-libqt5quickparticles5-gles
  libqt5quick5-gles
 libqt5quickparticles5-gles
-t64 qt5-doc
-qt5-doc-html
-qt5-quick-demos
  qt5-doc
 qt5-doc-html
 qt5-quick-demos
-t64 libqt5feedback5
-qml-module-qtfeedback
-qtfeedback5-dev
-qtfeedback5-doc
-qtfeedback5-examples
  libqt5feedback5
 qml-module-qtfeedback
 qtfeedback5-dev
 qtfeedback5-doc
 qtfeedback5-examples
-t64 libqt5gamepad5
-libqt5gamepad5-dev
-qml-module-qtgamepad
-qtgamepad5-doc
-qtgamepad5-doc-html
-qtgamepad5-examples
  libqt5gamepad5
 libqt5gamepad5-dev
 qml-module-qtgamepad
 qtgamepad5-doc
 qtgamepad5-doc-html
 qtgamepad5-examples
-t64 qml-module-qtgraphicaleffects
-qtgraphicaleffects5-doc
-qtgraphicaleffects5-doc-html
  qml-module-qtgraphicaleffects
 qtgraphicaleffects5-doc
 qtgraphicaleffects5-doc-html
-t64 libqt5glib-2.0-0
-libqt5gstreamer-1.0-0
-libqt5gstreamer-dev
-libqt5gstreamerquick-1.0-0
-libqt5gstreamerui-1.0-0
-libqt5gstreamerutils-1.0-0
-qml-module-qtgstreamer
-qtgstreamer-doc
-qtgstreamer-plugins-qt5
  libqt5glib-2.0-0
 libqt5gstreamer-1.0-0
 libqt5gstreamer-dev
@@ -4764,33 +2381,12 @@ libqt5gstreamerutils-1.0-0
 qml-module-qtgstreamer
 qtgstreamer-doc
 qtgstreamer-plugins-qt5
-t64 qt5-image-formats-plugins
  qt5-image-formats-plugins
-t64 libqt5keychain1
-libqt6keychain1
-qt5keychain-dev
-qtkeychain-qt5-dev
-qtkeychain-qt6-dev
  libqt5keychain1
 libqt6keychain1
 qt5keychain-dev
 qtkeychain-qt5-dev
 qtkeychain-qt6-dev
-t64 libqt5location5
-libqt5location5-plugin-mapboxgl
-libqt5location5-plugins
-libqt5positioning5
-libqt5positioning5-plugins
-libqt5positioningquick5
-qml-module-qt-labs-location
-qml-module-qtlocation
-qml-module-qtpositioning
-qtlocation5-dev
-qtlocation5-doc
-qtlocation5-doc-dev
-qtlocation5-doc-html
-qtlocation5-examples
-qtpositioning5-dev
  libqt5location5
 libqt5location5-plugin-mapboxgl
 libqt5location5-plugins
@@ -4806,17 +2402,6 @@ qtlocation5-doc-dev
 qtlocation5-doc-html
 qtlocation5-examples
 qtpositioning5-dev
-t64 libqt5multimedia5
-libqt5multimedia5-plugins
-libqt5multimediagsttools5
-libqt5multimediaquick5
-libqt5multimediawidgets5
-qml-module-qtaudioengine
-qml-module-qtmultimedia
-qtmultimedia5-dev
-qtmultimedia5-doc
-qtmultimedia5-doc-html
-qtmultimedia5-examples
  libqt5multimedia5
 libqt5multimedia5-plugins
 libqt5multimediagsttools5
@@ -4828,27 +2413,11 @@ qtmultimedia5-dev
 qtmultimedia5-doc
 qtmultimedia5-doc-html
 qtmultimedia5-examples
-t64 libqt5networkauth5
-libqt5networkauth5-dev
-qtnetworkauth5-doc
-qtnetworkauth5-doc-html
-qtnetworkauth5-examples
  libqt5networkauth5
 libqt5networkauth5-dev
 qtnetworkauth5-doc
 qtnetworkauth5-doc-html
 qtnetworkauth5-examples
-t64 libqt5contacts5a
-libqt5organizer5a
-libqt5versit5a
-libqt5versitorganizer5a
-qml-module-qtcontacts
-qml-module-qtorganizer
-qtpim5-dev
-qtpim5-doc
-qtpim5-doc-html
-qtpim5-examples
-qtpim5-private-dev
  libqt5contacts5a
 libqt5organizer5a
 libqt5versit5a
@@ -4860,17 +2429,6 @@ qtpim5-doc
 qtpim5-doc-html
 qtpim5-examples
 qtpim5-private-dev
-t64 libqt5quickcontrols2-5
-libqt5quicktemplates2-5
-qml-module-qt-labs-calendar
-qml-module-qt-labs-platform
-qml-module-qtquick-controls2
-qml-module-qtquick-templates2
-qtquickcontrols2-5-dev
-qtquickcontrols2-5-doc
-qtquickcontrols2-5-doc-html
-qtquickcontrols2-5-examples
-qtquickcontrols2-5-private-dev
  libqt5quickcontrols2-5
 libqt5quicktemplates2-5
 qml-module-qt-labs-calendar
@@ -4882,13 +2440,6 @@ qtquickcontrols2-5-doc
 qtquickcontrols2-5-doc-html
 qtquickcontrols2-5-examples
 qtquickcontrols2-5-private-dev
-t64 qml-module-qtquick-controls
-qml-module-qtquick-dialogs
-qml-module-qtquick-extras
-qml-module-qtquick-privatewidgets
-qtquickcontrols5-doc
-qtquickcontrols5-doc-html
-qtquickcontrols5-examples
  qml-module-qtquick-controls
 qml-module-qtquick-dialogs
 qml-module-qtquick-extras
@@ -4896,13 +2447,6 @@ qml-module-qtquick-privatewidgets
 qtquickcontrols5-doc
 qtquickcontrols5-doc-html
 qtquickcontrols5-examples
-t64 libqt5remoteobjects5
-libqt5remoteobjects5-bin
-libqt5remoteobjects5-dev
-qml-module-qtremoteobjects
-qtremoteobjects5-doc
-qtremoteobjects5-doc-html
-qtremoteobjects5-examples
  libqt5remoteobjects5
 libqt5remoteobjects5-bin
 libqt5remoteobjects5-dev
@@ -4910,26 +2454,12 @@ qml-module-qtremoteobjects
 qtremoteobjects5-doc
 qtremoteobjects5-doc-html
 qtremoteobjects5-examples
-t64 libqt5script5
-libqt5scripttools5
-qtscript5-dev
-qtscript5-doc
-qtscript5-doc-html
-qtscript5-examples
  libqt5script5
 libqt5scripttools5
 qtscript5-dev
 qtscript5-doc
 qtscript5-doc-html
 qtscript5-examples
-t64 libqt5scxml5
-libqt5scxml5-bin
-libqt5scxml5-dev
-libqt5scxml5-private-dev
-qml-module-qtscxml
-qtscxml5-doc
-qtscxml5-doc-html
-qtscxml5-examples
  libqt5scxml5
 libqt5scxml5-bin
 libqt5scxml5-dev
@@ -4938,25 +2468,12 @@ qml-module-qtscxml
 qtscxml5-doc
 qtscxml5-doc-html
 qtscxml5-examples
-t64 libqt5sensors5
-libqt5sensors5-dev
-qml-module-qtsensors
-qtsensors5-doc
-qtsensors5-doc-html
-qtsensors5-examples
  libqt5sensors5
 libqt5sensors5-dev
 qml-module-qtsensors
 qtsensors5-doc
 qtsensors5-doc-html
 qtsensors5-examples
-t64 libqt5serialbus5
-libqt5serialbus5-bin
-libqt5serialbus5-dev
-libqt5serialbus5-plugins
-qtserialbus5-doc
-qtserialbus5-doc-html
-qtserialbus5-examples
  libqt5serialbus5
 libqt5serialbus5-bin
 libqt5serialbus5-dev
@@ -4964,23 +2481,11 @@ libqt5serialbus5-plugins
 qtserialbus5-doc
 qtserialbus5-doc-html
 qtserialbus5-examples
-t64 libqt5serialport5
-libqt5serialport5-dev
-qt5serialport-examples
-qtserialport5-doc
-qtserialport5-doc-html
  libqt5serialport5
 libqt5serialport5-dev
 qt5serialport-examples
 qtserialport5-doc
 qtserialport5-doc-html
-t64 libqt5texttospeech5
-libqt5texttospeech5-dev
-qtspeech5-doc
-qtspeech5-doc-html
-qtspeech5-examples
-qtspeech5-flite-plugin
-qtspeech5-speechd-plugin
  libqt5texttospeech5
 libqt5texttospeech5-dev
 qtspeech5-doc
@@ -4988,47 +2493,20 @@ qtspeech5-doc-html
 qtspeech5-examples
 qtspeech5-flite-plugin
 qtspeech5-speechd-plugin
-t64 libqtspell-qt5-1
-libqtspell-qt5-data
-libqtspell-qt5-dev
-libqtspell-qt5-html
  libqtspell-qt5-1
 libqtspell-qt5-data
 libqtspell-qt5-dev
 libqtspell-qt5-html
-t64 qt5-gtk2-platformtheme
-qt5-style-plugin-cleanlooks
-qt5-style-plugin-motif
-qt5-style-plugin-plastique
-qt5-style-plugins
  qt5-gtk2-platformtheme
 qt5-style-plugin-cleanlooks
 qt5-style-plugin-motif
 qt5-style-plugin-plastique
 qt5-style-plugins
-t64 libqt5svg5
-libqt5svg5-dev
-qtsvg5-doc
-qtsvg5-doc-html
-qtsvg5-examples
  libqt5svg5
 libqt5svg5-dev
 qtsvg5-doc
 qtsvg5-doc-html
 qtsvg5-examples
-t64 libqt5publishsubscribe5
-libqt5publishsubscribe5t64
-libqt5serviceframework5
-libqt5systeminfo5
-libqt5systeminfo5t64
-qml-module-qtpublishsubscribe
-qml-module-qtserviceframework
-qml-module-qtsysteminfo
-qtsystems5-dev
-qtsystems5-examples
-qtsystems5-exampleslibqt5serviceframework5t64
-qtsystems5-private-dev
-qtsystems5-tools
  libqt5publishsubscribe5
 libqt5publishsubscribe5t64
 libqt5serviceframework5
@@ -5042,20 +2520,6 @@ qtsystems5-examples
 qtsystems5-exampleslibqt5serviceframework5t64
 qtsystems5-private-dev
 qtsystems5-tools
-t64 libqt5designer5
-libqt5designercomponents5
-libqt5help5
-qdbus-qt5
-qdoc-qt5
-qhelpgenerator-qt5
-qt5-assistant
-qtattributionsscanner-qt5
-qttools5-dev
-qttools5-dev-tools
-qttools5-doc
-qttools5-doc-html
-qttools5-examples
-qttools5-private-dev
  libqt5designer5
 libqt5designercomponents5
 libqt5help5
@@ -5070,16 +2534,7 @@ qttools5-doc
 qttools5-doc-html
 qttools5-examples
 qttools5-private-dev
-t64 qttranslations5-l10n
  qttranslations5-l10n
-t64 libqt5hunspellinputmethod5
-libqt5virtualkeyboard5
-libqt5virtualkeyboard5-dev
-qml-module-qtquick-virtualkeyboard
-qtvirtualkeyboard-plugin
-qtvirtualkeyboard5-doc
-qtvirtualkeyboard5-doc-html
-qtvirtualkeyboard5-examples
  libqt5hunspellinputmethod5
 libqt5virtualkeyboard5
 libqt5virtualkeyboard5-dev
@@ -5088,18 +2543,6 @@ qtvirtualkeyboard-plugin
 qtvirtualkeyboard5-doc
 qtvirtualkeyboard5-doc-html
 qtvirtualkeyboard5-examples
-t64 libqt5waylandclient5
-libqt5waylandclient5-dev
-libqt5waylandcompositor5
-libqt5waylandcompositor5-dev
-qml-module-qtwayland-client-texturesharing
-qml-module-qtwayland-compositor
-qtwayland5
-qtwayland5-dev-tools
-qtwayland5-doc
-qtwayland5-doc-html
-qtwayland5-examples
-qtwayland5-private-dev
  libqt5waylandclient5
 libqt5waylandclient5-dev
 libqt5waylandcompositor5
@@ -5112,37 +2555,12 @@ qtwayland5-doc
 qtwayland5-doc-html
 qtwayland5-examples
 qtwayland5-private-dev
-t64 libqt5webchannel5
-libqt5webchannel5-dev
-qml-module-qtwebchannel
-qtwebchannel5-doc
-qtwebchannel5-doc-html
-qtwebchannel5-examples
  libqt5webchannel5
 libqt5webchannel5-dev
 qml-module-qtwebchannel
 qtwebchannel5-doc
 qtwebchannel5-doc-html
 qtwebchannel5-examples
-t64 libqt5pdf5
-libqt5pdfwidgets5
-libqt5webengine-data
-libqt5webengine5
-libqt5webenginecore5
-libqt5webenginewidgets5
-qml-module-qtquick-pdf
-qml-module-qtwebengine
-qt5-image-formats-plugin-pdf
-qtpdf5-dev
-qtpdf5-doc
-qtpdf5-doc-html
-qtpdf5-examples
-qtwebengine5-dev
-qtwebengine5-dev-tools
-qtwebengine5-doc
-qtwebengine5-doc-html
-qtwebengine5-examples
-qtwebengine5-private-dev
  libqt5pdf5
 libqt5pdfwidgets5
 libqt5webengine-data
@@ -5162,19 +2580,9 @@ qtwebengine5-doc
 qtwebengine5-doc-html
 qtwebengine5-examples
 qtwebengine5-private-dev
-t64 libqt5webkit5
-libqt5webkit5-dev
-qml-module-qtwebkit
  libqt5webkit5
 libqt5webkit5-dev
 qml-module-qtwebkit
-t64 libqt5websockets5
-libqt5websockets5-dev
-qml-module-qt-websockets
-qml-module-qtwebsockets
-qtwebsockets5-doc
-qtwebsockets5-doc-html
-qtwebsockets5-examples
  libqt5websockets5
 libqt5websockets5-dev
 qml-module-qt-websockets
@@ -5182,33 +2590,16 @@ qml-module-qtwebsockets
 qtwebsockets5-doc
 qtwebsockets5-doc-html
 qtwebsockets5-examples
-t64 libqt5webview5
-libqt5webview5-dev
-qml-module-qtwebview
-qtwebview5-doc
-qtwebview5-doc-html
-qtwebview5-examples
  libqt5webview5
 libqt5webview5-dev
 qml-module-qtwebview
 qtwebview5-doc
 qtwebview5-doc-html
 qtwebview5-examples
-t64 libqt5x11extras5
-libqt5x11extras5-dev
-qtx11extras5-doc
-qtx11extras5-doc-html
  libqt5x11extras5
 libqt5x11extras5-dev
 qtx11extras5-doc
 qtx11extras5-doc-html
-t64 libqt5xmlpatterns5
-libqt5xmlpatterns5-dev
-qml-module-qtquick-xmllistmodel
-qtxmlpatterns5-dev-tools
-qtxmlpatterns5-doc
-qtxmlpatterns5-doc-html
-qtxmlpatterns5-examples
  libqt5xmlpatterns5
 libqt5xmlpatterns5-dev
 qml-module-qtquick-xmllistmodel
@@ -5216,42 +2607,20 @@ qtxmlpatterns5-dev-tools
 qtxmlpatterns5-doc
 qtxmlpatterns5-doc-html
 qtxmlpatterns5-examples
-t64 quassel
-quassel-client
-quassel-core
-quassel-data
  quassel
 quassel-client
 quassel-core
 quassel-data
-t64 libqzxing-dev
-libqzxing3
-qml-module-qzxing
  libqzxing-dev
 libqzxing3
 qml-module-qzxing
-t64 libreadstat-dev
-libreadstat1t64
-readstat
  libreadstat-dev
 libreadstat1t64
 readstat
-t64 rkward
-rkward-data
  rkward
 rkward-data
-t64 rocs
  rocs
-t64 rsibreak
  rsibreak
-t64 sddm
-sddm-theme-debian-elarun
-sddm-theme-debian-maui
-sddm-theme-elarun
-sddm-theme-maldives
-sddm-theme-maui
-sddm-theme-maya
-sddm-theme-mayasddm
  sddm
 sddm-theme-debian-elarun
 sddm-theme-debian-maui
@@ -5260,23 +2629,7 @@ sddm-theme-maldives
 sddm-theme-maui
 sddm-theme-maya
 sddm-theme-mayasddm
-t64 kde-config-sddmkde-config-sddm
  kde-config-sddmkde-config-sddm
-t64 libsignon-extension1
-libsignon-plugins-common1
-libsignon-plugins-doc
-libsignon-qt-doc
-libsignon-qt5-1
-libsignon-qt5-dev
-libsignon-qt6-1
-libsignon-qt6-dev
-signon-plugin-password
-signon-plugin-ssotest
-signon-plugins-dev
-signond
-signond-dev
-signond-doc
-signond-doclibsignon-extension1
  libsignon-extension1
 libsignon-plugins-common1
 libsignon-plugins-doc
@@ -5292,52 +2645,25 @@ signond
 signond-dev
 signond-doc
 signond-doclibsignon-extension1
-t64 signon-kwallet-extensionsignon-kwallet-extension
  signon-kwallet-extensionsignon-kwallet-extension
-t64 signon-plugin-oauth2
-signon-plugin-oauth2-dev
-signon-plugin-oauth2-devsignon-plugin-oauth2
  signon-plugin-oauth2
 signon-plugin-oauth2-dev
 signon-plugin-oauth2-devsignon-plugin-oauth2
-t64 signon-ui-service
-signon-ui-servicesignon-ui-qt
-signon-ui-x11
  signon-ui-service
 signon-ui-servicesignon-ui-qt
 signon-ui-x11
-t64 skanlite
  skanlite
-t64 skanpage
  skanpage
-t64 skladnik
  skladnik
-t64 skrooge
-skrooge-common
  skrooge
 skrooge-common
-t64 smb4ksmb4k
  smb4ksmb4k
-t64 libkf5solid-bin
-libkf5solid-dev
-libkf5solid-doc
-libkf5solid5
-libkf5solid5-data
-qml-module-org-kde-solid
  libkf5solid-bin
 libkf5solid-dev
 libkf5solid-doc
 libkf5solid5
 libkf5solid5-data
 qml-module-org-kde-solid
-t64 libkf5sonnet-dev
-libkf5sonnet-dev-bin
-libkf5sonnet-doc
-libkf5sonnet5-data
-libkf5sonnetcore5
-libkf5sonnetui5
-qml-module-org-kde-sonnet
-sonnet-plugins
  libkf5sonnet-dev
 libkf5sonnet-dev-bin
 libkf5sonnet-doc
@@ -5346,118 +2672,44 @@ libkf5sonnetcore5
 libkf5sonnetui5
 qml-module-org-kde-sonnet
 sonnet-plugins
-t64 soundkonverter
  soundkonverter
-t64 libstellarsolver-dev
-libstellarsolver2
  libstellarsolver-dev
 libstellarsolver2
-t64 step
  step
-t64 subtitlecomposer
  subtitlecomposer
-t64 svgpart
  svgpart
-t64 sweeper
  sweeper
-t64 libkf5syndication-dev
-libkf5syndication-doc
-libkf5syndication5abi1
  libkf5syndication-dev
 libkf5syndication-doc
 libkf5syndication5abi1
-t64 systemsettingssystemsettings
  systemsettingssystemsettings
-t64 telepathy-accounts-signon
  telepathy-accounts-signon
-t64 libtelepathy-logger-qt-dev
-libtelepathy-logger-qt5
  libtelepathy-logger-qt-dev
 libtelepathy-logger-qt5
-t64 libtelepathy-qt5-0
-libtelepathy-qt5-dev
-libtelepathy-qt5-farstream0
  libtelepathy-qt5-0
 libtelepathy-qt5-dev
 libtelepathy-qt5-farstream0
-t64 tellico
-tellico-data
-tellico-doc
-tellico-scripts
  tellico
 tellico-data
 tellico-doc
 tellico-scripts
-t64 libkf5threadweaver-dev
-libkf5threadweaver-doc
-libkf5threadweaver5
  libkf5threadweaver-dev
 libkf5threadweaver-doc
 libkf5threadweaver5
-t64 tokodon
  tokodon
-t64 umbrello
-umbrello-data
  umbrello
 umbrello-data
-t64 verdigris
  verdigris
-t64 kde-config-tabletkde-config-tablet
  kde-config-tabletkde-config-tablet
-t64 xdg-desktop-portal-kdexdg-desktop-portal-kde
  xdg-desktop-portal-kdexdg-desktop-portal-kde
-t64 yakuakeyakuake
  yakuakeyakuake
-t64 zanshin
  zanshin
-t64 kde-zeroconf
  kde-zeroconf
-t64 libzug-dev
  libzug-dev
-t64 iwyu
  iwyu
-t64 libedit-dev
-libedit2
-libeditreadline-dev
  libedit-dev
 libedit2
 libeditreadline-dev
-t64 clang
-clang-format
-clang-tidy
-clang-tools
-clangd
-flang
-libbolt-dev
-libbolt-devllvm
-libc++-dev
-libc++-dev-wasm32
-libc++1
-libc++abi-dev
-libc++abi-devllvm
-libc++abi1
-libclang-cpp-dev
-libclang-dev
-libclang-rt-dev
-libclang-rt-dev-wasm32
-libclang-rt-dev-wasm64
-libclang1
-libflang-dev
-liblld-dev
-liblldb-dev
-libllvm-ocaml-dev
-libomp-dev
-libomp5
-lld
-lldb
-llvm
-llvm-bolt
-llvm-dev
-llvm-runtime
-python-clang
-python-lldb
-python3-clang
-python3-lldb
  clang
 clang-format
 clang-tidy
@@ -5494,66 +2746,6 @@ python-clang
 python-lldb
 python3-clang
 python3-lldb
-t64 clang-14
-clang-14-doc
-clang-14-examples
-clang-format-14
-clang-tidy-14
-clang-tools-14
-clangd-14
-libc++-14-dev
-libc++-14-dev-wasm32
-libc++1-14
-libc++1-14t64
-libc++abi-14-dev
-libc++abi-14-dev-wasm32
-libc++abi1-14
-libc++abi1-14t64
-libclang-14-dev
-libclang-common-14-dev
-libclang-cpp14
-libclang-cpp14-dev
-libclang-cpp14t64
-libclang-rt-14-dev
-libclang-rt-14-dev-wasm32
-libclang-rt-14-dev-wasm64
-libclang1-14
-libclang1-14t64
-libclc-14
-libclc-14-dev
-libfuzzer-14-dev
-liblld-14
-liblld-14-dev
-liblldb-14
-liblldb-14-dev
-liblldb-14t64
-libllvm-14-ocaml-dev
-libllvm14
-libllvm14t64
-libmlir-14
-libmlir-14-dev
-libmlir-14-devclang-14
-libmlir-14t64
-libomp-14-dev
-libomp-14-doc
-libomp5-14
-libomp5-14t64
-libpolly-14-dev
-libunwind-14
-libunwind-14-dev
-libunwind-14t64
-lld-14
-lldb-14
-llvm-14
-llvm-14-dev
-llvm-14-doc
-llvm-14-examples
-llvm-14-linker-tools
-llvm-14-runtime
-llvm-14-tools
-mlir-14-tools
-python3-clang-14
-python3-lldb-14
  clang-14
 clang-14-doc
 clang-14-examples
@@ -5614,70 +2806,6 @@ llvm-14-tools
 mlir-14-tools
 python3-clang-14
 python3-lldb-14
-t64 bolt-15
-clang-15
-clang-15-doc
-clang-15-examples
-clang-format-15
-clang-tidy-15
-clang-tools-15
-clangd-15
-flang-15
-libbolt-15-dev
-libc++-15-dev
-libc++-15-dev-wasm32
-libc++1-15
-libc++1-15t64
-libc++abi-15-dev
-libc++abi-15-dev-wasm32
-libc++abi1-15
-libc++abi1-15t64
-libclang-15-dev
-libclang-common-15-dev
-libclang-cpp15
-libclang-cpp15-dev
-libclang-cpp15t64
-libclang-rt-15-dev
-libclang-rt-15-dev-wasm32
-libclang-rt-15-dev-wasm64
-libclang1-15
-libclang1-15t64
-libclc-15
-libclc-15-dev
-libflang-15-dev
-libflang-15-devclang-15
-libfuzzer-15-dev
-liblld-15
-liblld-15-dev
-liblldb-15
-liblldb-15-dev
-liblldb-15t64
-libllvm-15-ocaml-dev
-libllvm15
-libllvm15t64
-libmlir-15
-libmlir-15-dev
-libmlir-15t64
-libomp-15-dev
-libomp-15-doc
-libomp5-15
-libomp5-15t64
-libpolly-15-dev
-libunwind-15
-libunwind-15-dev
-libunwind-15t64
-lld-15
-lldb-15
-llvm-15
-llvm-15-dev
-llvm-15-doc
-llvm-15-examples
-llvm-15-linker-tools
-llvm-15-runtime
-llvm-15-tools
-mlir-15-tools
-python3-clang-15
-python3-lldb-15
  bolt-15
 clang-15
 clang-15-doc
@@ -5742,70 +2870,6 @@ llvm-15-tools
 mlir-15-tools
 python3-clang-15
 python3-lldb-15
-t64 bolt-16
-clang-16
-clang-16-doc
-clang-16-examples
-clang-format-16
-clang-tidy-16
-clang-tools-16
-clangd-16
-flang-16
-libbolt-16-dev
-libc++-16-dev
-libc++-16-dev-wasm32
-libc++1-16
-libc++1-16t64
-libc++abi-16-dev
-libc++abi-16-dev-wasm32
-libc++abi1-16
-libc++abi1-16t64
-libclang-16-dev
-libclang-common-16-dev
-libclang-cpp16
-libclang-cpp16-dev
-libclang-cpp16t64
-libclang-rt-16-dev
-libclang-rt-16-dev-wasm32
-libclang-rt-16-dev-wasm64
-libclang1-16
-libclang1-16t64
-libclc-16
-libclc-16-dev
-libflang-16-dev
-libflang-16-devclang-16
-libfuzzer-16-dev
-liblld-16
-liblld-16-dev
-liblldb-16
-liblldb-16-dev
-liblldb-16t64
-libllvm-16-ocaml-dev
-libllvm16
-libllvm16t64
-libmlir-16
-libmlir-16-dev
-libmlir-16t64
-libomp-16-dev
-libomp-16-doc
-libomp5-16
-libomp5-16t64
-libpolly-16-dev
-libunwind-16
-libunwind-16-dev
-libunwind-16t64
-lld-16
-lldb-16
-llvm-16
-llvm-16-dev
-llvm-16-doc
-llvm-16-examples
-llvm-16-linker-tools
-llvm-16-runtime
-llvm-16-tools
-mlir-16-tools
-python3-clang-16
-python3-lldb-16
  bolt-16
 clang-16
 clang-16-doc
@@ -5870,60 +2934,6 @@ llvm-16-tools
 mlir-16-tools
 python3-clang-16
 python3-lldb-16
-t64 bolt-17
-clang-17
-clang-17-doc
-clang-17-examples
-clang-format-17
-clang-tidy-17
-clang-tools-17
-clangd-17
-flang-17
-libbolt-17-dev
-libc++-17-dev
-libc++-17-dev-wasm32
-libc++1-17t64
-libc++abi-17-dev
-libc++abi-17-dev-wasm32
-libc++abi1-17t64
-libclang-17-dev
-libclang-common-17-dev
-libclang-cpp17-dev
-libclang-cpp17t64
-libclang-rt-17-dev
-libclang-rt-17-dev-wasm32
-libclang-rt-17-dev-wasm64
-libclang1-17t64
-libclc-17
-libclc-17-dev
-libflang-17-dev
-libfuzzer-17-dev
-liblld-17
-liblld-17-dev
-liblldb-17-dev
-liblldb-17t64
-libllvm-17-ocaml-dev
-libllvm17t64
-libmlir-17-dev
-libmlir-17t64
-libomp-17-dev
-libomp-17-doc
-libomp5-17t64
-libpolly-17-dev
-libunwind-17-dev
-libunwind-17t64
-lld-17
-lldb-17
-llvm-17
-llvm-17-dev
-llvm-17-doc
-llvm-17-examples
-llvm-17-linker-tools
-llvm-17-runtime
-llvm-17-tools
-mlir-17-tools
-python3-clang-17
-python3-lldb-17
  bolt-17
 clang-17
 clang-17-doc
@@ -5978,62 +2988,6 @@ llvm-17-tools
 mlir-17-tools
 python3-clang-17
 python3-lldb-17
-t64 bolt-18
-clang-18
-clang-18-doc
-clang-18-examples
-clang-format-18
-clang-tidy-18
-clang-tools-18
-clangd-18
-flang-18
-libbolt-18-dev
-libc++-18-dev
-libc++-18-dev-wasm32
-libc++1-18
-libc++abi-18-dev
-libc++abi-18-dev-wasm32
-libc++abi1-18
-libclang-18-dev
-libclang-common-18-dev
-libclang-cpp18
-libclang-cpp18-dev
-libclang-rt-18-dev
-libclang-rt-18-dev-wasm32
-libclang-rt-18-dev-wasm64
-libclang1-18
-libclc-18
-libclc-18-dev
-libflang-18-dev
-libfuzzer-18-dev
-liblld-18
-liblld-18-dev
-liblldb-18
-liblldb-18-dev
-libllvm-18-ocaml-dev
-libllvm18
-libllvmlibc-18-dev
-libllvmlibc-18-devclang-18
-libmlir-18
-libmlir-18-dev
-libomp-18-dev
-libomp-18-doc
-libomp5-18
-libpolly-18-dev
-libunwind-18
-libunwind-18-dev
-lld-18
-lldb-18
-llvm-18
-llvm-18-dev
-llvm-18-doc
-llvm-18-examples
-llvm-18-linker-tools
-llvm-18-runtime
-llvm-18-tools
-mlir-18-tools
-python3-clang-18
-python3-lldb-18
  bolt-18
 clang-18
 clang-18-doc
@@ -6090,63 +3044,6 @@ llvm-18-tools
 mlir-18-tools
 python3-clang-18
 python3-lldb-18
-t64 bolt-19
-clang-19
-clang-19-doc
-clang-19-examples
-clang-format-19
-clang-tidy-19
-clang-tools-19
-clangd-19
-flang-19
-libbolt-19-dev
-libc++-19-dev
-libc++-19-dev-wasm32
-libc++1-19
-libc++abi-19-dev
-libc++abi-19-dev-wasm32
-libc++abi1-19
-libclang-19-dev
-libclang-common-19-dev
-libclang-cpp19
-libclang-cpp19-dev
-libclang-rt-19-dev
-libclang-rt-19-dev-wasm32
-libclang-rt-19-dev-wasm64
-libclang1-19
-libclc-19
-libclc-19-dev
-libflang-19-dev
-libflang-19-devclang-19
-libfuzzer-19-dev
-liblld-19
-liblld-19-dev
-liblldb-19
-liblldb-19-dev
-libllvm-19-ocaml-dev
-libllvm19
-libllvmlibc-19-dev
-libllvmlibc-19-devclang-19
-libmlir-19
-libmlir-19-dev
-libomp-19-dev
-libomp-19-doc
-libomp5-19
-libpolly-19-dev
-libunwind-19
-libunwind-19-dev
-lld-19
-lldb-19
-llvm-19
-llvm-19-dev
-llvm-19-doc
-llvm-19-examples
-llvm-19-linker-tools
-llvm-19-runtime
-llvm-19-tools
-mlir-19-tools
-python3-clang-19
-python3-lldb-19
  bolt-19
 clang-19
 clang-19-doc
@@ -6204,83 +3101,19 @@ llvm-19-tools
 mlir-19-tools
 python3-clang-19
 python3-lldb-19
-t64 llvmlite-doc
-llvmlite-docpython3-llvmlite
-python3-llvmlite
  llvmlite-doc
 llvmlite-docpython3-llvmlite
 python3-llvmlite
-t64 libswiftlang
-swiftlang
-swiftlang-dev
-swiftlang-doc
  libswiftlang
 swiftlang
 swiftlang-dev
 swiftlang-doc
-t64 libz3-4
-libz3-dev
-libz3-java
-libz3-jni
-python3-z3
-z3
  libz3-4
 libz3-dev
 libz3-java
 libz3-jni
 python3-z3
 z3
-t64 glibc-doc
-glibc-source
-libc-bin
-libc-dev-bin
-libc-devtools
-libc-l10n
-libc0.1
-libc0.1-dbg
-libc0.1-dev
-libc0.1-dev-i386
-libc0.1-i386
-libc0.1-udeb
-libc0.3
-libc0.3-dbg
-libc0.3-dev
-libc0.3-udeb
-libc6
-libc6-amd64
-libc6-dbg
-libc6-dev
-libc6-dev-amd64
-libc6-dev-i386
-libc6-dev-mips32
-libc6-dev-mips64
-libc6-dev-mipsn32
-libc6-dev-powerpc
-libc6-dev-ppc64
-libc6-dev-s390
-libc6-dev-sparc
-libc6-dev-sparc64
-libc6-dev-x32
-libc6-dev-x32libc-bin
-libc6-i386
-libc6-mips32
-libc6-mips64
-libc6-mipsn32
-libc6-powerpc
-libc6-ppc64
-libc6-s390
-libc6-sparc
-libc6-sparc64
-libc6-udeb
-libc6-x32
-libc6.1
-libc6.1-alphaev67libc-bin
-libc6.1-dbg
-libc6.1-dev
-libc6.1-udeb
-locales
-locales-all
-nscd
  glibc-doc
 glibc-source
 libc-bin
@@ -6332,81 +3165,14 @@ libc6.1-udeb
 locales
 locales-all
 nscd
-t64 libnsl-dev
-libnsl2
  libnsl-dev
 libnsl2
-t64 libnss-nis
  libnss-nis
-t64 libnss-nisplus
  libnss-nisplus
-t64 rpcsvc-proto
  rpcsvc-proto
-t64 tzdata
-tzdata-legacy
  tzdata
 tzdata-legacy
-t64 glibc-doc-reference
  glibc-doc-reference
-t64 
-cpp
-cpp-alpha-linux-gnu
-cpp-arc-linux-gnu
-cpp-for-build
-cpp-for-host
-cpp-x86-64-linux-gnu
-g++
-g++-alpha-linux-gnu
-g++-arc-linux-gnu
-g++-for-build
-g++-for-host
-g++-multilib
-g++-x86-64-linux-gnu
-gcc
-gcc-alpha-linux-gnu
-gcc-arc-linux-gnu
-gcc-for-build
-gcc-for-host
-gcc-hppa64-linux-gnu
-gcc-multilib
-gcc-offload-amdgcn
-gcc-offload-nvptx
-gcc-x86-64-linux-gnu
-gccgo
-gccgo-alpha-linux-gnu
-gccgo-for-build
-gccgo-for-host
-gccgo-multilib
-gdc
-gdc-for-build
-gdc-for-host
-gdc-multilib
-gfortran
-gfortran-alpha-linux-gnu
-gfortran-arc-linux-gnu
-gfortran-for-build
-gfortran-for-host
-gfortran-multilib
-gm2
-gm2-alpha-linux-gnu
-gm2-arc-linux-gnu
-gm2-for-build
-gm2-for-host
-gobjc
-gobjc++
-gobjc++-alpha-linux-gnu
-gobjc++-arc-linux-gnu
-gobjc++-for-build
-gobjc++-for-host
-gobjc++-multilib
-gobjc++-x86-64-linux-gnu
-gobjc-alpha-linux-gnu
-gobjc-arc-linux-gnu
-gobjc-for-build
-gobjc-for-host
-gobjc-multilib
-gobjc-x86-64-linux-gnu
-libgphobos-dev
  
 cpp
 cpp-alpha-linux-gnu
@@ -6466,30 +3232,7 @@ gobjc-for-host
 gobjc-multilib
 gobjc-x86-64-linux-gnu
 libgphobos-dev
-t64 adwaita-icon-theme
  adwaita-icon-theme
-t64 at-spi2-common
-at-spi2-core
-at-spi2-core-udeb
-at-spi2-doc
-gir1.2-atk-1.0
-gir1.2-atk-1.0at-spi2-core
-gir1.2-atspi-2.0
-libatk-adaptor
-libatk-adaptor-udeb
-libatk-bridge-2.0-0-udeb
-libatk-bridge2.0-0
-libatk-bridge2.0-0t64
-libatk-bridge2.0-dev
-libatk1.0-0
-libatk1.0-0t64
-libatk1.0-dev
-libatk1.0-doc
-libatk1.0-udeb
-libatspi0-udeb
-libatspi2.0-0
-libatspi2.0-0t64
-libatspi2.0-dev
  at-spi2-common
 at-spi2-core
 at-spi2-core-udeb
@@ -6512,97 +3255,34 @@ libatspi0-udeb
 libatspi2.0-0
 libatspi2.0-0t64
 libatspi2.0-dev
-t64 baobab
  baobab
-t64 gnome-calls
-gnome-calls-doc
  gnome-calls
 gnome-calls-doc
-t64 fonts-cantarell
  fonts-cantarell
-t64 d-spy
-dspy-common
-libdspy-1-1
-libdspy-dev
  d-spy
 dspy-common
 libdspy-1-1
 libdspy-dev
-t64 dconf-cli
-dconf-gsettings-backend
-dconf-service
-libdconf-dev
-libdconf-doc
-libdconf1
  dconf-cli
 dconf-gsettings-backend
 dconf-service
 libdconf-dev
 libdconf-doc
 libdconf1
-t64 dconf-editor
  dconf-editor
-t64 devhelp
-devhelp-common
-gir1.2-devhelp-3.0
-libdevhelp-3-6
-libdevhelp-dev
  devhelp
 devhelp-common
 gir1.2-devhelp-3.0
 libdevhelp-3-6
 libdevhelp-dev
-t64 epiphany-browser
-epiphany-browser-data
  epiphany-browser
 epiphany-browser-data
-t64 evince
-evince-common
-gir1.2-evince-3.0
-libevdocument3-4t64
-libevince-dev
-libevview3-3t64
  evince
 evince-common
 gir1.2-evince-3.0
 libevdocument3-4t64
 libevince-dev
 libevview3-3t64
-t64 evolution-data-server
-evolution-data-server-common
-evolution-data-server-dev
-evolution-data-server-doc
-evolution-data-server-tests
-gir1.2-camel-1.2
-gir1.2-ebackend-1.2
-gir1.2-ebook-1.2
-gir1.2-ebookcontacts-1.2
-gir1.2-ecal-2.0
-gir1.2-edatabook-1.2
-gir1.2-edatacal-2.0
-gir1.2-edataserver-1.2
-gir1.2-edataserverui-1.2
-gir1.2-edataserverui4-1.0
-libcamel-1.2-64t64
-libcamel1.2-dev
-libebackend-1.2-11t64
-libebackend1.2-dev
-libebook-1.2-21t64
-libebook-contacts-1.2-4t64
-libebook-contacts1.2-dev
-libebook1.2-dev
-libecal-2.0-3
-libecal2.0-dev
-libedata-book-1.2-27t64
-libedata-book1.2-dev
-libedata-cal-2.0-2t64
-libedata-cal2.0-dev
-libedataserver-1.2-27t64
-libedataserver1.2-dev
-libedataserverui-1.2-4t64
-libedataserverui1.2-dev
-libedataserverui4-1.0-0t64
-libedataserverui4-dev
  evolution-data-server
 evolution-data-server-common
 evolution-data-server-dev
@@ -6638,21 +3318,6 @@ libedataserverui-1.2-4t64
 libedataserverui1.2-dev
 libedataserverui4-1.0-0t64
 libedataserverui4-dev
-t64 folks-common
-folks-tools
-gir1.2-folks-0.7
-libfolks-dev
-libfolks-doc
-libfolks-dummy-dev
-libfolks-dummy-doc
-libfolks-dummy26
-libfolks-eds-dev
-libfolks-eds-doc
-libfolks-eds26
-libfolks-telepathy-dev
-libfolks-telepathy-doc
-libfolks-telepathy26
-libfolks26
  folks-common
 folks-tools
 gir1.2-folks-0.7
@@ -6668,28 +3333,12 @@ libfolks-telepathy-dev
 libfolks-telepathy-doc
 libfolks-telepathy26
 libfolks26
-t64 gcab
-gir1.2-gcab-1.0
-libgcab-1.0-0
-libgcab-dev
-libgcab-doc
-libgcab-tests
  gcab
 gir1.2-gcab-1.0
 libgcab-1.0-0
 libgcab-dev
 libgcab-doc
 libgcab-tests
-t64 gcr
-gir1.2-gck-1
-gir1.2-gcr-3
-libgck-1-0
-libgck-1-dev
-libgck-1-doc
-libgcr-3-dev
-libgcr-3-doc
-libgcr-base-3-1
-libgcr-ui-3-1
  gcr
 gir1.2-gck-1
 gir1.2-gcr-3
@@ -6700,15 +3349,6 @@ libgcr-3-dev
 libgcr-3-doc
 libgcr-base-3-1
 libgcr-ui-3-1
-t64 gcr4
-gir1.2-gck-2
-gir1.2-gcr-4
-libgck-2-2
-libgck-2-dev
-libgck-2-doc
-libgcr-4-4
-libgcr-4-dev
-libgcr-4-doc
  gcr4
 gir1.2-gck-2
 gir1.2-gcr-4
@@ -6718,16 +3358,6 @@ libgck-2-doc
 libgcr-4-4
 libgcr-4-dev
 libgcr-4-doc
-t64 gdk-pixbuf-tests
-gdk-pixbuf-testslibgdk-pixbuf-2.0-0
-gir1.2-gdkpixbuf-2.0
-libgdk-pixbuf-2.0-0
-libgdk-pixbuf-2.0-0-udeb
-libgdk-pixbuf-2.0-dev
-libgdk-pixbuf2.0-0-udeb
-libgdk-pixbuf2.0-bin
-libgdk-pixbuf2.0-common
-libgdk-pixbuf2.0-doc
  gdk-pixbuf-tests
 gdk-pixbuf-testslibgdk-pixbuf-2.0-0
 gir1.2-gdkpixbuf-2.0
@@ -6738,63 +3368,26 @@ libgdk-pixbuf2.0-0-udeb
 libgdk-pixbuf2.0-bin
 libgdk-pixbuf2.0-common
 libgdk-pixbuf2.0-doc
-t64 gdm3
-gir1.2-gdm-1.0
-libgdm-dev
-libgdm1
  gdm3
 gir1.2-gdm-1.0
 libgdm-dev
 libgdm1
-t64 geocode-glib-common
-geocode-glib-tests
-gir1.2-geocodeglib-2.0
-libgeocode-glib-2-0
-libgeocode-glib-dev
-libgeocode-glib-doc
  geocode-glib-common
 geocode-glib-tests
 gir1.2-geocodeglib-2.0
 libgeocode-glib-2-0
 libgeocode-glib-dev
 libgeocode-glib-doc
-t64 gir1.2-gexiv2-0.10
-libgexiv2-2
-libgexiv2-dev
-libgexiv2-doc
  gir1.2-gexiv2-0.10
 libgexiv2-2
 libgexiv2-dev
 libgexiv2-doc
-t64 gi-docgen
-gi-docgen-doc
  gi-docgen
 gi-docgen-doc
-t64 gjs
-gjs-tests
-libgjs-dev
-libgjs0g
  gjs
 gjs-tests
 libgjs-dev
 libgjs0g
-t64 gir1.2-girepository-3.0
-gir1.2-girepository-3.0-dev
-gir1.2-glib-2.0
-gir1.2-glib-2.0-dev
-libgirepository-2.0-0
-libgirepository-2.0-dev
-libglib2.0-0
-libglib2.0-0t64
-libglib2.0-bin
-libglib2.0-data
-libglib2.0-dev
-libglib2.0-dev-bin
-libglib2.0-doc
-libglib2.0-doclibglib2.0-0
-libglib2.0-doclibglib2.0-0t64
-libglib2.0-tests
-libglib2.0-udeb
  gir1.2-girepository-3.0
 gir1.2-girepository-3.0-dev
 gir1.2-glib-2.0
@@ -6812,37 +3405,18 @@ libglib2.0-doclibglib2.0-0
 libglib2.0-doclibglib2.0-0t64
 libglib2.0-tests
 libglib2.0-udeb
-t64 glib-networking
-glib-networking-common
-glib-networking-services
-glib-networking-tests
  glib-networking
 glib-networking-common
 glib-networking-services
 glib-networking-tests
-t64 libglibmm-2.68-1t64
-libglibmm-2.68-dev
-libglibmm-2.68-doc
  libglibmm-2.68-1t64
 libglibmm-2.68-dev
 libglibmm-2.68-doc
-t64 gir1.2-gmime-3.0
-gmime-bin
-libgmime-3.0-0t64
-libgmime-3.0-dev
-libgmime-3.0-doc
  gir1.2-gmime-3.0
 gmime-bin
 libgmime-3.0-0t64
 libgmime-3.0-dev
 libgmime-3.0-doc
-t64 gir1.2-gnomeautoar-0.1
-gir1.2-gnomeautoargtk-0.1
-libgnome-autoar-0-0
-libgnome-autoar-0-dev
-libgnome-autoar-doc
-libgnome-autoar-gtk-0-0
-libgnome-autoar-gtk-0-dev
  gir1.2-gnomeautoar-0.1
 gir1.2-gnomeautoargtk-0.1
 libgnome-autoar-0-0
@@ -6850,16 +3424,7 @@ libgnome-autoar-0-dev
 libgnome-autoar-doc
 libgnome-autoar-gtk-0-0
 libgnome-autoar-gtk-0-dev
-t64 gnome-backgrounds
  gnome-backgrounds
-t64 gir1.2-gnomebluetooth-3.0
-gnome-bluetooth-3-common
-gnome-bluetooth-sendto
-libgnome-bluetooth-3.0-13
-libgnome-bluetooth-3.0-dev
-libgnome-bluetooth-doc
-libgnome-bluetooth-ui-3.0-13
-libgnome-bluetooth-ui-3.0-dev
  gir1.2-gnomebluetooth-3.0
 gnome-bluetooth-3-common
 gnome-bluetooth-sendto
@@ -6868,50 +3433,20 @@ libgnome-bluetooth-3.0-dev
 libgnome-bluetooth-doc
 libgnome-bluetooth-ui-3.0-13
 libgnome-bluetooth-ui-3.0-dev
-t64 gnome-boxes
  gnome-boxes
-t64 gnome-builder
  gnome-builder
-t64 gnome-calculator
  gnome-calculator
-t64 gnome-calendar
  gnome-calendar
-t64 gnome-characters
  gnome-characters
-t64 gnome-clocks
  gnome-clocks
-t64 gnome-color-manager
  gnome-color-manager
-t64 gnome-connections
  gnome-connections
-t64 gnome-console
-kgx
  gnome-console
 kgx
-t64 gnome-contacts
  gnome-contacts
-t64 gnome-control-center
-gnome-control-center-data
-gnome-control-center-dev
  gnome-control-center
 gnome-control-center-data
 gnome-control-center-dev
-t64 gir1.2-gnomebg-4.0
-gir1.2-gnomedesktop-3.0
-gir1.2-gnomedesktop-4.0
-gir1.2-gnomerr-4.0
-gnome-desktop-3-tests
-gnome-desktop3-data
-libgnome-bg-4-2t64
-libgnome-bg-4-dev
-libgnome-desktop-3-20t64
-libgnome-desktop-3-dev
-libgnome-desktop-3-dev-bin
-libgnome-desktop-4-2t64
-libgnome-desktop-4-dev
-libgnome-desktop-doc
-libgnome-rr-4-2t64
-libgnome-rr-4-dev
  gir1.2-gnomebg-4.0
 gir1.2-gnomedesktop-3.0
 gir1.2-gnomedesktop-4.0
@@ -6928,40 +3463,19 @@ libgnome-desktop-4-dev
 libgnome-desktop-doc
 libgnome-rr-4-2t64
 libgnome-rr-4-dev
-t64 gnome-disk-utility
  gnome-disk-utility
-t64 gnome-font-viewer
  gnome-font-viewer
-t64 gnome-initial-setup
  gnome-initial-setup
-t64 gnome-keyring
-gnome-keyring-pkcs11
-libpam-gnome-keyring
  gnome-keyring
 gnome-keyring-pkcs11
 libpam-gnome-keyring
-t64 gnome-logs
  gnome-logs
-t64 gnome-maps
  gnome-maps
-t64 gir1.2-gmenu-3.0
-gnome-menus
-libgnome-menu-3-0
-libgnome-menu-3-dev
  gir1.2-gmenu-3.0
 gnome-menus
 libgnome-menu-3-0
 libgnome-menu-3-dev
-t64 gnome-music
  gnome-music
-t64 gir1.2-goa-1.0
-gnome-online-accounts
-libgoa-1.0-0b
-libgoa-1.0-common
-libgoa-1.0-dev
-libgoa-1.0-doc
-libgoa-backend-1.0-2
-libgoa-backend-1.0-dev
  gir1.2-goa-1.0
 gnome-online-accounts
 libgoa-1.0-0b
@@ -6970,38 +3484,18 @@ libgoa-1.0-dev
 libgoa-1.0-doc
 libgoa-backend-1.0-2
 libgoa-backend-1.0-dev
-t64 gnome-remote-desktop
  gnome-remote-desktop
-t64 gnome-session
-gnome-session-bin
-gnome-session-common
-gnome-session-xsession
  gnome-session
 gnome-session-bin
 gnome-session-common
 gnome-session-xsession
-t64 gnome-settings-daemon
-gnome-settings-daemon-common
-gnome-settings-daemon-dev
  gnome-settings-daemon
 gnome-settings-daemon-common
 gnome-settings-daemon-dev
-t64 gnome-shell
-gnome-shell-common
-gnome-shell-extension-prefs
  gnome-shell
 gnome-shell-common
 gnome-shell-extension-prefs
-t64 gnome-shell-extensions
  gnome-shell-extensions
-t64 gnome-software
-gnome-software-common
-gnome-software-dev
-gnome-software-doc
-gnome-software-plugin-deb
-gnome-software-plugin-flatpak
-gnome-software-plugin-fwupd
-gnome-software-plugin-snap
  gnome-software
 gnome-software-common
 gnome-software-dev
@@ -7010,28 +3504,12 @@ gnome-software-plugin-deb
 gnome-software-plugin-flatpak
 gnome-software-plugin-fwupd
 gnome-software-plugin-snap
-t64 gnome-system-monitor
  gnome-system-monitor
-t64 gnome-text-editor
  gnome-text-editor
-t64 gnome-tour
  gnome-tour
-t64 gnome-user-docs
  gnome-user-docs
-t64 gnome-user-share
  gnome-user-share
-t64 gnome-weather
  gnome-weather
-t64 gir1.2-freedesktop
-gir1.2-freedesktop-dev
-gir1.2-girepository-2.0
-gir1.2-girepository-2.0-dev
-gobject-introspection
-gobject-introspection-bin
-libgirepository-1.0-1
-libgirepository-1.0-dev
-libgirepository1.0-dev
-libgirepository1.0-doc
  gir1.2-freedesktop
 gir1.2-freedesktop-dev
 gir1.2-girepository-2.0
@@ -7042,76 +3520,35 @@ libgirepository-1.0-1
 libgirepository-1.0-dev
 libgirepository1.0-dev
 libgirepository1.0-doc
-t64 gir1.2-gom-1.0
-libgom-1.0-0t64
-libgom-1.0-dev
-libgom-1.0-doc
  gir1.2-gom-1.0
 libgom-1.0-0t64
 libgom-1.0-dev
 libgom-1.0-doc
-t64 gir1.2-grilo-0.3
-libgrilo-0.3-0
-libgrilo-0.3-bin
-libgrilo-0.3-dev
-libgrilo-0.3-doc
  gir1.2-grilo-0.3
 libgrilo-0.3-0
 libgrilo-0.3-bin
 libgrilo-0.3-dev
 libgrilo-0.3-doc
-t64 grilo-plugins-0.3
  grilo-plugins-0.3
-t64 gir1.2-gdesktopenums-3.0
-gsettings-desktop-schemas
-gsettings-desktop-schemas-dev
  gir1.2-gdesktopenums-3.0
 gsettings-desktop-schemas
 gsettings-desktop-schemas-dev
-t64 gir1.2-gsound-1.0
-gsound-tools
-libgsound-dev
-libgsound-doc
-libgsound0t64
  gir1.2-gsound-1.0
 gsound-tools
 libgsound-dev
 libgsound-doc
 libgsound0t64
-t64 gir1.2-gspell-1
-gspell-1-tests
-libgspell-1-2
-libgspell-1-common
-libgspell-1-dev
-libgspell-1-doc
  gir1.2-gspell-1
 gspell-1-tests
 libgspell-1-2
 libgspell-1-common
 libgspell-1-dev
 libgspell-1-doc
-t64 gir1.2-gssdp-1.6
-gssdp-tools
-libgssdp-1.6-0
-libgssdp-1.6-dev
-libgssdp-doc
  gir1.2-gssdp-1.6
 gssdp-tools
 libgssdp-1.6-0
 libgssdp-1.6-dev
 libgssdp-doc
-t64 gir1.2-gtk-4.0
-gir1.2-gtk-4.0libgtk-4-1
-gtk-4-examples
-gtk-4-tests
-libgtk-4-1
-libgtk-4-1-udeb
-libgtk-4-bin
-libgtk-4-common
-libgtk-4-dev
-libgtk-4-doc
-libgtk-4-media-ffmpeg
-libgtk-4-media-gstreamer
  gir1.2-gtk-4.0
 gir1.2-gtk-4.0libgtk-4-1
 gtk-4-examples
@@ -7124,20 +3561,6 @@ libgtk-4-dev
 libgtk-4-doc
 libgtk-4-media-ffmpeg
 libgtk-4-media-gstreamer
-t64 gir1.2-gtk-3.0
-gtk-3-examples
-gtk-update-icon-cache
-libgail-3-0
-libgail-3-0t64
-libgail-3-dev
-libgail-3-doc
-libgail-3-doclibgtk-3-0t64
-libgtk-3-0
-libgtk-3-0-udeb
-libgtk-3-bin
-libgtk-3-common
-libgtk-3-dev
-libgtk-3-doc
  gir1.2-gtk-3.0
 gtk-3-examples
 gtk-update-icon-cache
@@ -7152,195 +3575,96 @@ libgtk-3-bin
 libgtk-3-common
 libgtk-3-dev
 libgtk-3-doc
-t64 gtk-doc-tools
  gtk-doc-tools
-t64 gir1.2-gtk-vnc-2.0
-gvncviewer
-libgtk-vnc-2.0-0
-libgtk-vnc-2.0-dev
-libgvnc-1.0-0
-libgvnc-1.0-dev
  gir1.2-gtk-vnc-2.0
 gvncviewer
 libgtk-vnc-2.0-0
 libgtk-vnc-2.0-dev
 libgvnc-1.0-0
 libgvnc-1.0-dev
-t64 libgtkmm-4.0-0
-libgtkmm-4.0-dev
-libgtkmm-4.0-doc
  libgtkmm-4.0-0
 libgtkmm-4.0-dev
 libgtkmm-4.0-doc
-t64 gir1.2-gtksource-4
-libgtksourceview-4-0
-libgtksourceview-4-common
-libgtksourceview-4-dev
-libgtksourceview-4-doc
-libgtksourceview-4-tests
  gir1.2-gtksource-4
 libgtksourceview-4-0
 libgtksourceview-4-common
 libgtksourceview-4-dev
 libgtksourceview-4-doc
 libgtksourceview-4-tests
-t64 gir1.2-gtksource-5
-libgtksourceview-5-0
-libgtksourceview-5-common
-libgtksourceview-5-dev
-libgtksourceview-5-doc
-libgtksourceview-5-tests
  gir1.2-gtksource-5
 libgtksourceview-5-0
 libgtksourceview-5-common
 libgtksourceview-5-dev
 libgtksourceview-5-doc
 libgtksourceview-5-tests
-t64 gir1.2-gupnp-1.6
-libgupnp-1.6-0
-libgupnp-1.6-dev
-libgupnp-doc
  gir1.2-gupnp-1.6
 libgupnp-1.6-0
 libgupnp-1.6-dev
 libgupnp-doc
-t64 gir1.2-gupnp-av-1.0
-libgupnp-av-1.0-3
-libgupnp-av-1.0-dev
-libgupnp-av-doc
  gir1.2-gupnp-av-1.0
 libgupnp-av-1.0-3
 libgupnp-av-1.0-dev
 libgupnp-av-doc
-t64 gir1.2-gupnpdlna-2.0
-gupnp-dlna-tools
-libgupnp-dlna-2.0-4
-libgupnp-dlna-2.0-dev
-libgupnp-dlna-doc
  gir1.2-gupnpdlna-2.0
 gupnp-dlna-tools
 libgupnp-dlna-2.0-4
 libgupnp-dlna-2.0-dev
 libgupnp-dlna-doc
-t64 gvfs
-gvfs-backends
-gvfs-common
-gvfs-daemons
-gvfs-fuse
-gvfs-libs
  gvfs
 gvfs-backends
 gvfs-common
 gvfs-daemons
 gvfs-fuse
 gvfs-libs
-t64 gir1.2-json-1.0
-json-glib-tools
-libjson-glib-1.0-0
-libjson-glib-1.0-common
-libjson-glib-dev
-libjson-glib-doc
  gir1.2-json-1.0
 json-glib-tools
 libjson-glib-1.0-0
 libjson-glib-1.0-common
 libjson-glib-dev
 libjson-glib-doc
-t64 gir1.2-jsonrpc-1.0
-libjsonrpc-glib-1.0-1
-libjsonrpc-glib-1.0-dev
-libjsonrpc-glib-doc
  gir1.2-jsonrpc-1.0
 libjsonrpc-glib-1.0-1
 libjsonrpc-glib-1.0-dev
 libjsonrpc-glib-doc
-t64 gir1.2-adw-1
-libadwaita-1-0
-libadwaita-1-dev
-libadwaita-1-doc
-libadwaita-1-examples
  gir1.2-adw-1
 libadwaita-1-0
 libadwaita-1-dev
 libadwaita-1-doc
 libadwaita-1-examples
-t64 gir1.2-dex-1
-libdex-1-1
-libdex-dev
-libdex-doc
  gir1.2-dex-1
 libdex-1-1
 libdex-dev
 libdex-doc
-t64 gir1.2-gee-0.8
-libgee-0.8-2
-libgee-0.8-dev
  gir1.2-gee-0.8
 libgee-0.8-2
 libgee-0.8-dev
-t64 gir1.2-gsf-1
-libgsf-1-114
-libgsf-1-common
-libgsf-1-dev
-libgsf-bin
  gir1.2-gsf-1
 libgsf-1-114
 libgsf-1-common
 libgsf-1-dev
 libgsf-bin
-t64 gir1.2-gtop-2.0
-libgtop-2.0-11
-libgtop2-common
-libgtop2-dev
-libgtop2-doc
  gir1.2-gtop-2.0
 libgtop-2.0-11
 libgtop2-common
 libgtop2-dev
 libgtop2-doc
-t64 gir1.2-gweather-4.0
-libgweather-4-0t64
-libgweather-4-common
-libgweather-4-dev
  gir1.2-gweather-4.0
 libgweather-4-0t64
 libgweather-4-common
 libgweather-4-dev
-t64 gir1.2-gxps-0.1
-libgxps-dev
-libgxps-doc
-libgxps-utils
-libgxps2t64
  gir1.2-gxps-0.1
 libgxps-dev
 libgxps-doc
 libgxps-utils
 libgxps2t64
-t64 gir1.2-handy-1
-handy-1-examples
-libhandy-1-0
-libhandy-1-dev
  gir1.2-handy-1
 handy-1-examples
 libhandy-1-0
 libhandy-1-dev
-t64 gir1.2-mediaart-2.0
-libmediaart-2.0-0
-libmediaart-2.0-dev
-libmediaart-doc
  gir1.2-mediaart-2.0
 libmediaart-2.0-0
 libmediaart-2.0-dev
 libmediaart-doc
-t64 gir1.2-nma-1.0
-gir1.2-nma4-1.0
-libnma-common
-libnma-dev
-libnma-doc
-libnma-gtk4-0
-libnma-gtk4-dev
-libnma-headers
-libnma0
  gir1.2-nma-1.0
 gir1.2-nma4-1.0
 libnma-common
@@ -7350,53 +3674,26 @@ libnma-gtk4-0
 libnma-gtk4-dev
 libnma-headers
 libnma0
-t64 gir1.2-notify-0.7
-libnotify-bin
-libnotify-dev
-libnotify-doc
-libnotify4
  gir1.2-notify-0.7
 libnotify-bin
 libnotify-dev
 libnotify-doc
 libnotify4
-t64 gir1.2-panel-1
-libpanel-1-1
-libpanel-common
-libpanel-dev
-libpanel-doc
  gir1.2-panel-1
 libpanel-1-1
 libpanel-common
 libpanel-dev
 libpanel-doc
-t64 gir1.2-peas-1.0
-libpeas-1.0-0
-libpeas-common
-libpeas-dev
-libpeas-doc
  gir1.2-peas-1.0
 libpeas-1.0-0
 libpeas-common
 libpeas-dev
 libpeas-doc
-t64 gir1.2-peas-2
-libpeas-2-0
-libpeas-2-common
-libpeas-2-dev
-libpeas-2-doc
  gir1.2-peas-2
 libpeas-2-0
 libpeas-2-common
 libpeas-2-dev
 libpeas-2-doc
-t64 gir1.2-rsvg-2.0
-librsvg2-2
-librsvg2-bin
-librsvg2-common
-librsvg2-dev
-librsvg2-doc
-librsvg2-tests
  gir1.2-rsvg-2.0
 librsvg2-2
 librsvg2-bin
@@ -7404,62 +3701,27 @@ librsvg2-common
 librsvg2-dev
 librsvg2-doc
 librsvg2-tests
-t64 gir1.2-secret-1
-libsecret-1-0
-libsecret-1-dev
-libsecret-common
-libsecret-tools
  gir1.2-secret-1
 libsecret-1-0
 libsecret-1-dev
 libsecret-common
 libsecret-tools
-t64 gir1.2-shumate-1.0
-libshumate-1.0-1
-libshumate-common
-libshumate-dev
-libshumate-doc
  gir1.2-shumate-1.0
 libshumate-1.0-1
 libshumate-common
 libshumate-dev
 libshumate-doc
-t64 libsigc++-3.0-0
-libsigc++-3.0-dev
-libsigc++-3.0-doc
  libsigc++-3.0-0
 libsigc++-3.0-dev
 libsigc++-3.0-doc
-t64 gir1.2-soup-3.0
-libsoup-3.0-0
-libsoup-3.0-common
-libsoup-3.0-dev
-libsoup-3.0-doc
-libsoup-3.0-tests
  gir1.2-soup-3.0
 libsoup-3.0-0
 libsoup-3.0-common
 libsoup-3.0-dev
 libsoup-3.0-doc
 libsoup-3.0-tests
-t64 loupe
  loupe
-t64 mm-common
  mm-common
-t64 gir1.2-mutter-12
-gir1.2-mutter-14
-libmutter-12-0t64
-libmutter-12-dev
-libmutter-14-0
-libmutter-14-dev
-libmutter-test-12t64
-libmutter-test-14
-mutter
-mutter-12-tests
-mutter-14-tests
-mutter-common
-mutter-common-bin
-mutter-common-binmutter
  gir1.2-mutter-12
 gir1.2-mutter-14
 libmutter-12-0t64
@@ -7474,30 +3736,12 @@ mutter-14-tests
 mutter-common
 mutter-common-bin
 mutter-common-binmutter
-t64 gir1.2-nautilus-4.0
-libnautilus-extension-dev
-libnautilus-extension4
-nautilus
-nautilus-data
  gir1.2-nautilus-4.0
 libnautilus-extension-dev
 libnautilus-extension4
 nautilus
 nautilus-data
-t64 orcaorca
  orcaorca
-t64 gir1.2-pango-1.0
-libpango-1.0-0
-libpango1.0-0
-libpango1.0-dev
-libpango1.0-doc
-libpango1.0-udeb
-libpangocairo-1.0-0
-libpangoft2-1.0-0
-libpangoxft-1.0-0
-pango1.0-tests
-pango1.0-tools
-pango1.0-toolslibpango-1.0-0
  gir1.2-pango-1.0
 libpango-1.0-0
 libpango1.0-0
@@ -7510,37 +3754,18 @@ libpangoxft-1.0-0
 pango1.0-tests
 pango1.0-tools
 pango1.0-toolslibpango-1.0-0
-t64 libpangomm-2.48-1t64
-libpangomm-2.48-dev
-libpangomm-2.48-doc
  libpangomm-2.48-1t64
 libpangomm-2.48-dev
 libpangomm-2.48-doc
-t64 chezdav
-libphodav-3.0-0
-libphodav-3.0-common
-libphodav-3.0-dev
-spice-webdavd
  chezdav
 libphodav-3.0-0
 libphodav-3.0-common
 libphodav-3.0-dev
 spice-webdavd
-t64 python3-pyatspi
  python3-pyatspi
-t64 python-gi-dev
-python3-gi
-python3-gi-cairo
  python-gi-dev
 python3-gi
 python3-gi-cairo
-t64 gir1.2-rest-1.0
-gir1.2-restextras-1.0
-librest-1.0-0
-librest-dev
-librest-doc
-librest-extras-1.0-0
-librest-extras-dev
  gir1.2-rest-1.0
 gir1.2-restextras-1.0
 librest-1.0-0
@@ -7548,19 +3773,6 @@ librest-dev
 librest-doc
 librest-extras-1.0-0
 librest-extras-dev
-t64 librygel-core-2.8-0
-librygel-db-2.8-0
-librygel-renderer-2.8-0
-librygel-renderer-gst-2.8-0
-librygel-ruih-2.8-0
-librygel-server-2.8-0
-rygel
-rygel-2.8-dev
-rygel-gst-launch
-rygel-playbin
-rygel-preferences
-rygel-ruih
-rygel-tracker
  librygel-core-2.8-0
 librygel-db-2.8-0
 librygel-renderer-2.8-0
@@ -7574,81 +3786,38 @@ rygel-playbin
 rygel-preferences
 rygel-ruih
 rygel-tracker
-t64 simple-scan
  simple-scan
-t64 gnome-snapshotgnome-snapshot
  gnome-snapshotgnome-snapshot
-t64 gnome-sushi
  gnome-sushi
-t64 libsysprof-6-6
-libsysprof-6-dev
-libsysprof-6-modules
-libsysprof-capture-4-dev
-sysprof
  libsysprof-6-6
 libsysprof-6-dev
 libsysprof-6-modules
 libsysprof-capture-4-dev
 sysprof
-t64 tecla
  tecla
-t64 gir1.2-template-1.0
-libtemplate-glib-1.0-0
-libtemplate-glib-1.0-dev
-libtemplate-glib-common
-libtemplate-glib-doc
  gir1.2-template-1.0
 libtemplate-glib-1.0-0
 libtemplate-glib-1.0-dev
 libtemplate-glib-common
 libtemplate-glib-doc
-t64 gir1.2-totem-1.0
-libtotem-dev
-libtotem0
-totem
-totem-common
-totem-plugins
  gir1.2-totem-1.0
 libtotem-dev
 libtotem0
 totem
 totem-common
 totem-plugins
-t64 gir1.2-totemplparser-1.0
-libtotem-plparser-common
-libtotem-plparser-dev
-libtotem-plparser18
  gir1.2-totemplparser-1.0
 libtotem-plparser-common
 libtotem-plparser-dev
 libtotem-plparser18
-t64 gir1.2-tracker-3.0
-libtracker-doc
-libtracker-sparql-3.0-0
-libtracker-sparql-3.0-dev
-tracker
-tracker-test-utils
  gir1.2-tracker-3.0
 libtracker-doc
 libtracker-sparql-3.0-0
 libtracker-sparql-3.0-dev
 tracker
 tracker-test-utils
-t64 tracker-extract
-tracker-miner-fs
  tracker-extract
 tracker-miner-fs
-t64 libvala-0.56-0
-libvala-0.56-dev
-libvalacodegen-0.56-0
-libvaladoc-0.56-0
-libvaladoc-0.56-data
-libvaladoc-0.56-dev
-vala-0.56-doc
-valac
-valac-0.56-vapi
-valac-bin
-valadoc
  libvala-0.56-0
 libvala-0.56-dev
 libvalacodegen-0.56-0
@@ -7660,17 +3829,6 @@ valac
 valac-0.56-vapi
 valac-bin
 valadoc
-t64 gir1.2-vte-2.91
-gir1.2-vte-3.91
-libvte-2.91-0
-libvte-2.91-0-udeb
-libvte-2.91-common
-libvte-2.91-dev
-libvte-2.91-doc
-libvte-2.91-gtk4-0
-libvte-2.91-gtk4-dev
-libvte-2.91-gtk4-doc
-libvte-2.91-gtk4-doclibvte-2.91-0
  gir1.2-vte-2.91
 gir1.2-vte-3.91
 libvte-2.91-0
@@ -7682,37 +3840,17 @@ libvte-2.91-gtk4-0
 libvte-2.91-gtk4-dev
 libvte-2.91-gtk4-doc
 libvte-2.91-gtk4-doclibvte-2.91-0
-t64 xdg-desktop-portal-gnome
  xdg-desktop-portal-gnome
-t64 libyelp-dev
-libyelp0
-yelp
  libyelp-dev
 libyelp0
 yelp
-t64 yelp-tools
  yelp-tools
-t64 yelp-xsl
  yelp-xsl
-t64 exo-utils
-libexo-2-0
-libexo-2-dev
-libexo-common
-libexo-commonlibexo-2-dev
  exo-utils
 libexo-2-0
 libexo-2-dev
 libexo-common
 libexo-commonlibexo-2-dev
-t64 gir1.2-garcon-1.0
-gir1.2-garcongtk-1.0
-libgarcon-1-0
-libgarcon-1-0-dev
-libgarcon-1-dev
-libgarcon-common
-libgarcon-commonlibgarcon-1-dev
-libgarcon-gtk3-1-0
-libgarcon-gtk3-1-dev
  gir1.2-garcon-1.0
 gir1.2-garcongtk-1.0
 libgarcon-1-0
@@ -7722,15 +3860,7 @@ libgarcon-common
 libgarcon-commonlibgarcon-1-dev
 libgarcon-gtk3-1-0
 libgarcon-gtk3-1-dev
-t64 gigolo
  gigolo
-t64 gir1.2-libxfce4ui-2.0
-libxfce4ui-2-0
-libxfce4ui-2-dev
-libxfce4ui-common
-libxfce4ui-glade
-libxfce4ui-utils
-libxfce4ui-utilslibxfce4ui-2-0
  gir1.2-libxfce4ui-2.0
 libxfce4ui-2-0
 libxfce4ui-2-dev
@@ -7738,35 +3868,17 @@ libxfce4ui-common
 libxfce4ui-glade
 libxfce4ui-utils
 libxfce4ui-utilslibxfce4ui-2-0
-t64 gir1.2-libxfce4util-1.0
-libxfce4util-bin
-libxfce4util-common
-libxfce4util-commonlibxfce4util-dev
-libxfce4util-dev
-libxfce4util7
  gir1.2-libxfce4util-1.0
 libxfce4util-bin
 libxfce4util-common
 libxfce4util-commonlibxfce4util-dev
 libxfce4util-dev
 libxfce4util7
-t64 gir1.2-libxfce4windowing-0.0
-gir1.2-libxfce4windowingui-0.0
-libxfce4windowing-0-0
-libxfce4windowing-0-dev
-libxfce4windowing-common
  gir1.2-libxfce4windowing-0.0
 gir1.2-libxfce4windowingui-0.0
 libxfce4windowing-0-0
 libxfce4windowing-0-dev
 libxfce4windowing-common
-t64 gir1.2-lightdm-1
-liblightdm-gobject-1-0
-liblightdm-gobject-dev
-liblightdm-qt5-3-0
-liblightdm-qt5-3-dev
-lightdm
-lightdm-vala
  gir1.2-lightdm-1
 liblightdm-gobject-1-0
 liblightdm-gobject-dev
@@ -7774,182 +3886,94 @@ liblightdm-qt5-3-0
 liblightdm-qt5-3-dev
 lightdm
 lightdm-vala
-t64 lightdm-gtk-greeter
  lightdm-gtk-greeter
-t64 light-locker
  light-locker
-t64 libmousepad-dev
-libmousepad0
-mousepad
  libmousepad-dev
 libmousepad0
 mousepad
-t64 orage
-orage-data
  orage
 orage-data
-t64 parole
-parole-dev
  parole
 parole-dev
-t64 ristretto
  ristretto
-t64 gir1.2-thunarx-3.0
-libthunarx-3-0
-libthunarx-3-dev
-thunar
-thunar-data
-thunar-datalibthunarx-3-dev
  gir1.2-thunarx-3.0
 libthunarx-3-0
 libthunarx-3-dev
 thunar
 thunar-data
 thunar-datalibthunarx-3-dev
-t64 thunar-archive-plugin
  thunar-archive-plugin
-t64 thunar-media-tags-plugin
  thunar-media-tags-plugin
-t64 thunar-vcs-plugin
  thunar-vcs-plugin
-t64 thunar-volman
  thunar-volman
-t64 libtumbler-1-0t64
-libtumbler-1-dev
-libtumbler-1-devtumbler
-tumbler
-tumbler-common
-tumbler-plugins-extra
  libtumbler-1-0t64
 libtumbler-1-dev
 libtumbler-1-devtumbler
 tumbler
 tumbler-common
 tumbler-plugins-extra
-t64 xfburn
  xfburn
-t64 xfce4
  xfce4
-t64 xfce4-appfinderxfce4-appfinder
  xfce4-appfinderxfce4-appfinder
-t64 xfce4-battery-plugin
  xfce4-battery-plugin
-t64 xfce4-clipman
-xfce4-clipman-plugin
  xfce4-clipman
 xfce4-clipman-plugin
-t64 xfce4-cpufreq-plugin
  xfce4-cpufreq-plugin
-t64 xfce4-cpugraph-plugin
  xfce4-cpugraph-plugin
-t64 xfce4-datetime-plugin
  xfce4-datetime-plugin
-t64 xfce4-dev-toolsxfce4-dev-tools
  xfce4-dev-toolsxfce4-dev-tools
-t64 xfce4-dict
  xfce4-dict
-t64 xfce4-diskperf-plugin
  xfce4-diskperf-plugin
-t64 xfce4-fsguard-plugin
  xfce4-fsguard-plugin
-t64 xfce4-genmon-plugin
  xfce4-genmon-plugin
-t64 xfce4-goodies
  xfce4-goodies
-t64 xfce4-indicator-plugin
  xfce4-indicator-plugin
-t64 xfce4-mailwatch-plugin
  xfce4-mailwatch-plugin
-t64 xfce4-mount-plugin
  xfce4-mount-plugin
-t64 xfce4-mpc-plugin
  xfce4-mpc-plugin
-t64 xfce4-netload-plugin
  xfce4-netload-plugin
-t64 xfce4-notes
-xfce4-notes-plugin
  xfce4-notes
 xfce4-notes-plugin
-t64 xfce4-notifyd
  xfce4-notifyd
-t64 gir1.2-libxfce4panel-2.0
-gir1.2-libxfce4panel-2.0xfce4-panel
-libxfce4panel-2.0-4
-libxfce4panel-2.0-dev
-xfce4-panel
  gir1.2-libxfce4panel-2.0
 gir1.2-libxfce4panel-2.0xfce4-panel
 libxfce4panel-2.0-4
 libxfce4panel-2.0-dev
 xfce4-panel
-t64 xfce4-panel-profiles
  xfce4-panel-profiles
-t64 xfce4-places-plugin
  xfce4-places-plugin
-t64 xfce4-power-manager
-xfce4-power-manager-data
-xfce4-power-manager-plugins
-xfce4-power-manager-pluginsxfce4-power-manager
  xfce4-power-manager
 xfce4-power-manager-data
 xfce4-power-manager-plugins
 xfce4-power-manager-pluginsxfce4-power-manager
-t64 xfce4-pulseaudio-plugin
  xfce4-pulseaudio-plugin
-t64 xfce4-screensaver
  xfce4-screensaver
-t64 xfce4-screenshooter
  xfce4-screenshooter
-t64 xfce4-sensors-plugin
  xfce4-sensors-plugin
-t64 xfce4-sessionxfce4-session
  xfce4-sessionxfce4-session
-t64 xfce4-helpers
-xfce4-helpersxfce4-settings
-xfce4-settings
  xfce4-helpers
 xfce4-helpersxfce4-settings
 xfce4-settings
-t64 xfce4-smartbookmark-plugin
  xfce4-smartbookmark-plugin
-t64 xfce4-systemload-plugin
  xfce4-systemload-plugin
-t64 xfce4-taskmanager
  xfce4-taskmanager
-t64 xfce4-terminal
  xfce4-terminal
-t64 xfce4-timer-plugin
  xfce4-timer-plugin
-t64 xfce4-verve-plugin
  xfce4-verve-plugin
-t64 xfce4-wavelan-plugin
  xfce4-wavelan-plugin
-t64 xfce4-weather-plugin
  xfce4-weather-plugin
-t64 xfce4-whiskermenu-plugin
  xfce4-whiskermenu-plugin
-t64 xfce4-xkb-plugin
  xfce4-xkb-plugin
-t64 gir1.2-xfconf-0
-gir1.2-xfconf-0libxfconf-0-dev
-libxfconf-0-3
-libxfconf-0-dev
-xfconf
-xfconf-gsettings-backend
  gir1.2-xfconf-0
 gir1.2-xfconf-0libxfconf-0-dev
 libxfconf-0-3
 libxfconf-0-dev
 xfconf
 xfconf-gsettings-backend
-t64 xfdesktop4
-xfdesktop4-data
-xfdesktop4xfdesktop4-data
  xfdesktop4
 xfdesktop4-data
 xfdesktop4xfdesktop4-data
-t64 xfwm4
  xfwm4
-t64 libqt5core5t64 libkirigami-data libkirigami-dev libkirigami-doc libkirigami6 libkirigamidelegates6 libkirigamidialogs6 libkirigamilayouts6 libkirigamiplatform6 libkirigamiprimitives6 libkirigamiprivate6 qml6-module-org-kde-kirigami libbatterycontrol6 libcolorcorrect6 libkmpris6 libkfontinst6 libkfontinstui6 libkworkspace6-6 libnotificationmanager1 libplasma-geolocation-interface6 libtaskmanager6 libweather-ion7 plasma-workspace plasma-workspace-data plasma-workspace-dev
+ libqt5core5t64 libkirigami-data libkirigami-dev libkirigami-doc libkirigami6 libkirigamidelegates6 libkirigamidialogs6 libkirigamilayouts6 libkirigamiplatform6 libkirigamiprimitives6 libkirigamiprivate6 qml6-module-org-kde-kirigami libbatterycontrol6 libcolorcorrect6 libkmpris6 libkfontinst6 libkfontinstui6 libkworkspace6-6 libnotificationmanager1 libplasma-geolocation-interface6 libtaskmanager6 libweather-ion7 plasma-workspace plasma-workspace-data plasma-workspace-dev
 Pin: release a=experimental   
 Pin-Priority: 600
