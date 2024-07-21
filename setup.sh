@@ -19,10 +19,6 @@ Suites: sid experimental
 Components: main contrib non-free non-free-firmware
 X-Repolib-Default-Mirror: http://deb.debian.org/debian
 Signed-by: /usr/share/keyrings/debian-archive-keyring.gpg
-Allow-Insecure: yes
-Allow-Weak: yes
-Allow-Downgrade-To-Insecure: yes
-Trusted: yes
 EOF
 
 # Add Pika Repos
@@ -31,15 +27,11 @@ X-Repolib-Name: PikaOS System Sources
 Enabled: yes
 Types: deb
 URIs: https://ppa.pika-os.com/
-Suites: pikauwu
+Suites: pika
 Components: canary
 X-Repolib-ID: system
 X-Repolib-Default-Mirror: https://ppa.pika-os.com/
 Signed-By: /etc/apt/keyrings/pika-keyring.gpg.key
-Allow-Insecure: yes
-Allow-Weak: yes
-Allow-Downgrade-To-Insecure: yes
-Trusted: yes
 EOF
 
 # Add DMO Repos
@@ -52,14 +44,7 @@ Suites: sid
 Components: main non-free
 X-Repolib-Default-Mirror: https://www.deb-multimedia.org/
 Signed-By: /etc/apt/keyrings/deb-multimedia-keyring.gpg
-Allow-Insecure: yes
-Allow-Weak: yes
-Allow-Downgrade-To-Insecure: yes
-Trusted: yes
 EOF
-
-# Workarounds Repo
-echo "deb [trusted=yes] https://raw.githubusercontent.com/PikaOS-Linux/repo-debian-build-workarounds/main sid main" > /etc/apt/sources.list.d/deb-workarounds.list
 
 # Get keyrings
 mkdir -p /etc/apt/keyrings/
@@ -78,36 +63,18 @@ Package: *
 Pin: release o=Unofficial Multimedia Packages
 Pin-Priority: 550
 
-Package: *
-Pin: release l=repo-debian-build-workarounds
+Package: pika-abi-bridge*
+Pin: release a=pika,c=canary
 Pin-Priority: 600
 
 # Give pika lowest priority because we don't want it sources overwriting
 Package: *
-Pin: release a=pikauwu,c=canary
+Pin: release a=pika,c=canary
 Pin-Priority: 390
-EOF
 
-tee /etc/apt/preferences.d/1-pika-radeon-settings <<'EOF'
-Package: libhsa-runtime64*
-Pin: release o=Debian
-Pin-Priority: 100
-
-Package: hipcc*
-Pin: release o=Debian
-Pin-Priority: 100
-
-Package: rocm*
-Pin: release o=Debian
-Pin-Priority: 100
-
-Package: *
-Pin: release c=rocm
-Pin-Priority: 400
-
-Package: amdgpu-core amdgpu-pro-core amdgpu-dkms amdgpu-pro-lib32
-Pin: release a=*
-Pin-Priority: -10
+Package: pika-abi-bridge*
+Pin: release a=pika,c=canary
+Pin-Priority: 600
 EOF
 
 wget https://github.com/PikaOS-Linux/pika-base-debian-container/raw/main/0-debian-exp-overrides -O /etc/apt/preferences.d/0-debian-exp-overrides

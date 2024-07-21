@@ -1,13 +1,12 @@
 #! /bin/python3
 
 import os, errno
-import apt_pkg
-import apt
 import json
+import subprocess
 
 _APT_CONFIG_PIN="""Package:{PACKAGES}
 Pin: release a=experimental   
-Pin-Priority: 500
+Pin-Priority: 600
 """
 
 def silentremove(filename):
@@ -27,13 +26,10 @@ for file in srcnames_files:
     for line in file.readlines():
         srcname = line.strip()
         srcname_lines.append(srcname)
-        srcrecords = apt_pkg.SourceRecords()
-        srcrec = srcrecords.lookup(srcname)
-        if srcrec:
-            bins = srcrecords.binaries
-            for bin in bins:
-                pkgname_lines.append(bin)
-                pkgname_lines.append(bin + "t64")
+        result = subprocess.run([current_path + "/apt_experiments", '-n', srcname], stdout=subprocess.PIPE)
+        stdout = result.stdout
+        pkgname_lines.append(stdout)
+        pkgname_lines.append(stdout + "t64")
     file.close()
 
 with open (current_path + "/package_pkgnames_overrides") as file:
