@@ -26,7 +26,7 @@ for file in srcnames_files:
         srcname = line.strip()
         srcname_lines.append(srcname)
         result = subprocess.run([current_path + "/apt_experiments", '-n', srcname], stdout=subprocess.PIPE)
-        stdout = result.stdout.decode('utf-8')
+        stdout = result.stdout.decode('utf-8').replace('\\n', '\n'))
         pkgname_lines.append(stdout)
     file.close()
 
