@@ -26,9 +26,8 @@ for file in srcnames_files:
         srcname = line.strip()
         srcname_lines.append(srcname)
         result = subprocess.run([current_path + "/apt_experiments", '-n', srcname], stdout=subprocess.PIPE)
-        stdout = result.stdout.decode('ascii')
+        stdout = result.stdout.decode('ascii').decode("unicode_escape")
         pkgname_lines.append(stdout)
-        pkgname_lines.append(stdout + "t64")
     file.close()
 
 with open (current_path + "/package_pkgnames_overrides") as file:
