@@ -21,7 +21,6 @@ current_path = os.path.dirname(os.path.realpath(__file__))
 srcnames_files = [open(current_path + "/package_srcnames/" + filename) for filename in  os.listdir(current_path + "/package_srcnames/")]
 srcname_lines = []
 pkgname_lines = []
-cache = apt.Cache()
 for file in srcnames_files:
     for line in file.readlines():
         srcname = line.strip()
