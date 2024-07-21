@@ -1,6 +1,7 @@
 #! /bin/bash
 
 mkdir -p /etc/apt/sources.list.d
+rm -rf /etc/apt/sources.list.d/*
 
 # Clear /etc/apt/sources.list in favor of deb822 formats
 tee /etc/apt/sources.list <<'EOF'
