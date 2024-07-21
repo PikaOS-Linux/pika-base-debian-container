@@ -26,7 +26,7 @@ for file in srcnames_files:
         srcname = line.strip()
         srcname_lines.append(srcname)
         result = subprocess.run([current_path + "/apt_experiments", '-n', srcname], stdout=subprocess.PIPE)
-        stdout = result.stdout
+        stdout = str(result.stdout)
         pkgname_lines.append(stdout)
         pkgname_lines.append(stdout + "t64")
     file.close()
