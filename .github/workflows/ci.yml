@@ -26,6 +26,9 @@ jobs:
       - name: Get debootstrap
         run:  apt-get install -y debootstrap docker.io sudo
         
+      - name: Generate debootstrap tar
+        run: cd ./base-canaryi386 && ./debootstrap.sh
+        
       - name: Import base image
         run: docker import ./base_chroot.tgz rootfs-base-debian-i386
 
