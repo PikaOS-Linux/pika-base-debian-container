@@ -6,7 +6,10 @@ RUN wget https://github.com/PikaOS-Linux/pika-base-debian-container/raw/i386/set
 RUN chmod +x ./setup.sh
 RUN ./setup.sh
 RUN apt update
+RUN wget http://ftp.us.debian.org/debian/pool/main/d/debhelper/debhelper_13.16_all.deb -O ./debhelper.deb
+RUN apt install -y libc6 libc-bin libc6-dev ./debhelper.deb
 RUN apt full-upgrade -y
 RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
 RUN wget https://ppa.pika-os.com/pool/main/p/pika-pbuilder/pika-pbuilder_0.2.34-101pika1_all.deb -O ./pika-pbuilder.deb
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata software-properties-common sudo devscripts git eatmydata bc cowbuilder gpg gpg-agent bison build-essential ccache cmake cpio fakeroot flex git kmod libelf-dev libncurses5-dev libssl-dev lz4 qtbase5-dev rsync schedtool wget zstd tar aptly devscripts dh-make rpm2cpio ./pika-pbuilder.deb -o Dpkg::Options::="--force-confnew"
+RUN rm -rfv ./*.deb
