@@ -79,3 +79,8 @@ Pin-Priority: 600
 EOF
 
 wget https://github.com/PikaOS-Linux/pika-base-debian-container/raw/main/0-debian-exp-overrides -O /etc/apt/preferences.d/0-debian-exp-overrides
+
+ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
+DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata nodejs:amd64 -o Dpkg::Options::="--force-confnew"
+mkdir -p /__e/node16/bin/
+ln -sfv /usr/bin/node /__e/node16/bin/
