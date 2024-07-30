@@ -8088,6 +8088,7 @@
         "libweather-ion7",
         "plasma-workspace",
         "plasma-workspace-data",
-        "plasma-workspace-dev"
+        "plasma-workspace-dev",
+        "libksysguard-bin"
     ]
 }
