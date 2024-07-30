@@ -73,7 +73,7 @@ Package: *
 Pin: release a=pika,c=canary
 Pin-Priority: 390
 
-Package: pika-abi-bridge*
+Package: pika-abi-bridge* *exiv2*
 Pin: release a=pika,c=canary
 Pin-Priority: 600
 EOF
