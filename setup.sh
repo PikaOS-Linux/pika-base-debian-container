@@ -64,7 +64,7 @@ Package: *
 Pin: release o=Unofficial Multimedia Packages
 Pin-Priority: 550
 
-Package: pika-abi-bridge*
+Package: pika-abi-bridge* *exiv2*
 Pin: release a=pika,c=canary
 Pin-Priority: 600
 
