@@ -349,6 +349,7 @@ kquickcharts
 kquickimageeditor
 kraft
 krdc
+krdp
 krename
 kreport
 kreversi
@@ -535,6 +536,7 @@ projecteur
 pulseaudio-qt
 purpose
 pyside2
+pyside6
 qbs
 qca2
 qconf
