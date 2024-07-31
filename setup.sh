@@ -71,7 +71,7 @@ Pin-Priority: 600
 # Give pika lowest priority because we don't want it sources overwriting
 Package: *
 Pin: release a=pika,c=canary
-Pin-Priority: 390
+Pin-Priority: 380
 
 Package: pika-abi-bridge* *exiv2*
 Pin: release a=pika,c=canary
