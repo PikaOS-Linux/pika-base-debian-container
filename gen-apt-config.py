@@ -30,7 +30,7 @@ for file in srcnames_files:
     for line in file.readlines():
         srcname = line.strip()
         srcname_lines.append(srcname)
-        result = subprocess.run([current_path + "/get-bin-name-from-src.sh', srcname], stdout=subprocess.PIPE)
+        result = subprocess.run([current_path + '/get-bin-name-from-src.sh', srcname], stdout=subprocess.PIPE)
         stdout = result.stdout.decode('utf-8')
         for line in stdout.splitlines():
             if line != "":
