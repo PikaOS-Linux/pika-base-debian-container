@@ -24,3 +24,7 @@ plasma-workspace
 plasma-workspace-data
 plasma-workspace-dev
 libksysguard-bin
+libc6-amd64
+libc6-dev-amd64
+libc6-dev-x32
+libc6-x32
