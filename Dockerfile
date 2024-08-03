@@ -12,4 +12,4 @@ RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
 RUN wget https://ppa.pika-os.com/pool/main/p/pika-pbuilder/pika-pbuilder_0.2.34-101pika1_all.deb -O ./pika-pbuilder.deb
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata software-properties-common sudo nodejs npm devscripts git eatmydata bc cowbuilder gpg gpg-agent bison build-essential ccache cmake cpio fakeroot flex git kmod libelf-dev libncurses5-dev libssl-dev lz4 qtbase5-dev rsync schedtool wget zstd tar aptly devscripts dh-make rpm2cpio ./pika-pbuilder.deb -o Dpkg::Options::="--force-confnew"
 # GTK4 Build workaround
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libdrm-dev gir1.2-gudev-1.0 libgudev-1.0-0 libgudev-1.0-dev libgbm-dev libgbm1 libsystemd-dev systemd-dev libgps-dev kirigami-addons-dev -o Dpkg::Options::="--force-confnew"
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libdrm-dev gir1.2-gudev-1.0 libgudev-1.0-0 libgudev-1.0-dev libgbm-dev libgbm1 libsystemd-dev systemd-dev libgps-dev kirigami-addons-dev kirigami2-dev -o Dpkg::Options::="--force-confnew"
