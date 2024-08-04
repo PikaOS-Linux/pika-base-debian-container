@@ -1,0 +1,22 @@
+name: Generate and commit i386 whitelist
+
+on:
+  workflow_dispatch
+
+jobs:
+  build:
+    runs-on: self-hosted
+    container:
+      image: ghcr.io/pikaos-linux/pika-base-debian-container:i386
+      volumes:
+        - /proc:/proc
+      options: --privileged -it
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Generate whitelist json files
+      run: ./gen-i386-whitelist.py
+
+    - name: Setup git and push
+      run: git config --global user.name 'Github Workflow Action' && git config --global user.email 'hotrod.master@hotmail.com' && git config --global --add safe.directory /__w/pika-base-debian-container/pika-base-debian-container && git add . && git commit -am"Commited by GH Action - gen-i386-whitelist.yml" && git push
