@@ -15,6 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Get script depends
+      run: apt-get install -y python3-numpy
+
     - name: Generate whitelist json files
       run: ./gen-i386-whitelist.py
 
