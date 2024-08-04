@@ -29,8 +29,6 @@ c = apt.Cache()
 try:
     pkg = c[pkgname]
 
-    print("Parsing dep tree for: " + pkgname)
-
     deps = set()
 
     deps = dependencies(c, pkg, deps, "Depends")

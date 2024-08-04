@@ -22,6 +22,7 @@ for line in file.readlines():
     pkgname = line.strip()
     if pkgname != "" and not pkgname.endswith("-udeb"):
         pkgname_lines.append(pkgname)
+        print("Parsing dep tree for: " + pkgname)
         result = subprocess.run([current_path + '/get_depend_tree.sh', pkgname], stdout=subprocess.PIPE)
         stdout = result.stdout.decode('utf-8')
         for line in stdout.splitlines():
@@ -32,9 +33,12 @@ file.close()
 c = apt.Cache()
 
 for pkgname in pkgname_lines:
-    src_name = c[pkgname].candidate.source_name
-    if src_name:
-        srcname_lines.append(src_name)
+    try:
+        src_name = c[pkgname].candidate.source_name
+        if src_name:
+            srcname_lines.append(src_name)
+    except:
+        pass
 
 for i in srcname_lines:
   if i not in srcnames_clean:
