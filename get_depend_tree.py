@@ -25,13 +25,19 @@ def dependencies(cache, pkg, deps, key="Depends"):
 
 pkgname = sys.argv[1]
 c = apt.Cache()
-pkg = c[pkgname]
 
-deps = set()
+try:
+    pkg = c[pkgname]
 
-deps = dependencies(c, pkg, deps, "Depends")
-print(" ".join(deps))
+    print("Parsing dep tree for: " + pkgname)
 
-preDeps = set()
-preDeps = dependencies(c, pkg, preDeps, "PreDepends")
-print(" ".join(preDeps))
+    deps = set()
+
+    deps = dependencies(c, pkg, deps, "Depends")
+    print(" ".join(deps))
+
+    preDeps = set()
+    preDeps = dependencies(c, pkg, preDeps, "PreDepends")
+    print(" ".join(preDeps))
+except:
+    pass
