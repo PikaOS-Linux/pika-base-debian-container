@@ -25,6 +25,7 @@ def pharse_build_tree(pkg_arr, current_path, pkgname_lines):
 
 current_path = os.path.dirname(os.path.realpath(__file__))
 
+global whitelist_arr
 whitelist_arr = np.array([])
 thread_arr = []
 pkgname_lines = []
@@ -36,10 +37,10 @@ for line in file.readlines():
     pkgname = line.strip()
     if pkgname != "" and not pkgname.endswith("-udeb"):
         pkgname_lines.append(pkgname)
-        np.append(whitelist_arr, pkgname)
+        whitelist_arr = np.append(whitelist_arr, [pkgname])
 file.close()
 
-newarr = np.array_split(whitelist_arr, 8)
+newarr = np.array_split(whitelist_arr, 20)
 
 for array in newarr:
     t0 = threading.Thread(target=pharse_build_tree, args=(array, current_path, pkgname_lines,))
@@ -49,7 +50,7 @@ for thread_proc in thread_arr:
     thread_proc.start()
 
 for thread_proc in thread_arr:
-    thread_proc.join()
+    thread_proc.join()  
 
 c = apt.Cache()
 
