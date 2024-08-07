@@ -7,13 +7,13 @@ env:
   IMAGE_NAME: pika-base-debian-container
 
 jobs:
-  # Push image to GitHub Packages.
-  # See also https://docs.docker.com/docker-hub/builds/
   push:
-    runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
+    runs-on: self-hosted
+    container:
+      image: ubuntu-latest
+      volumes:
+        - /proc:/proc
+      options: --privileged -it --cap-add=sys_admin --cap-add mknod --device=/dev/fuse --security-opt seccomp=unconfined --security-opt label=disable
 
     steps:
       - uses: actions/checkout@v3
@@ -36,7 +36,7 @@ jobs:
           # Strip "v" prefix from tag name
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
           # Use Docker `latest` tag convention
-          [ "$VERSION" == "main" ] && VERSION=latest
+          VERSION="v3lto"
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
           docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
