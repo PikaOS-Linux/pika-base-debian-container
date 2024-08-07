@@ -10,16 +10,25 @@ jobs:
   push:
     runs-on: self-hosted
     container:
-      image: ubuntu:latest
+      image: debian:sid
       volumes:
         - /proc:/proc
-      options: --privileged -it --cap-add=sys_admin --cap-add mknod --device=/dev/fuse --security-opt seccomp=unconfined --security-opt label=disable
+      options: --privileged -it
 
     steps:
       - uses: actions/checkout@v3
-
-      - name: Get Packages
-        run: apt-get update -y && apt-get install docker.io -y
+      
+      - name: Update APT Cache
+        run:  apt-get update
+      
+      - name: Get debootstrap
+        run:  apt-get install -y debootstrap docker.io sudo
+        
+      - name: Generate debootstrap tar
+        run: chmod +x ./debootstrap.sh && ./debootstrap.sh
+        
+      - name: Import base image
+        run: docker import ./base_chroot.tgz rootfs-base-debian-i386
 
       - name: Build image
         run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}" --security-opt seccomp=unconfined --security-opt label=disable
