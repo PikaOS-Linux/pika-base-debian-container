@@ -7,31 +7,19 @@ env:
   IMAGE_NAME: pika-base-debian-container
 
 jobs:
+  # Push image to GitHub Packages.
+  # See also https://docs.docker.com/docker-hub/builds/
   push:
-    runs-on: self-hosted
-    container:
-      image: debian:sid
-      volumes:
-        - /proc:/proc
-      options: --privileged -it
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
 
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Update APT Cache
-        run:  apt-get update
-      
-      - name: Get debootstrap
-        run:  apt-get install -y debootstrap docker.io sudo
-        
-      - name: Generate debootstrap tar
-        run: chmod +x ./debootstrap.sh && ./debootstrap.sh
-        
-      - name: Import base image
-        run: docker import ./base_chroot.tgz rootfs-base-debian
 
       - name: Build image
-        run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}" --security-opt seccomp=unconfined --security-opt label=disable
+        run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}"
 
       - name: Log in to registry
         # This is where you will update the personal access token to GITHUB_TOKEN
@@ -48,7 +36,7 @@ jobs:
           # Strip "v" prefix from tag name
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
           # Use Docker `latest` tag convention
-          VERSION="v3lto"
+          [ "$VERSION" == "main" ] && VERSION=latest
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
           docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
