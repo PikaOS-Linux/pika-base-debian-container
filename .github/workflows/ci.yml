@@ -28,7 +28,7 @@ jobs:
         run: chmod +x ./debootstrap.sh && ./debootstrap.sh
         
       - name: Import base image
-        run: docker import ./base_chroot.tgz rootfs-base-debian-i386
+        run: docker import ./base_chroot.tgz rootfs-base-debian
 
       - name: Build image
         run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}" --security-opt seccomp=unconfined --security-opt label=disable
