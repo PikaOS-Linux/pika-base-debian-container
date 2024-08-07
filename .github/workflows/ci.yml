@@ -22,7 +22,7 @@ jobs:
         run: apt-get update -y && apt-get install docker.io -y
 
       - name: Build image
-        run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}"
+        run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}"  --privileged -it --cap-add=sys_admin --cap-add mknod --device=/dev/fuse --security-opt seccomp=unconfined --security-opt label=disable
 
       - name: Log in to registry
         # This is where you will update the personal access token to GITHUB_TOKEN
