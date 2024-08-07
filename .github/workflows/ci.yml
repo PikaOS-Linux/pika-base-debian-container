@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Get Packages
+        run: apt-get update && apt-get install docker.io
+
       - name: Build image
         run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}"
 
