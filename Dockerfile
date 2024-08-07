@@ -1,6 +1,6 @@
 # Debian Sid with expermintal, pika and dmo repos
 # Bump for rebuild on 07/01/2024 18:18 UTC +3
-FROM debian:sid
+FROM rootfs-base-debian
 RUN apt update
 RUN apt install -y wget curl vim sudo systemd ifupdown rsyslog logrotate less bash-completion ca-certificates netbase lsb-release apt-utils gnupg2 apt-transport-https debian-keyring debian-archive-keyring
 RUN wget https://github.com/PikaOS-Linux/pika-base-debian-container/raw/main/setup.sh
