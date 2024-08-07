@@ -10,7 +10,7 @@ jobs:
   push:
     runs-on: self-hosted
     container:
-      image: ubuntu-latest
+      image: ubuntu:latest
       volumes:
         - /proc:/proc
       options: --privileged -it --cap-add=sys_admin --cap-add mknod --device=/dev/fuse --security-opt seccomp=unconfined --security-opt label=disable
