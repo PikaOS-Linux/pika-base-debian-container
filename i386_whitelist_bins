@@ -1,4 +1,6 @@
 dh-exec
+diffstat
+ed
 libdynaloader-functions-perl
 libdevel-callchecker-perl
 libb-hooks-op-check-perl
