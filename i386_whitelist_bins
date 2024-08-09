@@ -1,3 +1,9 @@
+doxygen
+graphviz
+gdb
+intltool
+libsdl2-dev
+libsnapd-glib-dev
 libxnvctrl-dev
 libspdlog-dev
 ninja-build
