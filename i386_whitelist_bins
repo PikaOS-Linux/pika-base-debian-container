@@ -1,3 +1,4 @@
+ninja-build
 meson
 valgrind 
 openssh-server
