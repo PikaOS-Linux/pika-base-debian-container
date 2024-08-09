@@ -1,3 +1,5 @@
+meson
+valgrind 
 openssh-server
 dh-exec
 diffstat
