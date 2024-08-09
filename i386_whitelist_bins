@@ -4673,3 +4673,5 @@ x11proto-xinerama-dev
 man-db
 patchutils
 wdiff
+perl-openssl-defaults
+libclass-xsaccessor-perl
