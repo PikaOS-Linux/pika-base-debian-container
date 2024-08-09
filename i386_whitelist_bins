@@ -4670,3 +4670,6 @@ perl
 sharutils
 unixodbc-dev
 x11proto-xinerama-dev
+man-db
+patchutils
+wdiff
