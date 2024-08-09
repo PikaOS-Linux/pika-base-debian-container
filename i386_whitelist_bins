@@ -1,3 +1,5 @@
+libxnvctrl-dev
+libspdlog-dev
 ninja-build
 meson
 valgrind 
