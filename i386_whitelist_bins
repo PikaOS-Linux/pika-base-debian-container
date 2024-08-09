@@ -4675,3 +4675,4 @@ patchutils
 wdiff
 perl-openssl-defaults
 libclass-xsaccessor-perl
+libparams-classify-perl
