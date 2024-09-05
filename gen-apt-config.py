@@ -54,7 +54,7 @@ pkg_data = {
 
 apt_pin_packages = ""
 
-for pkg in pkgname_lines:
+for pkg in srcname_lines:
     apt_pin_packages += (" " + pkg)
 
 silentremove("0-debian-exp-overrides")
