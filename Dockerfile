@@ -6,8 +6,8 @@ RUN wget https://github.com/PikaOS-Linux/pika-base-debian-container/raw/i386/set
 RUN chmod +x ./setup.sh
 RUN ./setup.sh
 RUN apt update
-RUN wget http://ftp.us.debian.org/debian/pool/main/d/debhelper/debhelper_13.20_all.deb -O ./debhelper.deb
-RUN apt install -y libc6:i386 libc-bin:i386 libc6-dev:i386 libc6:amd64 ./debhelper.deb
+#RUN wget http://ftp.us.debian.org/debian/pool/main/d/debhelper/debhelper_13.20_all.deb -O ./debhelper.deb
+#RUN apt install -y libc6:i386 libc-bin:i386 libc6-dev:i386 libc6:amd64 ./debhelper.deb
 RUN apt full-upgrade -y
 RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
 RUN wget https://ppa.pika-os.com/pool/main/p/pika-pbuilder/pika-pbuilder_0.2.34-101pika1_all.deb -O ./pika-pbuilder.deb
@@ -15,7 +15,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata software-properties
 # Debian missing Build workaround
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libdrm-dev gir1.2-gudev-1.0 libgudev-1.0-0 libgudev-1.0-dev libgbm-dev libgbm1 libsystemd-dev systemd-dev libgps-dev kirigami-addons-dev kirigami2-dev libkirigami-dev qttools5-dev libqt5core5t64 -o Dpkg::Options::="--force-confnew"
 # AMD64 Node instance
-RUN apt install nodejs:amd64 node-minimatch:amd64 -y
+RUN apt install nodejs:amd64 node-minimatch -y
 RUN mkdir -p /__e/node16/bin/
 RUN ln -sfv /usr/bin/node /__e/node16/bin/
 RUN rm -rfv ./*.deb
