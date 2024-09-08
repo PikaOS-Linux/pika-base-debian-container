@@ -17,6 +17,7 @@ Enabled: yes
 Types: deb deb-src
 URIs: http://deb.debian.org/debian
 Suites: sid experimental
+Architecture: amd64 i386 all
 Components: main contrib non-free non-free-firmware
 X-Repolib-Default-Mirror: http://deb.debian.org/debian
 Signed-by: /usr/share/keyrings/debian-archive-keyring.gpg
@@ -28,6 +29,7 @@ X-Repolib-Name: PikaOS System Sources
 Enabled: yes
 Types: deb
 URIs: https://ppa.pika-os.com/
+Architecture: amd64 i386 all
 Suites: pika
 Components: canary
 X-Repolib-ID: system
