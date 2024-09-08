@@ -7,7 +7,7 @@ RUN chmod +x ./setup.sh
 RUN ./setup.sh
 RUN apt update
 RUN wget http://ftp.us.debian.org/debian/pool/main/d/debhelper/debhelper_13.20_all.deb -O ./debhelper.deb
-RUN apt install -y libc6:i386=2.40-1 libc-bin:i386=2.40-1 libc6-dev:i386=2.40-1 libc6:amd64=2.40-1 ./debhelper.deb
+RUN apt install -y libc6:i386 libc-bin:i386 libc6-dev:i386 libc6:amd64 ./debhelper.deb
 RUN apt full-upgrade -y
 RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
 RUN wget https://ppa.pika-os.com/pool/main/p/pika-pbuilder/pika-pbuilder_0.2.34-101pika1_all.deb -O ./pika-pbuilder.deb
