@@ -15,7 +15,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata software-properties
 # Debian missing Build workaround
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libdrm-dev gir1.2-gudev-1.0 libgudev-1.0-0 libgudev-1.0-dev libgbm-dev libgbm1 libsystemd-dev systemd-dev libgps-dev kirigami-addons-dev kirigami2-dev libkirigami-dev qttools5-dev libqt5core5t64 -o Dpkg::Options::="--force-confnew"
 # AMD64 Node instance
-RUN apt install nodejs:amd64 -y
+RUN apt install nodejs:amd64 node-minimatch:amd64 -y
 RUN mkdir -p /__e/node16/bin/
 RUN ln -sfv /usr/bin/node /__e/node16/bin/
 RUN rm -rfv ./*.deb
