@@ -7,13 +7,13 @@ env:
   IMAGE_NAME: pika-base-debian-container
 
 jobs:
-  # Push image to GitHub Packages.
-  # See also https://docs.docker.com/docker-hub/builds/
-  push:
-    runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
+  build:
+    runs-on: self-hosted
+    container:
+      image: ubuntu:latest
+      volumes:
+        - /proc:/proc
+      options: --privileged -it
 
     steps:
       - uses: actions/checkout@v3
