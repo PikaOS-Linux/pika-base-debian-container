@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latestqqqqqqqq
+          tags: user/app:latest
