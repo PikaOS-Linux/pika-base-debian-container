@@ -1,4 +1,4 @@
-qqqqqqqqqqqqname: Debian base custom bleeding edge docker image for pika
+name: Debian base custom bleeding edge docker image for pika
 
 on:
   workflow_dispatch:
