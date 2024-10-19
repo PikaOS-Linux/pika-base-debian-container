@@ -9,12 +9,6 @@ env:
 jobs:
   build:
     runs-on: self-hosted
-    container:
-      image: ubuntu:latest
-      volumes:
-        - /proc:/proc
-      options: --privileged -it
-
     steps:
       - uses: actions/checkout@v3
       
