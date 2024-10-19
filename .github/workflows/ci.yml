@@ -3,9 +3,6 @@ name: Debian base custom bleeding edge docker image for pika
 on:
   workflow_dispatch:
 
-env:
-  IMAGE_NAME: pika-base-debian-container
-
 jobs:
   build:
     runs-on: self-hosted
