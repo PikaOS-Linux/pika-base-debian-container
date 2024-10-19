@@ -74,4 +74,4 @@ Pin: release a=pika,c=canary
 Pin-Priority: 600
 EOF
 
-wget https://github.com/PikaOS-Linux/pika-base-debian-container/raw/main/0-debian-exp-overrides -O /etc/apt/preferences.d/0-debian-exp-overrides
+wget https://git.pika-os.com/repo-tools/pin-generation/raw/branch/main/generated-output/0-debian-exp-overrides -O /etc/apt/preferences.d/0-debian-exp-overrides
