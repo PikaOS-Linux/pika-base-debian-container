@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest
+          tags: ghcr.io/pikaos-linux/pika-base-debian-container:latest
