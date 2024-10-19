@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Docker
-        run: apt install curl && curl -fsSL https://get.docker.com | sh
+        run: apt update && apt install curl -y && curl -fsSL https://get.docker.com | sh
 
       - name: Build image
         run: docker build . --file Dockerfile --tag $IMAGE_NAME --label "runnumber=${GITHUB_RUN_ID}"
