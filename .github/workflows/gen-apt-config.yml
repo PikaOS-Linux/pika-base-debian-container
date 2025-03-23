@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: ghcr.io/pikaos-linux/pika-base-debian-container:latest
       volumes:
